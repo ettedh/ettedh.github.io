@@ -1,0 +1,89 @@
+:root {
+	--bg-color: #eee;
+	--highlight: #2684d6;
+	--lowlight:  #0063bf;
+	/* yeller
+--highlight: #fdbb46;
+--lowlight: #d79921; */
+}
+
+body {
+	font-family: "Charis SIL", "Charis", "EB Garamond", Garamond, "Times New Roman", Times, system-ui, serif, "Roboto", "Helvetica", sans-serif ;
+	background: var(--bg-color);
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+header {
+	max-width: 20em; /* so this is based on */
+	font-size: 2em;  /* font size? weird    */
+	text-align: right;
+	margin: 0.30em auto;
+}
+
+footer {
+	max-width: 40em;
+	margin: 0 auto 5em;
+}
+
+main {
+	max-width: 40em ;
+	margin: 0 auto 2em auto ;
+	padding: 2em ;
+	background-color: white;
+	border-radius: 0.5em ;
+	box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02) ;
+}
+
+blockquote {
+	font-size: small;
+}
+
+img {
+	max-width: 100% ;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link    { color: var(--highlight);}
+a:visited { color: var(--lowlight);}
+a:hover   { text-decoration: underline; }
+
+a.external::after {
+	vertical-align: top;
+	font-size: 0.6em;
+	content: " ↗";
+}
+
+::selection {
+	background: var(--highlight);
+	color: white;
+}
+
+@media (max-width: 36em) {
+	main {
+		margin: 0 auto;
+		width: auto;
+	}
+}
+
+
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
