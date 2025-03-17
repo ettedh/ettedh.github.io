@@ -2,22 +2,25 @@
 	--bg-color: #eee;
 	--highlight: #2684d6;
 	--lowlight:  #0063bf;
+	--text: black;
+	--page: white;
+	--gray: #333;
 	/* yeller
 --highlight: #fdbb46;
 --lowlight: #d79921; */
 }
 
 body {
-	font-family: "Charis SIL", "Charis", "EB Garamond", Garamond, "Times New Roman", Times, system-ui, serif, "Roboto", "Helvetica", sans-serif ;
+	font-family: "Charis SIL", "Charis", "EB Garamond", Garamond, "Times New Roman", Times, Tinos, serif, system-ui, "Roboto", "Helvetica", sans-serif ;
 	background: var(--bg-color);
 	margin: 0;
 	padding: 0;
-	color: black;
+	color: var(--text);
 }
 
 header {
-	max-width: 20em; /* so this is based on */
-	font-size: 2em;  /* font size? weird    */
+	max-width: 20em; /* based on font-size*/
+	font-size: 2em;
 	text-align: right;
 	margin: 0.30em auto;
 }
@@ -31,25 +34,28 @@ main {
 	max-width: 40em ;
 	margin: 0 auto 2em auto ;
 	padding: 2em ;
-	background-color: white;
+	background-color: var(--page);
 	border-radius: 0.5em ;
 	box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02) ;
 }
 
-blockquote {
-	font-size: small;
+blockquote { font-size: smaller; }
+
+img { max-width: 100% ; }
+
+h1 { margin-top: 0 ; margin-bottom: 0 ; }
+
+hr { color: var(--gray); }
+
+aside {
+	font-style: italic ;
+	color: var(--gray) ;
 }
 
-img {
-	max-width: 100% ;
-}
+a { text-decoration: none; }
 
-a {
-	text-decoration: none;
-}
-
-a:link    { color: var(--highlight);}
-a:visited { color: var(--lowlight);}
+a:link    { color: var(--highlight); }
+a:visited { color: var(--lowlight); }
 a:hover   { text-decoration: underline; }
 
 a.external::after {
@@ -58,23 +64,52 @@ a.external::after {
 	content: " ↗";
 }
 
+p {
+	text-align: justify ;
+	text-justify: inter-word ;
+	line-height: 1.7em ;
+}
+
+aside, p[rel="author"] {
+	line-height: 1em ;
+}
+
+p[rel="author"] {
+	font-weight: bold ;
+}
+
 ::selection {
 	background: var(--highlight);
-	color: white;
+	color:      var(--page);
 }
 
 @media (max-width: 36em) {
 	main {
-		margin: 0 auto;
-		width: auto;
+		margin: 0 auto ;
+		width: auto ;
+		padding: 1em ;
+	}
+
+	p {
+		text-align: left;
 	}
 }
 
-
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text: #ebdbb2;
+		--page: #1d2021;
+		--bg-color: #282828;
+		--gray: #a89984;
+		--highlight: #fabd2f;
+		--lowlight: #d79921;
+	}
+}
 
 /* For NEXTPREV.HTML */
 #nextprev {
 	/* The container for both the previous and next articles. */
+	overflow: hidden
 }
 #prevart {
 	float: left ;
@@ -85,5 +120,5 @@ a.external::after {
 	text-align: right ;
 }
 #nextart,#prevart {
-	max-width: 33% ;
+	max-width: 45% ;
 }

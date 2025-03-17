@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ettedh.github.io/plants-chicago-region/</loc>
-    <lastmod>2024-11-27T10:14:31-06:00</lastmod>
+    <loc>https://ettedh.github.io/texts/camino-real/</loc>
+    <lastmod>2025-03-14T17:30:33-05:00</lastmod>
   </url><url>
     <loc>https://ettedh.github.io/</loc>
-    <lastmod>2024-11-27T10:14:31-06:00</lastmod>
+    <lastmod>2025-03-14T17:30:33-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -18,6 +18,38 @@
                 href="https://ettedh.github.io/"
                 />
   </url><url>
+    <loc>https://ettedh.github.io/tags/natural-history/</loc>
+    <lastmod>2025-03-14T17:30:33-05:00</lastmod>
+  </url><url>
+    <loc>https://ettedh.github.io/tags/</loc>
+    <lastmod>2025-03-14T17:30:33-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/texts/</loc>
+    <lastmod>2025-03-14T17:30:33-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/texts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/texts/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/texts/plants-chicago-region/</loc>
+    <lastmod>2024-11-27T10:14:31-06:00</lastmod>
+  </url><url>
     <loc>https://ettedh.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,18 +60,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://ettedh.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://ettedh.github.io/eo/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ettedh.github.io/tags/"
                 />
   </url>
 </urlset>
