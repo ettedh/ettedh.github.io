@@ -5,13 +5,10 @@
 	--text: black;
 	--page: white;
 	--gray: #333;
-	/* yeller
---highlight: #fdbb46;
---lowlight: #d79921; */
 }
 
 body {
-	font-family: "Charis SIL", "Charis", "EB Garamond", Garamond, "Times New Roman", Times, Tinos, serif, system-ui, "Roboto", "Helvetica", sans-serif ;
+	font-family: "Charis SIL", "Charis", "EB Garamond", "Calisto MT", "Noto Serif", "Times New Roman", Times, Tinos, serif, system-ui, "Roboto", "Helvetica", sans-serif ;
 	background: var(--bg-color);
 	margin: 0;
 	padding: 0;
@@ -19,7 +16,7 @@ body {
 }
 
 header {
-	max-width: 20em; /* based on font-size*/
+	max-width: 20em; /* based on font-size */
 	font-size: 2em;
 	text-align: right;
 	margin: 0.30em auto;
@@ -44,7 +41,6 @@ blockquote { font-size: smaller; }
 img { max-width: 100% ; }
 
 h1 { margin-top: 0 ; margin-bottom: 0 ; }
-
 hr { color: var(--gray); }
 
 aside {
@@ -70,7 +66,7 @@ p {
 	line-height: 1.7em ;
 }
 
-aside, p[rel="author"] {
+aside, p[rel="author"], sup {
 	line-height: 1em ;
 }
 
