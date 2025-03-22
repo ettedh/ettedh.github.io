@@ -1,0 +1,20 @@
+/*
+ * diglossic-text.css v1.0.0
+ * CC0: <ettedh.github.io/articles/diglossic-text/>
+ */
+
+main { max-width: 100ch; } /* accomodate two texts */
+
+.diglossic-text {
+	display: grid;
+	grid-template-columns: [diglossic-left] 1fr [diglossic-right] 1fr;
+	grid-auto-flow : column;
+	grid-gap: 0 1em;
+}
+
+.diglossic-l ~ :is(h1,h2,h3,h4,h5,h6,p,blockquote,pre) {
+	grid-column: diglossic-left;
+}
+.diglossic-r ~ :is(h1,h2,h3,h4,h5,h6,p,blockquote,pre) {
+	grid-column: diglossic-right;
+}

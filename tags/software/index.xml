@@ -1,0 +1,1210 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>ettedh</title>
+	<link>https://ettedh.github.io/tags/software/</link>
+	<description>Recent content in Software on ettedh</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Sat, 22 Mar 2025 08:28:28 -0500</lastBuildDate>
+    
+        <atom:link href="https://ettedh.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Diglossic, parallel CSS</title>
+		<link>https://ettedh.github.io/articles/diglossic-text/</link>
+		<pubDate>Sat, 22 Mar 2025 08:28:28 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/articles/diglossic-text/</guid>
+		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;https://ettedh.github.io/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) is a stylesheet to help create diglossic texts with properly-flowing, progressive, &lt;em&gt;correct&lt;/em&gt;, HTML. Its features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aligning like elements in columns,&lt;/li&gt;
+&lt;li&gt;selectable, single-source texts,&lt;/li&gt;
+&lt;li&gt;unobstructed by HTML-isms like &lt;code&gt;div&lt;/code&gt; or &lt;code&gt;table&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;being readable, even without CSS (for future-proofing).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is what it looks like&amp;hellip; (See also &lt;a href=&#34;https://ettedh.github.io/mul/texts/famo/&#34;&gt;my demo page&lt;/a&gt;.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;diglossic-text&#34;&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-l&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;first-text&#34;&gt;First text&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&amp;hellip;&lt;/p&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-r&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;second-text&#34;&gt;Second text&lt;/h3&gt;
+&lt;p&gt;Pain itself desires pain&amp;hellip;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;It is supported by all modern desktop web browsers (Chrome, Firefox&lt;code&gt;++&lt;/code&gt;). To use the file, add the following line to your document head:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/diglossic-text.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, format your text (assuming a &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; format) like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This paragraph will not be rendered in two columns.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-text&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-l&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### First text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Lorem ipsum dolor sit amet...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-r&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Second text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pain itself desires pain...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This text is outside of the diglossic text.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Keep in mind that only the block-level elements of &lt;code&gt;h1--h1&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;blockquote&lt;/code&gt;, and &lt;code&gt;pre&lt;/code&gt; are rendered in parallel. All parallel texts must have the same number of blocks to line up properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-make-this&#34;&gt;Why make this?&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.hup.harvard.edu/series/loeb-classical-library&#34;&gt;Loeb Classical Library&lt;/a&gt;
+is a beautiful series of Latin and Greek texts, with English translations, published by Harvard University Press.
+Their books feature the source text on the left page, with the translation on the right page.
+It seems like all other implementations fall short on at least one of my goals, as well as &lt;a href=&#34;https://motherfuckingwebsite.com&#34;&gt;working on the web&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The horizontal lines are not part of the formatting, just something to make it clear what is what.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Camino Real</title>
+		<link>https://ettedh.github.io/texts/camino-real/</link>
+		<pubDate>Fri, 14 Mar 2025 17:30:33 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/texts/camino-real/</guid>
+		<description>&lt;p&gt;I scramble gleefully up a concrete incline six feet above the
+cobblestone road, but Hal Jackson saunters. We stand in the ruins of
+what was once a large house, twenty minutes outside Zacatecas, Mexico. The
+air is cool. Scrubby mountains pocked with old silver mines sweep across
+the landscape. Jackson is uneasy. I collect several pebbles, fallen
+pieces of wall. Jackson shakes his head, wanders the brush. &amp;ldquo;This is
+disappointing,&amp;rdquo; he says, eyes scanning, GPS in one hand, notepad in the
+other, camera slung round his neck. &lt;i&gt;Why?&lt;/i&gt; &amp;ldquo;It just seems&amp;hellip;&amp;rdquo; he trails
+off, gingerly steps over a sharp rock embedded in the earth. He was once
+a marathoner, and though it&amp;rsquo;s been thirteen years since his last, he maintains
+a runner&amp;rsquo;s lean grace. At seventy he looks perhaps fifty-five. &amp;ldquo;I thought it&amp;rsquo;d be
+bigger,&amp;rdquo; he mutters. &amp;ldquo;This doesn&amp;rsquo;t seem right.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;We are in Pánuco, the birthplace of Juan de Oñate, the last of the
+Spanish conquistadors, whose hand likely had more influence on the
+American Southwest and northern Mexico than that of any other single
+explorer. In 1598, Oñate blazed the &lt;i xml:lang=&#34;es&#34;&gt;Camino Real de Tierra Adentro&lt;/i&gt;, a
+trail that became the most used and most significant route of commerce
+and culture for three hundred years. At its peak the Camino Real ran 1,800 miles
+from Mexico City north to Santa Fe. Spaniards used the trail to settle
+towns and villages all along the way, Franciscans used it to spread
+their gospel, troops from the United States and Mexico used it for
+waging battles and building forts, Indians used it to fight the swelling
+tide of foreigners, and traders used it for commerce. All morning,
+Jackson and I have searched for the remains of the Oñate family
+hacienda, and now, with the Jeep Cherokee parked conspicuously on the
+narrow road, clouds in full bloom beyond the mountains, and my pocket
+full of pebbles, Jackson&amp;rsquo;s doubt continues to deepen.&lt;/p&gt;
+&lt;p&gt;A man in stained white jeans and a thinning white undershirt wanders
+down the road below us in sandals. He greets the two gringos standing
+atop a ruined wall in a pool of packed dirt bursting with purple
+wildflowers. Jackson tells him we want Oñate&amp;rsquo;s villa; the man looks
+bemused, then beckons us down from our perch.&lt;/p&gt;
+&lt;p&gt;A quarter-mile up and three minutes later we find the hacienda for real:
+an enormous hillock of pink cobblestones with a wall running around the
+circumference, a turret in the middle, the remnants of an ancient pool,
+a burrowed garden. The place is grand and empty. Silent with a cool
+breeze. It bears not a single marker indicating what it once was or who
+lived here. We three wander about it. Now Jackson is gleeful, running to
+take pictures, climbing up on the walls to peer at the vistas, his dusty
+white baseball hat nearly flying off behind him. &amp;ldquo;Now this”⁠—he grins,
+index finger poised in the air⁠—“this is what I pictured.
+&lt;em&gt;This&amp;hellip;is&amp;hellip;it!&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Throughout New Mexico and Texas, Oñate&amp;rsquo;s trail is clearly marked, but in
+Mexico many parts of it remained unknown to modern explorers, and
+Jackson and I set out on a mission to find them. We carried minutely
+detailed topographical maps and aerial maps from the early twentieth
+century, which often showed a trail obvious from a bird&amp;rsquo;s-eye view but
+elusive on the ground. We also carried copies of travelers&amp;rsquo; journals
+that contained specific descriptions of the natural landscape, of
+mountains and valleys that wouldn&amp;rsquo;t have changed much, and of rest areas
+for caravans that still bore names Oñate had given them. Thus we had a
+decent idea of where things should have been if they hadn&amp;rsquo;t been paved
+or farmed over. &amp;ldquo;Trail finding,&amp;rdquo; Jackson assured me, &amp;ldquo;can be an exact
+science.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Certain facts held true about the trail regardless of any particular
+location. For example, it always ran above the flood-plain. Also, water
+was a constant concern, so the caravans went for a route where it was
+accessible and where attacks by hostile Apache or Comanche Indians came
+infrequently. &lt;i xml:lang=&#34;es&#34;&gt;Acequias&lt;/i&gt;⁠—irrigation ditches⁠—often paralleled the
+trail, and they do even today in pueblos and small towns where they are
+still used. Oñate&amp;rsquo;s hacienda marked the final discovery of our journey,
+and the apex above all the others. Without Oñate, the trail might never
+have existed. Without Oñate, geographical boundaries, language, culture,
+battles, history, food, family, ethnic and racial intersection,
+economics, trade, and travel would have been vastly different. Without
+Oñate, Jackson and I⁠—a generation and 1,500 miles apart from each
+other⁠—would have never met four hundred years later.&lt;/p&gt;
+&lt;p&gt;Our fortuitous guide explained what each walled section might have
+represented in Oñate&amp;rsquo;s day. He showed us how to climb over trees, and
+through holes in the walls where vegetation had overgrown the pathways;
+he pointed out where the aqueduct ran in from the mountains. Hal took
+measurements, notes, and pictures; he clicked his GPS. We climbed
+halfway up a mountain for an eagle&amp;rsquo;s-eye view. Were this hacienda in the
+United States, historical preservation societies would have tagged,
+ticketed, and renovated it; it would not be inhabited by local fauna and
+ignored by humans. This was the home of a man who changed the course of
+history. For Jackson and me, it marked the end of a long journey, but
+for Juan de Oñate and his Camino Real, this place was just the
+beginning.&lt;/p&gt;
+&lt;p&gt;Built originally by the Spanish Empire to connect capital cities to one
+another, &lt;i xml:lang=&#34;es&#34;&gt;camino reals&lt;/i&gt;, or royal roads, snaked throughout what is now the
+Western United States and Mexico. But there is only one &lt;i xml:lang=&#34;es&#34;&gt;Camino Real de
+Tierra Adentro&lt;/i&gt;, the one Jackson and I drove; in addition to its
+incredible length, it predates the other &lt;i xml:lang=&#34;es&#34;&gt;camino reals&lt;/i&gt; by more than two hundred
+years, according to George Torok, president of the Camino Real de Tierra
+Adentro (&lt;span class=&#34;small-caps&#34;&gt;CARTA&lt;/span&gt;) association.&lt;/p&gt;
+&lt;p&gt;Beyond simply offering a way to get around, the Camino Real became a
+palimpsest of cultural, religious, economic, and ethnic crossovers.
+Skirmishes, business deals, wars, and treaties were wrought along its
+path. Like the old Route 66 of the United States, it was as much a
+cultural symbol as a practical method of travel. Unlike America&amp;rsquo;s
+modern-day expressways, which mostly skirt cities and often divide
+ethnicities and races from one neighborhood to the next, Oñate&amp;rsquo;s Camino
+Real, our country&amp;rsquo;s first superhighway, brought states, countries, and
+people together.&lt;/p&gt;
+&lt;p&gt;Because of it, Indians went from &amp;ldquo;hunting grubs to being warriors of the
+Plains in a single generation after the introduction of the horse,&amp;rdquo;
+Jackson says; he calls the animal a &amp;ldquo;technological revolution.&amp;rdquo; Mission
+churches replaced &lt;i xml:lang=&#34;hop&#34;&gt;kivas&lt;/i&gt; as community centers, and villages began to
+gather around central squares. Catholicism flourished. Crops like corn,
+beans, and squash were introduced. The English and Spanish tongues
+mingled and eventually overwhelmed pueblo languages. Even food
+preparation changed, as the Spaniards taught Mexican Indians the concept
+of frying. Chickens, pigs, sheep, and goats arrived, along with new
+forms of architecture, new diseases, and new kinds of enslavement by the
+Spaniards. &amp;ldquo;There is constant traffic where the trail went up from
+Mexico,&amp;rdquo; Torok told me. &amp;ldquo;It&amp;rsquo;s still happening today: the migration, the
+immigration, the influence. It wasn&amp;rsquo;t a finite time period.&amp;rdquo; The Camino Real
+grew into a cultural system inscribed on the land itself. As we
+move forward in the present, it seems to say, we are bound to the past.&lt;/p&gt;
+&lt;p&gt;Its history can be loosely divided into six periods: 1598⁠–⁠1680, when
+Oñate and his successors connected the paths that led from village to
+village into what we recognize as the Camino Real today; 1680⁠–⁠93, when
+the Pueblo Indians revolted against the invasion of their culture and
+expelled the Spaniards from northern territories for thirteen years;
+1693⁠–⁠1821, with the Spaniards back again and the Camino Real once more
+a thoroughfare for commerce, culture, and war; 1821⁠–⁠80, when Mexico
+gained its independence and Americans were allowed to trade; followed by
+the Mexican War of 1846⁠–⁠48, which made the northern stretch of the
+&lt;i xml:lang=&#34;es&#34;&gt;Camino Real&lt;/i&gt; American; and finally, the 1880s when the rails replaced the
+road. A few paved parts of the Camino Real are still used unchanged
+today in pueblos and small towns, but for a purist like Jackson, the
+trail&amp;rsquo;s great days are gone.&lt;/p&gt;
+&lt;p&gt;Jackson and I began our tour in early July, just about the worst time to
+do a lot of driving through the desert. Having retired as a professor
+from Humblodt State University, Jackson now spends his days on the
+trail. He serves as president of the Santa Fe Trail Association, and he
+wrote the revised version of Marc Simmons&amp;rsquo;s &lt;i&gt;Following the Santa Fe
+Trail: A Guide for Modern Travelers&lt;/i&gt;.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Last May, he helped form
+the Camino Real Trail Association, and he&amp;rsquo;s now writing a guidebook
+about that trail, to be published this June by the University of New
+Mexico Press. He has been a political geographer, and he wrote his
+dissertation on a squatters&amp;rsquo; village outside Mexico City, so his idea of
+place is inextricably linked to people and policy. He&amp;rsquo;s a diehard
+liberal, but his biggest complaint about archeologists, anthropologists,
+and sociologists⁠—all of whose subjects overlap with cultural
+geography⁠—is that they just don&amp;rsquo;t make good maps.&lt;/p&gt;
+&lt;p&gt;To say that Jackson is a map man is like saying that astronauts enjoy
+air travel. He doesn&amp;rsquo;t just &lt;em&gt;like&lt;/em&gt; maps; he lives by them. He keeps
+topographical and aerial maps organized by route in a box in the back
+seat of his car, next to atlases, road maps, Lonely Planet maps, and
+historical maps. In his home office, he has maps framed on the walls,
+maps in filing cabinets, and maps laid out over his desk. Each morning
+after breakfast, maps cover his dining room table. He has computer
+programs to make maps. At various points during our journey, he offered
+to make me maps including or excluding such features as power lines,
+bodies of water, villages, and mountains. He doesn&amp;rsquo;t like to be lost. He
+told me once that he figured he looked at maps a hundred times a day.
+&amp;ldquo;I&amp;rsquo;m the where guy,&amp;rdquo; he says. He respects maps, and they in turn have
+given him the assurance of one who always knows his place in the world.&lt;/p&gt;
+&lt;p&gt;Our route began north of Santa Fe in the San Juan Pueblo, which Oñate
+occupied in July of 1598. Large excavations have been done in this area,
+so the location of the original mission church and central square are
+denoted by a marker, in the midst of a field of chamise and juniper
+beside a graveyard. &amp;ldquo;In northern New Mexico, there&amp;rsquo;s still a lot of
+resentment today toward Oñate, whose soldiers were said to be savage,&amp;rdquo;
+Jackson said. He illustrated this with a story about the Acoma Pueblo
+just outside Albuquerque. The tale claims that the Indians were living
+peacefully when Oñate&amp;rsquo;s men descended on them, and chopped off the right
+foot of every man over sixteen. As the Spanish tell it, the Acomas attacked
+the Spaniards first, and the latter were merely retaliating. Several
+years ago, on the eve of the opening of a new Oñate museum, north of the
+San Juan Pueblo along the road to Taos, someone chopped off the right
+foot of Oñate&amp;rsquo;s statue.&lt;/p&gt;
+&lt;p&gt;With close to five hundred people following him, Oñate, whose soldiers often
+marched in full body armor through the desert heat, averaged fifteen miles a
+day. Jackson and I covered fifteen times that. Remarkably, Oñate managed to
+establish the first American thoroughfare, predating the colony of
+Jamestown, yet has never received much historical credit. The author
+Marc Simmons, who wrote of Oñate&amp;rsquo;s perilous journey in &lt;em&gt;The Last
+Conquistador&lt;/em&gt;, said that along with everything else the conquistador did
+to establish the shape and character of North America, he also &amp;ldquo;made a
+notable contribution, through his wide-ranging explorations, toward an
+understanding of the true geography of western America.&amp;rdquo;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Just ten miles outside Santa Fe, Jackson showed me my first swale, a
+carved-out bowl of earth, where deep cuts from wagon wheels could still
+be detected. &amp;ldquo;I get excited about swales,&amp;rdquo; he told me, &amp;ldquo;but not everyone
+does. Standing where something happened is very powerful to me.&amp;rdquo; In the
+distance La Majada Mesa loomed black and foreboding. In Oñate&amp;rsquo;s time, the
+mesa was a near-insurmountable challenge to cross. Wagons had to be
+emptied, and their goods carried steeply uphill on horseback while the
+carts were routed through the shallow river that cleaved the mesa.
+Loaded with their cargoes, the carts would have been mired in the
+riverbed. In &lt;em&gt;Commerce of the Prairies&lt;/em&gt;, perhaps the best traveler&amp;rsquo;s
+account of the Camino Real, Josiah Gregg, a mid-nineteenth-century
+trader, wrote of the treacherous crossings: &amp;ldquo;In some places, if a wagon
+is permitted to stop in the river but for a moment, it sinks to the very
+body &lt;i xml:lang=&#34;la&#34;&gt;[sic]&lt;/i&gt;. Instances have occurred when it became necessary, not only to drag
+out the mules by the ears and to carry out the loading package by
+package, but to haul out the wagon piece by piece⁠—wheel by wheel.&amp;rdquo;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;We drove to the base of La Majada Mesa, parked in the dust, and got out
+to walk along the old trail. &amp;ldquo;Look at this.&amp;rdquo; Jackson shook his head,
+pointed to where the trail had created an obvious swale, then
+disappeared from view &amp;lsquo;round the bend of the mountain. Jackson believed
+few people even noticed the mountain. &amp;ldquo;Ten miles outside Santa Fe and
+not a single footprint,&amp;rdquo; he said.&lt;/p&gt;
+&lt;p&gt;As we drove, the terra-cotta countryside gave way to rich, red clay
+hills and low cliffs, and I began to learn how to read a landscape.
+Jackson pointed out that curved roads in a grid city, for example, were
+very likely just old trails paved over. The entire city of Boston is the
+most famous example of this. Parts of the Camino Real that are paved
+prove the fact. &amp;ldquo;The caravans took the best route, not necessarily
+north, east, south, and west,&amp;rdquo; Jackson told me, as we drove trail areas
+near his home in Placitas, New Mexico, just outside Albuquerque. &amp;ldquo;A
+crooked street in a city laid out by &lt;i xml:lang=&#34;es&#34;&gt;gringos&lt;/i&gt;?
+You can be sure it predates the grid.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;In a flat plain, carved-out swales often collected rainwater and runoff,
+so a long row of green bushes in a mostly barren landscape might mean
+the trail had run through there. Or a straight cut through a lush green
+area might signal the trail&amp;rsquo;s presence. Jackson was a landscape
+detective alert for clues. An oddly shaped mountain had been mined; a
+mound of dirt was a melted adobe house; a shallow gully, an ancient
+trail. In nature, context is everything. We scanned the land for the
+easiest route, the most level, and then we looked for angles. Where
+north-south paved roads ran, the Camino Real often bisected them today
+at 45-degree angles. We spent a lot of time in the Jeep slowing down,
+reversing, advancing, retracing our path. At one point, south of
+Socorro, Jackson remarked that the oxen from trail-day caravans ate
+beans off the mesquite tree, and the beans left behind in the cattle&amp;rsquo;s
+droppings eventually grew into trees, so there were areas where long,
+straight rows of mesquite trees amid otherwise random vegetation were
+obvious clues to the Camino Real.&lt;/p&gt;
+&lt;p&gt;Later we drove to San Pedro, a ghost town in New Mexico and once a stop
+along the trail, where a field of long-abandoned adobe houses has slowly
+dissolved during years of rain, sun, and neglect. One small ravine, once
+surely an acequia, was now host to tangles of weeds, paddle cactus, and
+thornbushes that crackled under my hiking boots. In the far distance
+Jackson and I heard voices coming from several trailers, followed by two
+distinctive pops of a shotgun. &amp;ldquo;Guess we&amp;rsquo;d better not linger,&amp;rdquo; he said,
+making his way slowly back toward the car. I was reluctant to leave.
+There are places on the trail today still populated, some large, some
+small, but none that I had seen like San Pedro, whose ravaged buildings
+so powerfully suggested the sad place between existing and forgotten.&lt;/p&gt;
+&lt;p&gt;From New Mexico, Jackson and I made our way south toward Mexico, via the
+infamous &lt;i xml:lang=&#34;es&#34;&gt;Jornada del Muerto&lt;/i&gt;⁠—in English, the Journey of the Dead Man.
+Christened after Oñate&amp;rsquo;s day, it maintains the name still. A ninety-mile
+swatch of desolation between Socorro and Las Cruces, this was one of
+three long &lt;i xml:lang=&#34;es&#34;&gt;jornadas&lt;/i&gt; through enormous chunks of desert. The flat, sandy
+plain was punctuated by paddle cactus and what Jackson called, in
+geographer&amp;rsquo;s parlance, &amp;ldquo;desert pavement&amp;quot;⁠—rocks blown by the wind off
+nearby mountains. Caravans often left after 4:00 p.m. and traveled
+through the night to avoid the jornada&amp;rsquo;s relentless sun. Water was a
+constant worry, and travelers&amp;rsquo; journals again and again described the
+white bones of man and beast littering the landscape. Even I, a modern
+traveler with all the conveniences, did not escape the jornada, when I
+pulled out a blood-tipped mesquite thorn that had gone through the sole
+of my shoe and lodged in my foot. Gregg&amp;rsquo;s section of the Jornada del
+Muerto told of the luck his party had had in not losing a single person
+during the crossing. &amp;ldquo;One thing appears very certain,&amp;rdquo; he wrote, &amp;ldquo;that
+this dangerous pass has cost the life of many travelers in days of
+yore&amp;hellip; we felt truly grateful that the arid Jornada had not been
+productive of more serious consequences to our party.&amp;rdquo; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;In El Paso we met up with &lt;span class=&#34;small-caps&#34;&gt;CARTA&lt;/span&gt;&amp;rsquo;s president, George Torok, and Ben
+Brown, an archeologist employed by Mexico&amp;rsquo;s National Institute of
+Anthropology and History (&lt;i xml:lang=&#34;es&#34;&gt;Instituto Nacionale de Antropologia e
+Historia&lt;/i&gt;), whose work has led him to study various areas around or on
+the Camino Real. Brown and Torok showed us around several border areas
+where the Spaniards took up residence after their expulsion in 1680
+during the Pueblo revolt.&lt;/p&gt;
+&lt;p&gt;We drove first through pecan groves and cornfields, to Ciudad Juárez,
+the Mexican urban extension of El Paso and, after the Pueblo revolt, the
+northernmost boundary of the Spanish territory. Two Camino Real routes
+led south from Juárez. One, through sand dunes, has horrific accounts of
+carcasses in the sand like those in the jornada; the second was less
+direct but easier. Next to Juárez&amp;rsquo;s enormous cathedral in the central
+square stands the original whitewashed mission church built in 1659 and
+the oldest mission along the trail still functioning. In the square this
+day, preachers shouted Protestant theology into crackling loudspeakers,
+and pigeons commanded the immediate airspace. Just south of the mission
+a three-story covered market sat where the central market had stood
+during trail days, when it marked an important resupply spot famous for
+El Paso&amp;rsquo;s wines, brandy, and fruit. Then it was the only place between
+the Mexican city of Chihuahua and Santa Fe, New Mexico, where lush green
+vegetation flourished, a fact no longer true in modern-day Juárez, with
+its increasingly short water supply. &amp;ldquo;The Camino Real is really a
+communication trail,&amp;rdquo; Ben Brown told me. &amp;ldquo;Its social impact was with
+knowledge and items going north and south. It&amp;rsquo;s not just a trail in the
+physical sense; it&amp;rsquo;s really a concept of communication.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;We drove through various settlements where the Spanish retreated after
+the 1680 revolt. Ysleta del Sur, Senecú, San Elizario, San Lorenzo, and
+Socorro del Sur all were small communities and are laid out today as
+they were in trail days, with a mission-style church, a central square,
+and a small but growing sense of their place in history. At these
+settlements, Torok told me, the names had changed, the Camino Real path
+had changed, the river had changed, and the people and the culture had
+continually changed. The Rio Grande, which is the established border
+between the United States and Mexico, constantly shifts its location.
+The earth is not silent, not static, even if we wish our boundaries to
+be so. The river is far south of where it was in Oñate&amp;rsquo;s day and, as a
+result, makes for a rather odd choice for an international boundary
+line.&lt;/p&gt;
+&lt;p&gt;In a little town called Bracito, which was a resting stop along the
+trail in the eighteenth and nineteenth centuries, a small but
+significant battle took place during the Mexican War of 1846⁠–⁠48, right
+in front of today&amp;rsquo;s Bracito School. Brown and Jackson stood at the mouth
+of an acequia respectfully debating the trail&amp;rsquo;s location (Brown:
+underneath the acequia; Jackson: alongside it) and why the Americans who
+were outnumbered three-to-one by the Mexicans won the battle in twenty
+minutes (Brown: Mexicans were an ill-treated peasant army with low
+morale; Jackson: Americans were Missouri volunteers well used to their
+weaponry). As they talked, each with one leg resting atop the modern
+concrete wall of the old acequia, the sun began to set, lighting up the
+school. Lightning shot down from the clouds in the distance, and sheets
+of rain rolled in. Whether the Camino Real ran below or adjacent to the
+acequia, today a railroad track crosses where we all stood discussing
+what happened here once, watching as the storm and nightfall came on.&lt;/p&gt;
+&lt;p&gt;In Mexico, Jackson and I were alone again, searching for the first of
+many areas we hoped to find that had eluded modern-day explorers,
+including Ojo de Lucero, a spring that nearly every journal mentioned
+that had watered a rest stop from Oñate&amp;rsquo;s day. In the Mexican state of
+Chihuahua, Jackson scanned the placid golden landscape, and I felt the
+Jeep slow. He pulled the car off the highway onto a two-track dust road
+in the middle of the desert. I hadn&amp;rsquo;t even seen the two-track, let alone
+whatever infinitesimal clue between this swatch of desert and the last
+had made him turn off for closer inspection. To Jackson, each new vista
+of desert offered a slightly altered landscape, a tiny promise of
+discovery. The Lucero spring would have once held enough water for a
+thousand people or more to drink, wash, and cook from for a few days in
+a trailside camp, but today it would be only an enormous indentation in
+the earth. If we found Lucero, we would be among just a handful of
+people in the world who knew where it was now, and who knew that it once
+meant, for many thousands of people, survival.&lt;/p&gt;
+&lt;p&gt;Jackson drove a mile off the highway on the two-track until we reached a
+private ranch in the midst of new construction. A man in a construction
+hat walked briskly to our car and peered in suspiciously. Jackson waved
+a greeting, rolling down his window. The man told us that what we wanted
+was across the highway. &amp;ldquo;&lt;i xml:lang=&#34;es&#34;&gt;No aqui&lt;/i&gt;,&amp;rdquo; he said several times in a voice
+meant to warn us away from our folly. Jackson gunned the engine, backed
+up, and retraced our route to the highway, at which point he grumbled,
+&amp;ldquo;He doesn&amp;rsquo;t know what the hell we&amp;rsquo;re looking for.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Moments later he spotted a flash of aqua blue up ahead. &amp;ldquo;Aha,&amp;rdquo; he said
+enigmatically. Jackson read the landscape as an artist reads a blank
+canvas, wrought with possibility and inherently full of layers and
+details that the rest of us nonartists could not imagine. The blue dot
+became clearer as we drove, and I saw that it was an &lt;i xml:lang=&#34;es&#34;&gt;alberca&lt;/i&gt;, a public
+swimming pool. Jackson conversed with the alberca&amp;rsquo;s maintenance man,
+and he pointed in the direction we had come from. Afterward Jackson
+turned to me rather as a superhero might to his faithful but somewhat
+ineffectual sidekick and said, &amp;ldquo;Let&amp;rsquo;s get the maps!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Ten minutes later, Jeep parked askew amid mesquite trees and choya
+cactus with pipe-cleaner arms, we stood at Ojo de Lucero. We&amp;rsquo;d driven
+along a two-track past scattered ranches, then turned into the desert
+until the trees got too thick to drive, and then we walked, carrying
+bundles of papers, maps, and Jackson&amp;rsquo;s digital GPS. Several hundred
+yards away was a tiny village, so Jackson knew there was a water source
+from somewhere. We noted nearby power lines, which showed up on the topo
+maps, and after a brief tromp through the desert, we stood at a shallow
+dry indentation in the earth, a small pipe pumping water through the
+desert.&lt;/p&gt;
+&lt;p&gt;The finding, though, was remarkably anticlimactic. Jackson marked the
+spot in his GPS device, then grinned for a moment until his mind jumped
+to what we had yet to find. In the world of Hal Jackson, if something
+hadn&amp;rsquo;t been found in four hundred-or-so years, it wasn&amp;rsquo;t so much a matter of its
+concealment as that no one had ever really bothered to look. Lucero was
+an auspicious sign of things to come.&lt;/p&gt;
+&lt;p&gt;We drove on through the Mexican desert. At Carrizal we stopped at what
+had once been a presidio. The walls had dwindled to a rectangular speed
+bump in the earth. In the late eighteenth and early nineteenth
+centuries, Spaniards bribed Apaches with food to ward off thievery in
+what was likely the first real attempt at social welfare. Later, in
+1916, Americans⁠—mostly Buffalo Soldiers⁠—lost a small battle to
+Mexicans here. In the distance, dust devils flitted across faraway
+plains. &lt;i&gt;You could watch your dog run away for days in land like this&lt;/i&gt;, I
+told Jackson, a phrase often said of the Midwest, where I happened to
+live. Jackson laughed, then, grew thoughtful. Every place you ever go
+will be compared with where you came from: the weather, the
+architecture, the context. &amp;ldquo;You never escape your own landscape,&amp;rdquo; he
+said. &amp;ldquo;It&amp;rsquo;s like gum on your shoe.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Later we searched for another &lt;i xml:lang=&#34;es&#34;&gt;ojo&lt;/i&gt;: Caliente. Like Lucero, it was
+mentioned in every journal; unlike Lucero, Jackson didn&amp;rsquo;t know of many
+people who had ever managed to locate it. Using topo maps, we pulled off
+the highway onto a two-track and searched through the flat-planed dust
+for a road shown on the map. We drove up, looked, reversed, drove back
+up, looked again, and reversed, over and over. Between the irrigated
+alfalfa fields, the russet land managed only an occasional barrel
+cactus. Suddenly, a migrant worker appeared at the window of our Jeep.
+After the man gave us directions, Jackson and I easily spotted the tiny
+road that had eluded us. We lifted a metal-wire gate off its wooden
+hinge and drove in till we had to hoof it through the mesquite. Two
+things appeared in front of us: an enormous ocher-and-bronze-colored
+church⁠—too new to be Caliente⁠—and a lone brown cow.&lt;/p&gt;
+&lt;p&gt;We split up and searched through the trees, more animals appearing as we
+wandered: horses, cows, quail, a blackeared jackrabbit. Suddenly, in the
+distance, I heard Jackson hollering. He was buried deep in the trees, so
+I followed his voice and saw first the old church. It was just as
+Gregg&amp;rsquo;s journal and so many others had said: graveyard next to the
+church, &lt;i xml:lang=&#34;es&#34;&gt;padre&lt;/i&gt;&amp;rsquo;s home opposite. If this was really Ojo de Caliente, we
+could expect an enormous ojo and the Camino Real trail leading
+smack-dab into the church.&lt;/p&gt;
+&lt;p&gt;I found Jackson standing in the middle of the hole. It was dried up now,
+probably forty-by-twenty feet, but huge trees around its circumference
+suggested that water abounded deep down. Jackson was downright giddy.
+Around the ojo and church were mounds that had once been adobe houses.
+&amp;ldquo;It&amp;rsquo;s probable that no modern explorer has ever been here,&amp;rdquo; he said.
+&amp;ldquo;And certainly no settlement for ninety or so years.&amp;rdquo; He jog-walked from end
+to end in the ojo, measured the whole thing, and took a GPS position.
+Lizards darted across the ground. We felt as if we had been granted the
+memory of every traveler who ever walked that land. We ran atop and
+through the ojo, took pictures in the padre&amp;rsquo;s quarters, padded over
+the mounds where houses once stood. Then we wandered around to the back
+of the church, and there it was, clear as day: a single straight brown
+swale surrounded on both sides by overgrown mesquite trees. The Camino Real,
+with all but street signs pointing it out. Our elation was so great
+we simply stared, overwhelmed, silenced.&lt;/p&gt;
+&lt;p&gt;We found other things: the route of the trail in a charming, colorful
+village called Valle de Allende, where the air was cool, the trees were
+voluminous, and the town smelled of wet earth and roasted chilies. Oñate
+and his minions had crossed a stream there. We drove on past rolling
+green hills, out of the desert and into a land of eucalyptus and pine,
+to a town called Villa Hidalgo today and Cerro Gordo back in the trail
+days. We found the makings of an old presidio wall possibly from those
+trail days.&lt;/p&gt;
+&lt;p&gt;On a side road made of what appeared to be a scattering of stones
+embedded at random in the dirt, Jackson peered so close for so long that
+a pattern emerged. &amp;ldquo;Here,&amp;rdquo; he told me, &amp;ldquo;a straight line of rocks. You
+see that? That&amp;rsquo;s not accidental.&amp;rdquo; He got so excited he had to take a
+breath. &amp;ldquo;That was put there by someone. &lt;em&gt;On purpose&lt;/em&gt;.&amp;rdquo; A moment later an
+old Indian couple walked out of a nearby doorway and greeted us. Jackson
+pointed to the rocks. &lt;i xml:lang=&#34;es&#34;&gt;&amp;ldquo;Camino Real, aqui?&amp;rdquo; &lt;/i&gt; he asked. The woman
+shrugged and invited us into her home, where her husband, in peasant hat
+and beat-up jeans, confirmed that indeed his home was on the trail. The
+rocks, he told us, were the old method of paving. We sat then and talked
+with them about what we were doing: a fusion of generations, cultures,
+and languages, exploring a history of generations, cultures, and
+languages.&lt;/p&gt;
+&lt;p&gt;That night a band of musicians walked through the streets of Zacatecas,
+Mexico, where Oñate&amp;rsquo;s family was once famous for its silver mines. There
+are still Oñates there today, and the pink-stoned buildings of Zacatecas
+are still surrounded by mines whose silver is coveted the world over.
+Tomorrow we would head to Oñate&amp;rsquo;s birthplace, Pánuco, and search for the
+spot where everything started, but tonight we would celebrate. As the
+band marched, people in the streets followed until the crowd was more
+than a block long. Car horns wailed as the entourage passed. Jackson and
+I were swept up with the throng, hurrying along the cobblestones behind
+the band. On the sidewalks, people danced, and the band stopped and
+played for several couples. A Mexican man in a white shirt pulled me by
+the hand and swung me around to the music. I laughed, and Jackson
+snapped a picture, and then the skies opened, and raindrops the size of
+pebbles crashed over our heads and all around us. But the band played
+on, and I kept dancing.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Simmons, M., Jackson, H. (2001). &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/00064568&#34;&gt;Following the Santa Fe Trail: a Guide for Modern Travelers&lt;/a&gt;&lt;/i&gt;. Santa Fe, N.M.: Published by Ancient City Press.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Simmons, M. (1991). &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/90050697&#34;&gt;The Last Conquistador: Juan de Oñate and the settling of the far Southwest&lt;/a&gt;&lt;/i&gt;. Published by the University of Oklahoma Press.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Gregg, J. (1926). &lt;i&gt;&lt;a href=&#34;https://hdl.handle.net/2027/mdp.39015008586714?urlappend=%3Bseq=286&#34;&gt;The Commerce of the Prairies&lt;/a&gt;&lt;/i&gt;. Chicago: Published by Lakeside Press. 286.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Gregg, 284.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Chicago’s Natural Divisions and Plant Communities</title>
+		<link>https://ettedh.github.io/texts/plants-chicago-region/</link>
+		<pubDate>Wed, 27 Nov 2024 10:14:31 -0600</pubDate>
+		
+		<guid>https://ettedh.github.io/texts/plants-chicago-region/</guid>
+		<description>&lt;h2 id=&#34;natural-divisions-of-the-chicago-region&#34;&gt;Natural Divisions of the Chicago Region&lt;/h2&gt;
+&lt;p&gt;The authors are indebted to Kenneth Mierzwa of TAMS
+Consultants, Inc., Chicago, Ill., for having made
+available for this book a synopsis of the Natural
+Divisions of the Chicago Region, a distillation of a
+forthcoming paper.&lt;/p&gt;
+&lt;p&gt;Homoya &lt;em&gt;et al.&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; describe a natural division
+as a &amp;ldquo;generalized unit of the landscape where
+a distinctive assemblage of natural features is
+present.&amp;rdquo; Natural divisions maps are a synthesis of
+geology, physiography, soils, hydrology, presettlement
+vegetation, and characteristic fauna. They soon will
+be available for all four of the states included
+within the Chicago region.&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; The current effort
+combines maps of the four states and adds additional
+detail that reflects the regional scale. For example,
+the Morainal Section in Illinois&lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+and the Valparaiso Moraine Section in Indiana&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; are valid concepts when viewed within
+the context of each state, but when this section is
+extended along the Valparaiso and associated moraines
+from Wisconsin to Michigan, it must be split at
+some point. The beech-maple forests of our eastern
+section are too distinct from the oak savannas and
+prairies of our western section to be included in the
+same unit. Similarly, the lake plain is elevated to
+division status, and subdivided to reflect significant
+differences among the black-soil prairies once present
+on the site of modern-day Chicago, the sand savannas
+of much of the northwestern Indiana lake plain, and
+the more heavily wooded lake plain of Michigan and
+adjacent Indiana. These new boundaries address the
+east to west transition from forest to prairie.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://ettedh.github.io/cdiv.webp&#34; alt=&#34;Figure 1. Natural divisions of the Chicago Region&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;morainal-natural-division&#34;&gt;Morainal Natural Division&lt;/h3&gt;
+&lt;p&gt;Young and rolling morainal topography close to Lake
+Michigan. The boundary follows the outer edge of the
+Valparaiso Moraine except in the northwest, where the
+line is based on geological features and presettlement
+vegetation.&lt;sup id=&#34;fnref2:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h4 id=&#34;1a-western-morainal-section&#34;&gt;1A. Western Morainal Section.&lt;/h4&gt;
+&lt;p&gt;Mostly end moraines. Soils with a high clay content
+and often a perched water table. Primarily prairie
+and savanna, with isolated areas of mesic woodland
+and forest.&lt;/p&gt;
+&lt;h4 id=&#34;1b-eastern-morainal-section&#34;&gt;1B. Eastern Morainal Section.&lt;/h4&gt;
+&lt;p&gt;Eastern portion of the Valparaiso Morainal
+system. Geologically similar to 1A, but a break is
+made based on the predominant plant communities. Mostly
+timbered with savannas and forests.&lt;/p&gt;
+&lt;h4 id=&#34;1c-kettle-moraine-section&#34;&gt;1C. Kettle Moraine Section.&lt;/h4&gt;
+&lt;p&gt;Characterized by truncated end moraines, outwash
+features, kame and kettle topography, an unconsolidated
+aquifer, and glacial lakes. Savannas were once the
+principal plant community, interspersed with prairies,
+sedge meadows, fens, small spring-fed streams,
+and marshes.&lt;/p&gt;
+&lt;h4 id=&#34;1d-racine-till-plain-section&#34;&gt;1D. Racine Till Plain Section.&lt;/h4&gt;
+&lt;p&gt;Mostly end and ground moraines; timbered principally
+with mesic savanna or forest. Ravines along Lake
+Michigan include a number of boreal relict plants.&lt;/p&gt;
+&lt;h4 id=&#34;1e-winnebago-drift-section&#34;&gt;1E. Winnebago Drift Section.&lt;/h4&gt;
+&lt;p&gt;Altonian substage of the Wisconsinan glaciation,
+earlier than other sections of the Morainal Natural
+Division. Topography somewhat more level and wetlands
+less common; streams more entrenched and drainage
+patterns better developed. Savannas and dry prairies
+predominated.&lt;/p&gt;
+&lt;h4 id=&#34;1f-fox-river-bluff-section&#34;&gt;1F. Fox River Bluff Section.&lt;/h4&gt;
+&lt;p&gt;Characterized by moderately high bluffs along the lower
+Fox River Valley, and associated outwash features and
+dolomite outcrops. Seepage areas and fens occur along
+the bluffs. Included within the Morainal Division
+because of the fens similar to those in 1C, and
+extensive woodlands associated with the bluffs.&lt;/p&gt;
+&lt;h3 id=&#34;lake-plain-natural-division&#34;&gt;Lake Plain Natural Division&lt;/h3&gt;
+&lt;p&gt;Characterized by lacustrine deposits and aeolian
+dunes. Included within the Morainal Division by
+previous authors.&lt;/p&gt;
+&lt;h4 id=&#34;2a-chicago-lake-plain-section&#34;&gt;2A. Chicago Lake Plain Section.&lt;/h4&gt;
+&lt;p&gt;Once covered by glacial Lake Chicago; consists of
+nearly level lacustrine silt and clay deposits. Mesic
+and wet prairie and marsh originally extensive.&lt;/p&gt;
+&lt;h4 id=&#34;2b-gary-lake-plain-section&#34;&gt;2B. Gary Lake Plain Section.&lt;/h4&gt;
+&lt;p&gt;Includes the Tolleston, Calumet, and Glenwood beach
+ridges and intervening often slightly acidic sand
+flats. Characterized by sand savannas with intervening
+wet sand prairies and marshes.&lt;/p&gt;
+&lt;h4 id=&#34;2c-benton-harbor-lake-plain-section&#34;&gt;2C. Benton Harbor Lake Plain Section.&lt;/h4&gt;
+&lt;p&gt;Topographically similar to 2B, but originally mostly
+wooded with rich swamps and mesic forests.&lt;/p&gt;
+&lt;h4 id=&#34;2d-illinois-dunes-section&#34;&gt;2D. Illinois Dunes Section.&lt;/h4&gt;
+&lt;p&gt;Low beach ridges and swales at Illinois Beach State
+Park and Chiwaukee Prairie support an open community of
+sand prairie, sand savanna, and marsh. Two additional
+sand areas of irregular shape which once existed on
+the lake plain were probably similar; these are within
+the present limits of Evanston and Chicago.&lt;/p&gt;
+&lt;h4 id=&#34;2e-ridge-and-swale-section&#34;&gt;2E. Ridge and Swale Section.&lt;/h4&gt;
+&lt;p&gt;Formed only within the past 6000 years, characterized
+by alternating parallel low ridges and swales. Ridges
+consist of relatively alkaline sandy soils and are
+covered by sand prairie and a sparse savanna of black
+oak and jack pines, wetlands characterized by pannes
+and open water.&lt;/p&gt;
+&lt;h4 id=&#34;2f-high-dune-section&#34;&gt;2F. High Dune Section.&lt;/h4&gt;
+&lt;p&gt;Narrow band along Lake Michigan; includes a unique
+high dune complex of communities.  Prevailing winds
+which build the dunes also bring higher than normal
+snowfall, moderate temperatures, and new sand.
+Regularly timbered with black oak and white pine
+savanna, becoming more regularly forested northward.&lt;/p&gt;
+&lt;h3 id=&#34;grand-prairie-natural-division&#34;&gt;Grand Prairie Natural Division&lt;/h3&gt;
+&lt;p&gt;The grand prairie once covered much of east-central
+Illinois. The northeastern portion of this natural
+region enters the Chicago region.&lt;/p&gt;
+&lt;h4 id=&#34;3a-grand-prairie-section&#34;&gt;3A. Grand Prairie Section.&lt;/h4&gt;
+&lt;p&gt;Mostly end and ground moraines; level to gently
+rolling. Characterized by taligrass prairie, with
+timbered communities limited to the margins of rivers
+and well-drained morainic ridges.&lt;/p&gt;
+&lt;h4 id=&#34;3b-kankakee-sand-section&#34;&gt;3B. Kankakee Sand Section.&lt;/h4&gt;
+&lt;p&gt;Aeolian and lacustrine sand deposits, mostly on the
+south side of the Kankakee River.  Sand savannas are
+frequent on dunes, interspersed with wet to dry sand
+prairie, sand flatwoods, marsh, and shrub swamps.&lt;/p&gt;
+&lt;h4 id=&#34;3c-kankakee-marsh-section&#34;&gt;3C. Kankakee Marsh Section.&lt;/h4&gt;
+&lt;p&gt;Vast wetlands which once bordered the Kankakee River in
+Indiana; marsh was probably the predominant community
+type, areas of true swamp and riparian savanna were
+present.&lt;/p&gt;
+&lt;h4 id=&#34;3d-bedrock-valley-section&#34;&gt;3D. Bedrock Valley Section.&lt;/h4&gt;
+&lt;p&gt;Dolomite exposed along the Des Plaines River by
+scouring from the outflow of glacial Lake Chicago. The
+Kankakee torrent cut down to underlying dolomite from
+Momence to the confluence with the Des Plaines. In the
+Illinois River Valley, shale and sandstone exposures
+are more prevalent. Unique communities include dolomite
+cliffs and prairie, typically interspersed with sedge
+meadow and marsh.&lt;/p&gt;
+&lt;h3 id=&#34;glacial-lakes-natural-division&#34;&gt;Glacial Lakes Natural Division&lt;/h3&gt;
+&lt;p&gt;Only one section of the Northern Lakes Division enters
+the eastern part of our region.&lt;/p&gt;
+&lt;h4 id=&#34;4a-glacial-lakes-section&#34;&gt;4A. Glacial Lakes Section.&lt;/h4&gt;
+&lt;p&gt;Exhibits complex and uneven ice-contact terrain
+deposited by a stagnating glacier.&lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Moraines, kames, and outwash plains are
+present, and kettle ponds, lakes, and swamps are
+numerous. Extensive forests, with savannas on steep
+slopes. Lakes, swamps, bogs, fens, and marshes are
+interspersed.  This section is expanded to include a
+gravel outwash fan, formerly mapped as part of 3B.&lt;/p&gt;
+&lt;h2 id=&#34;natural-plant-communitites&#34;&gt;Natural Plant Communitites&lt;/h2&gt;
+&lt;p&gt;The Chicago region, situated at the southern end of Lake Michigan, lies along the northeastern edge
+of the Tall Grass Prairie biome of the Midwest. The prevailing landscape at the time of settlement was
+open prairie. In some areas the prairie was flat, in others rolling.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Undoubtedly, the most remarkable feature of the state of Illinois is its extensive prairies, or non-wooded
+tracts. They begin on a comparatively small scale in the basin of lake Erie, and already form the bluff
+of the land about lake Michigan, the Upper Wabash, and the Illinois, &amp;hellip; or rather, the whole of this
+tract may be described as prairie intersected by patches of woodland, chiefly confined to the river
+valleys. The characteristic peculiarity of the prairies is the absence of timber; in other respects, they
+present all the varieties of soil and surface that are found elsewhere; some are of inexhaustible fertility,
+others of hopeless sterility; some spread out in vast boundless plains, others are undulating or rolling,
+while others are broken by hills. In general, they are covered with a rich growth of grass, forming
+excellent natural meadows, from which circumstance they take their name. &lt;em&gt;Prairie&lt;/em&gt; is a French word,
+signifying &lt;em&gt;meadow&lt;/em&gt;, and is applied to any description of surface that is destitute of timber and
+brushwood, and clothed with grass. Wet, dry, level, and undulating, are terms of description merely,
+and apply to prairies in the same sense as they do to forest lands. The prairies of Illinois may be classed
+under three general divisions;&amp;ndash;the healthy, or bushy; the alluvial, or wet; and the dry, or undulating.
+Those [that] have springs of water, &amp;hellip; are covered with bushes of hazel and furze, small sassafras
+shrubs interspersed with grape-vine, and in the season of flowers become beautifully decorated by a rich
+profusion of gay herbaceous plants.&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The prairies were regularly interspersed with poorly drained flatland, and the hills were commonly
+characterized by hanging fens and seepage slopes where the water-filled high grounds discharged a
+constant flow of clear water into wet meadows and marshes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Between the Plein and Theakaki, the country is flat, wet, and swampy, interspersed with prairies of an
+inferior quality of soil.&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Throughout the region were small to large tracts of savannas consisting of open-grown timbers,
+mostly of Bur and White Oak. Eastward, around the southern tip of Lake Michigan, the lake shore rose
+up in high wooded dunes covered mostly in White Pine.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The northern part of Illinois is beautifully diversified with groves of timber and rolling prairies. The
+shores of Michigan have a large supply of pine timber, and from this source the lumber for buildings
+at Chicago is obtained. &amp;hellip; The stage road, from Michigan City to Chicago, is, most of the way, on
+the sandy beach. Chicago &amp;hellip; is built on a level prairie, open in full view to the Lake, and the soil
+is enough mixed with sand, to prevent its being muddy.&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; there were along where Michigan Avenue now is walled with palatial mansions innumerable sand
+hills rising to a considerable height, overrun by the wild juniper loaded with its fragrant berries at the
+feet of which stretched away to the southeast the soft smooth beach of firm glistening sand &amp;hellip; along
+the beach north of the river where also the drifting sand has been piled by the shifting winds into a
+thousand hills stretching farther back from the waters than on the south, but here the juniper bush was
+replaced by a stunted growth of scraggy pines often hilled up by the drifting sand. &amp;hellip; Further back was
+a broad ramble among stately oaks sparsely scattered over the even plain among which a horseman could
+be seen at a great distance.&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Behind the dunes were vast wet prairies and marshes, which, eastward and northward, gave way
+to huge swamps of mixed hardwood forests. East of the windward shores, in the lee of the dunes and
+beyond, the timbers closed up in spots into tighter savannas and cool forests of Sugar Maple and Beech;
+but the timbers soon opened up again into scattered groves and prairies.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On the one hand stretched bur-oak plains, spread with a verdant carpet, variegated with dazzling wild
+flowers, without an obstacle to intercept the view for miles, save the sombre trunks of the low oaks,
+sparsely spreading their shadows across the lawn; on the other hand arose the undulations of the white
+oak openings, with picturesque outlines of swales and slopes gracefully sweeping and sharply defined
+in the distance. Then, there lay the majestic prairie, grand in expansive solitude, its fringe of timber,
+as seen in the distance, resembling a diligently trained and well-trimmed garden parterre.&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Southward and westward, the landscape was broken by large streams, with flat prairie bottoms and
+scattered stretches of tree-lined bluffs and backwaters.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The roads in this country are in a state of nature, But the ground is so smooth, and so entirely free
+from stones, that when the earth is dry you do not find better roads at the north. &amp;hellip; We took the
+Galena road, forded the river, a stream about four rods wide, and passed on, over a beautiful, open
+prairie country, here and there a log house, a small grove of timber, or small stream of water; the land
+high, dry and rich, and arrived at night at Naper’s settlement, on the Du Page River, thirty-seven miles
+from Chicago. &amp;hellip; We now left the Galena road and took a course more northerly to the Big and Little
+Woods, on [the] Fox River. In travelling twelve miles we came to the settiement, at the lower end of
+&amp;ldquo;Little Woods.&amp;rdquo; &amp;hellip; houses were built near the timber, and a beautiful rich prairie opened before them.
+&amp;hellip; [The] Fox River is a clear stream of water, about twenty rods wide, having a hard limestone
+bottom, from two to three feet deep, a brisk current, and generally fordable. On its banks, and on some
+other streams, we occasionally found ledges of limestone; but other than that, we found no rocks in the
+State. We here forded the river, and travelled all day on its western bank. We found less timber on
+this side of the river. On the east side, it is generally lined with timber to the depth of a mile or more;
+but the west side is scarcely skirted with it. It is somewhat singular and unaccountable, but we found
+it universally to be the fact, that the east side of all the streams had much the largest portion of timber.&lt;sup id=&#34;fnref1:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All of the streams in the northern parts of the state, which empty into the Wabash and Illinois, have
+their branches interwoven with many of the rivers running into lake Erie and Michigan. &amp;hellip; [T]hey not
+unfrequently issue from the same marsh, prairie, pond, or lake. The &amp;hellip; portage between the Chicago
+and the Kickapoo [Des Plaines] branch of the Illinois, [is] rendered important by the inundations, which
+at certain seasons cover the intermediate prairie, from which the two opposite streams flow. By this
+means nature herself opened a navigable communication between the Great Lakes and the Mississippi;
+and it is a fact, however difficult it may be of belief to many, that boats not unfrequently pass from
+Lake Michigan into the Illinois, and in some instances without being subjected to the necessity of having
+their lading taken out.&lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The country back of Chicago, for the distance of twelve miles, is a smooth, level prairie; producing an
+abundance of grass, but too low and wet for cultivation. The Chicago River is formed by two branches,
+which meet at the upper end of the village. The branches come from exactly opposite directions and
+after running some distance, parallel with the lake, and about a mile from it, here meet each other, and
+turning at right angles, flow in a regular straight channel, like a canal, into the lake. On each side of
+the town, between these branches and the lake shore, there is, for some distance, a good growth of
+wood and timber. On the lake shore, there are naked sand hills; and these are found all around the lake.
+&amp;hellip; If Lake Michigan were ten feet higher than its present level, its waters would flow into the Illinois
+river. The Oplanes, a branch of the Illinois, approaches within twelve miles of the Lake; and the land
+between is low and level. When the water is high, boats now pass from the lake to the river. At a time
+of high water, a steamboat attempted to pass from the Illinois to the lake. After running a day from
+Ottawa up the river, the water began to subside, the captain became alarmed, lest his boat might run
+aground and returned.&lt;sup id=&#34;fnref2:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The alluvial, or wet prairies, are generally on the margins of the great water courses, though sometimes
+they are at a distance from them; their soil is deep, black, friable, and of exhaustless fertility. &amp;hellip;
+From May to October, the prairies are covered with tall grass and flower-producing weeds. In June and
+July, they seem like an ocean of flowers of various hues, waving to the breezes which sweep over them.
+The numerous tall flowering shrubs and vegetables which grow luxuriantly over these plains, present
+a striking and delightful appearance.&lt;sup id=&#34;fnref1:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The landscape was replete with wet depressions, and, particularly northwestward in our region,
+surrounded by copses of larch, and then by shrubs and sedge meadows. Such landscapes were burned on
+a regular basis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The dry or undulating prairies are almost destitute of springs and of all vegetation, with the exception
+of weeds, flowers, and grass. The undulations are so slight that, to the eye, the surface has almost the
+appearance of an uninterrupted level, though the ravines made by freshets show that there is a
+considerable degree of inclination. In the prairie region there are numerous ponds, formed some from
+the surface water, the effect of rain, and the melting of the snows in the spring and others near the rivers
+from their overflowing.&lt;sup id=&#34;fnref2:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The prairies are all burnt over once a year, either in spring or fall, but generally in the fall; and the fire
+is undoubtedly, the true cause of the origin and continuance of them. In passing through the State I saw
+many of them on fire; and in the night, it was the grandest exhibition I ever saw. A mountain of flame,
+30 feet high, and of unknown length, moving onward, roaring like &amp;lsquo;many waters’&amp;ndash;in a gently, stately
+movement, and unbroken front&amp;ndash;then impelled by a gust of wind, suddenly breaks itself to pieces, here
+and there shooting ahead, whirling itself high in air&amp;ndash;all becomes noise, and strife, and uproar, and
+disorder. Well might Black Hawk look with indifference on the puny exhibition of fireworks in New
+York, when he had so often seen fireworks displayed, on such a gigantic scale, on his own native
+prairies.&lt;sup id=&#34;fnref3:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For most writers today, our landscape no longer evokes such eloquence. To the extent that the
+natural landscape is described at all, it is done so very clinically, mostly yielding codifications of plant
+communities. Such taxonomies are facilitated by the fact that our natural communities are fragmented into
+disparate pieces, with many of the intervening, and possibly confounding, communities gone forever.&lt;/p&gt;
+&lt;p&gt;Attempting to discriminate plant communities from among the myriad of plant associations is,
+nonetheless, a pursuit of botanists seeking to assign each plant a &amp;ldquo;proper&amp;rdquo; and definable place in the
+landscape. Part of the challenge is to give each community a name which consists of two or three words
+from the English dictionary. Commonly used words include nouns such as &lt;em&gt;forest&lt;/em&gt;, &lt;em&gt;swamp&lt;/em&gt;, &lt;em&gt;savanna&lt;/em&gt;,
+&lt;em&gt;flatwoods&lt;/em&gt;, &lt;em&gt;prairie&lt;/em&gt;, &lt;em&gt;meadow&lt;/em&gt;, &lt;em&gt;fen&lt;/em&gt;, and &lt;em&gt;bog&lt;/em&gt;, and adjectives such as &lt;em&gt;acidic&lt;/em&gt;, &lt;em&gt;alkaline&lt;/em&gt;, &lt;em&gt;wet&lt;/em&gt;, &lt;em&gt;mesic&lt;/em&gt;, &lt;em&gt;dry&lt;/em&gt;, &lt;em&gt;sandy&lt;/em&gt;,
+&lt;em&gt;mucky&lt;/em&gt;, and &lt;em&gt;loamy&lt;/em&gt;. The difficulty begins when the default assumption is made that if the words do not
+exist, the community cannot exist. In the taxon entries we have avoided forcing the native species into
+formally circumscribed plant communities, choosing instead to use common English prose and a list of
+immediate associates to describe the habitat. While our native plants are prevailingly faithful to some
+natural context, a disciplined attempt to place even a small percentage of the 1,638 elements into one or
+more formally designated categories, however permutated, quickly informs the botanist of the folly of this
+exercise.&lt;/p&gt;
+&lt;p&gt;Another factor complicating plant community classification is the fact that soon after the Native
+American culture was replaced by the European culture changes in the human relationship with the
+landscape caused fundamental changes in plant community composition. Cessation of fire, straightening
+of rivers, ditching, tiling, heavy grazing, and urban and suburban infrastructure have so modified the
+original structure and depauperized the land that our ability to piece together an understanding of natural
+order is profoundly compromised. About 90 percent of our native flora is restricted to the stable habitats
+provided by our original plant communities,&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; so an understanding and stewardship of such areas is
+critical if we are to carry forward into the future a possibility of association with living things other than
+ourselves, a few weeds, and cultivars.&lt;/p&gt;
+&lt;p&gt;Given all the problems associated with trying to envision and describe the natural plant
+communities, we nevertheless will propose a paradigm of plant communities. While these communities
+are certainly more artifacts of binary thinking than representative of nature, a brief synopsis can
+communicate to a botanist information on the nature of our flora and landscape. An intellectual
+miscarriage occurs only when it is pretended that such community constructs are or could be
+&amp;ldquo;scientifically&amp;rdquo; abstracted.&lt;/p&gt;
+&lt;p&gt;Generally, one can visualize about nine principal kinds of communities: aquatic, marsh, fen, bog,
+swamp, forest, savanna, dune, and prairie. With the exception of certain dune, bedrock, or coastal-plain
+disjunct systems, most of these general community groups are variously expressed in the different natural
+divisions and sections (see page 38). In choosing representative species, we have generally chosen a few
+very conservative species to which the user can refer in the annotated checklist for further associates and
+nuances of habit, distribution, and more detailed interpretations of the plant community. These
+representative species are not intended to represent associations for specific kinds of plant communities;
+rather, each species tends to represent a facet or variant of the general community type. The word
+&amp;ldquo;characteristic,&amp;rdquo; when used in connection with species listed under the community descriptions, does not
+necessarily mean that the species are common or even locally extant in the community; rather, it is meant
+to imply that the species are typical of or restricted to the community, and that habitat discussions under
+those species in the annotated checklist amplify the character of the community. Another type of natural
+community in the Chicago region is the ruderal flora, principally those species with &lt;em&gt;C&lt;/em&gt; values 0 or 1.&lt;/p&gt;
+&lt;h3 id=&#34;aquatic&#34;&gt;Aquatic&lt;/h3&gt;
+&lt;p&gt;Aquatic plant communities were occasional throughout the region but most abundant in our eastern
+and northwestern sectors. They formed in the landscape in potholes and in lacustrine plains where there
+was no discharge. Since our region evaporates nearly or quite as much water as falls, aquatic communities
+are sustained by waters from a surrounding watershed in excess of that provided by rain over their
+surfaces. Generally, these excess waters filter down through vegetated ground into the underlying soil
+until they reach impervious material, and exit by way of springs, rills, or ground water. Along our major
+streams, aquatic plant communities developed in alluvial sloughs and ponds derived from surface melt or
+runoff waters.&lt;/p&gt;
+&lt;p&gt;The more minerotrophic or ground-water communities are characterized by plants such as &lt;em&gt;Brasenia
+schreberi&lt;/em&gt;, &lt;em&gt;Hippuris vulgaris&lt;/em&gt;, &lt;em&gt;Megalodonta beckii&lt;/em&gt;, &lt;em&gt;Myriophyllum verticillatum pectinatum&lt;/em&gt;, &lt;em&gt;Potamogeton
+amplifolius&lt;/em&gt;, &lt;em&gt;Potamogeton richardsonii&lt;/em&gt;, &lt;em&gt;Potamogeton strictifolius&lt;/em&gt;, &lt;em&gt;Utricularia vulgaris&lt;/em&gt;, and &lt;em&gt;Zannichellia
+palustris&lt;/em&gt;. In softer waters one is more likely to encounter plants such as &lt;em&gt;Nuphar advena&lt;/em&gt;, &lt;em&gt;Nuphar
+variegatum&lt;/em&gt;, &lt;em&gt;Nymphaea tuberosa&lt;/em&gt;, &lt;em&gt;Utricularia geminiscapa&lt;/em&gt;, and &lt;em&gt;Utricularia purpurea&lt;/em&gt;. Alluvial or surface
+water communities are characterized by members of the &lt;em&gt;Lemnaceae&lt;/em&gt;, &lt;em&gt;Ceratophyllum demersum&lt;/em&gt;,
+&lt;em&gt;Potamogeton foliosus&lt;/em&gt;, &lt;em&gt;Potamogeton pectinatus&lt;/em&gt;, &lt;em&gt;Potamogeton illinoensis&lt;/em&gt;, and &lt;em&gt;Potamogeton natans&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;marsh&#34;&gt;Marsh&lt;/h3&gt;
+&lt;p&gt;Marsh plant communities generally occur along the transition between aquatic communities and
+drier communities, or in large flats which are regularly inundated by shallow surface waters for much of the growing season. Marshes are best developed with us in the Lake Plain, in the lacustrine flats of our
+northwestern and eastern sectors, and along the lower reaches of the Des Plaines and Kankakee river drainages. These communities are best characterized by emergent species such as &lt;em&gt;Carex aquatilis&lt;/em&gt;, &lt;em&gt;Carex
+lacustris&lt;/em&gt;, &lt;em&gt;Hydrocotyle umbellata&lt;/em&gt;, &lt;em&gt;Hypericum boreale&lt;/em&gt;, &lt;em&gt;Peltandra virginica&lt;/em&gt;, &lt;em&gt;Pontederia cordata&lt;/em&gt;, &lt;em&gt;Sagittaria
+graminea&lt;/em&gt;, &lt;em&gt;Sagittaria latifolia&lt;/em&gt;, &lt;em&gt;Sagittaria rigida&lt;/em&gt;, &lt;em&gt;Scirpus subterminalis&lt;/em&gt;, &lt;em&gt;Scirpus validus creber&lt;/em&gt;, &lt;em&gt;Sparganium
+americanum&lt;/em&gt;, &lt;em&gt;Sparganium chlorocarpum&lt;/em&gt;, &lt;em&gt;Sparganium eurycarpum&lt;/em&gt;, and &lt;em&gt;Zizania aquatica&lt;/em&gt;. On the shores
+of ponds, lakes, and swales, often growing without heavy competition, conservative species include
+&lt;em&gt;Cyperus diandrus&lt;/em&gt;, &lt;em&gt;Eleocharis geniculata&lt;/em&gt;, &lt;em&gt;Juncus pelocarpus&lt;/em&gt;, &lt;em&gt;Peplis diandra&lt;/em&gt;, &lt;em&gt;Rotala ramosior&lt;/em&gt;, &lt;em&gt;Scirpus
+purshianus&lt;/em&gt;, &lt;em&gt;Scirpus torreyi&lt;/em&gt;, &lt;em&gt;Sparganium chlorocarpum&lt;/em&gt;, &lt;em&gt;Utricularia gibba&lt;/em&gt;, &lt;em&gt;Veronica comosa&lt;/em&gt;, and &lt;em&gt;Veronica
+scutellata&lt;/em&gt;. A related community, with affinities to fens and wet prairies, is the sedge meadow. It
+develops in large, shallow, lacustrine flats, and is dominated by hummocks of sedges, particularly &lt;em&gt;Carex
+stricta&lt;/em&gt;, and characterized by conservative species such as &lt;em&gt;Aster puniceus&lt;/em&gt;, &lt;em&gt;Carex buxbaumii&lt;/em&gt;, &lt;em&gt;Carex
+atriculata&lt;/em&gt;, &lt;em&gt;Dulichium arundinaceum&lt;/em&gt;, &lt;em&gt;Lysimachia terrestris&lt;/em&gt;, &lt;em&gt;Lysimachia thyrsiflora&lt;/em&gt;, &lt;em&gt;Rumex orbiculatus&lt;/em&gt;,
+&lt;em&gt;Sium suave&lt;/em&gt;, and &lt;em&gt;Utricularia vulgaris&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;fen&#34;&gt;Fen&lt;/h3&gt;
+&lt;p&gt;Fens are wetland communities which occur in areas where the glacial formations are such that
+carbonate-rich ground water discharges at a constant rate along the slopes of kames, eskers, moraines,
+river bluffs, or even dunes, or in flats associated with these formations, provided the material through
+which the waters traveled is rich in calcium or magnesium carbonates. Depending upon the circumstances
+fens can occur where marl is at or near the surface or where peats are constantly bathed in minerotrophic
+ground water; such areas can be wooded or open.&lt;/p&gt;
+&lt;p&gt;Marly fens are commonly on open prairie slopes and are characterized by &lt;em&gt;Carex sterilis&lt;/em&gt;, &lt;em&gt;Eleocharis
+rostellata&lt;/em&gt;, &lt;em&gt;Rhynchospora capillacea&lt;/em&gt;, &lt;em&gt;Scirpus cespitosus callosus&lt;/em&gt;, &lt;em&gt;Tofieldia glutinosa&lt;/em&gt;, and &lt;em&gt;Triglochin
+palustris&lt;/em&gt;. In the constantly flowing rills discharging in these fens grow &lt;em&gt;Agrostis alba palustris&lt;/em&gt;, &lt;em&gt;Armoracia
+aquatica&lt;/em&gt;, &lt;em&gt;Berula erecta&lt;/em&gt;, and &lt;em&gt;Mimulus glabratus fremontii&lt;/em&gt;. Related to the hillside fens are the wooded
+seeps which occur sporadically on steep bluffs. Characteristic species include &lt;em&gt;Aster prenanthoides&lt;/em&gt;,
+&lt;em&gt;Cimicifuga racemosa&lt;/em&gt;, &lt;em&gt;Fraxinus nigra&lt;/em&gt;, &lt;em&gt;Polymnia canadensis&lt;/em&gt;, &lt;em&gt;Rhamnus alnifolia&lt;/em&gt;, &lt;em&gt;Rhamnus lanceolata&lt;/em&gt;,
+&lt;em&gt;Thuja occidentalis&lt;/em&gt;, &lt;em&gt;Ulmus thomasii&lt;/em&gt;, and &lt;em&gt;Veronica americana&lt;/em&gt;. As fens become peatier characteristic
+species include &lt;em&gt;Betula pumila&lt;/em&gt;, &lt;em&gt;Campanula uliginosa&lt;/em&gt;, &lt;em&gt;Conioselinum chinense&lt;/em&gt;, &lt;em&gt;Eriophorum angustifolium&lt;/em&gt;,
+&lt;em&gt;Filipendula rubra&lt;/em&gt;, &lt;em&gt;Galium asprellum&lt;/em&gt;, &lt;em&gt;Habenaria lacera&lt;/em&gt;, &lt;em&gt;Phlox maculata&lt;/em&gt;, &lt;em&gt;Pogonia ophioglossoides&lt;/em&gt;,
+&lt;em&gt;Patentilla fruticosa&lt;/em&gt;, &lt;em&gt;Salix candida&lt;/em&gt;, &lt;em&gt;Saxifraga pensylvanica&lt;/em&gt;, &lt;em&gt;Solidago uliginosa&lt;/em&gt;, and &lt;em&gt;Valeriana uliginosa&lt;/em&gt;.
+The flat, black-soil prairie fens are characterized by &lt;em&gt;Aster borealis&lt;/em&gt;, &lt;em&gt;Carex interior&lt;/em&gt;, &lt;em&gt;Carex prairea&lt;/em&gt;, &lt;em&gt;Cirsium
+muticum&lt;/em&gt;, &lt;em&gt;Cypripedium candidum&lt;/em&gt;, &lt;em&gt;Habenaria hyperborea huronensis&lt;/em&gt;, &lt;em&gt;Lobelia kalmii&lt;/em&gt;, &lt;em&gt;Muhlenbergia
+glamerata&lt;/em&gt;, &lt;em&gt;Parnassia glauca&lt;/em&gt;, &lt;em&gt;Satureja arkansana&lt;/em&gt;, &lt;em&gt;Scleria verticillata&lt;/em&gt;, &lt;em&gt;Selaginella apoda&lt;/em&gt;, &lt;em&gt;and Valeriana ciliata&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;bog&#34;&gt;Bog&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Bog&lt;/em&gt;, like most of the other terms used here to describe plant communities, is not a scientific word
+in the sense that its use always signifies a uniform, unique concept which is standardly perceived. Any
+place, for example, where there is a quagmire or wet, mucky, hummocky ground is likely to be termed
+a &amp;ldquo;bog;&amp;rdquo; hence, the expression &amp;ldquo;bogged down.&amp;rdquo; The contemporary ecologist tends to restrict the term
+&amp;ldquo;bog&amp;rdquo; to a hydric/edaphic vegetational scenario which is typified by acidic, usually organic substrates, and
+a characteristic floristic composition. Many of our peatlands are influenced significantly by waters rich
+in carbonates and can be called prairie fens. But as the cation exchange capacity damps off bog-like
+conditions can begin to develop. Many of the bogs in our northwestern sector can be called alkaline bogs
+for that reason.&lt;/p&gt;
+&lt;p&gt;Commonly the peatland floats on a minerotrophic head of water, with the deeper roots thus exposed
+to calcareous or circumneutral conditions, and the shallower roots are imbedded in the upper sphagnum
+mat, probably in a more acidic environment. Characteristic species in these minerotrophic or alkaline bogs
+include &lt;em&gt;Carex brunnescens&lt;/em&gt;, &lt;em&gt;Carex diandra&lt;/em&gt;, &lt;em&gt;Carex lasiocarpa americana&lt;/em&gt;, &lt;em&gt;Carex leptalea&lt;/em&gt;, &lt;em&gt;Geum rivale&lt;/em&gt;,
+&lt;em&gt;Hypericum virginicum fraseri&lt;/em&gt;, &lt;em&gt;Larix laricina&lt;/em&gt;, &lt;em&gt;Menyanthes trifoliata minor&lt;/em&gt;, &lt;em&gt;Potentilla palustris&lt;/em&gt;, &lt;em&gt;Rhus
+vernix&lt;/em&gt;, &lt;em&gt;Rhynchospora alba&lt;/em&gt;, &lt;em&gt;Ribes hirtellum&lt;/em&gt;, &lt;em&gt;Salix pedicellaris hypoglauca&lt;/em&gt;, &lt;em&gt;Salix serissima&lt;/em&gt;, &lt;em&gt;Sarracenia
+purpurea&lt;/em&gt;, &lt;em&gt;Utricularia intermedia&lt;/em&gt;, and &lt;em&gt;Utricularia minor&lt;/em&gt;. In large basins or in areas where the influence
+of minerotrophic waters is insignificant, characteristically acid bogs can develop, inhabited by plants such
+as &lt;em&gt;Andromeda glaucophylla&lt;/em&gt;, &lt;em&gt;Arethusa bulbosa&lt;/em&gt;, &lt;em&gt;Carex atlantica capillacea&lt;/em&gt;, &lt;em&gt;Carex canescens&lt;/em&gt;, &lt;em&gt;Carex
+chordorrhiza&lt;/em&gt;, &lt;em&gt;Carex disperma&lt;/em&gt;, &lt;em&gt;Carex echinata&lt;/em&gt;, &lt;em&gt;Carex limosa&lt;/em&gt;, &lt;em&gt;Carex oligosperma&lt;/em&gt;, &lt;em&gt;Carex pauciflora&lt;/em&gt;, &lt;em&gt;Carex
+tenuiflora&lt;/em&gt;, &lt;em&gt;Carex trisperma&lt;/em&gt;, &lt;em&gt;Chamaedaphne calyculata angustifolia&lt;/em&gt;, &lt;em&gt;Cypripedium acaule&lt;/em&gt;, &lt;em&gt;Drosera
+intermedia&lt;/em&gt;, &lt;em&gt;Drosera rotundifolia&lt;/em&gt;, &lt;em&gt;Eriophorum gracile&lt;/em&gt;, &lt;em&gt;Eriophorum spissum&lt;/em&gt;, &lt;em&gt;Eriophorum virginicum&lt;/em&gt;,
+&lt;em&gt;Habenaria blephariglottis&lt;/em&gt;, &lt;em&gt;Habenaria ciliaris&lt;/em&gt;, &lt;em&gt;Hypericum virginicum&lt;/em&gt;, &lt;em&gt;Salix sericea&lt;/em&gt;, &lt;em&gt;Scheuchzeria palustris
+americana&lt;/em&gt;, &lt;em&gt;Utricularia geminiscapa&lt;/em&gt;, &lt;em&gt;Vaccinium macrocarpon&lt;/em&gt;, &lt;em&gt;Vaccinium oxycoccos&lt;/em&gt;, &lt;em&gt;Viola pallens&lt;/em&gt;, and
+&lt;em&gt;Woodwardia virginica&lt;/em&gt;. Related to the acid bog, often in sand flats or basins, are floating sedge mats that
+rise and fall with the water table. Such mats are characterized by &lt;em&gt;Eleocharis robbinsii&lt;/em&gt;, &lt;em&gt;Eriocaulon
+septangulare&lt;/em&gt;, &lt;em&gt;Fuirena pumila&lt;/em&gt;, &lt;em&gt;Hypericum canadense&lt;/em&gt;, &lt;em&gt;Rhexia virginica&lt;/em&gt;, and &lt;em&gt;Scirpus smithii&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;swamp&#34;&gt;Swamp&lt;/h3&gt;
+&lt;p&gt;Swamps are wetlands characterized by trees growing in large flats or basins that are poorly drained,
+with most of the water leaving through evapotranspiration. They can occur in the backwaters of large,
+slow moving rivers, such as the Kankakee, or in wet sandy flats in the Kankakee Sand Section south of
+the Valparaiso Moraine. They also occur on the moraine in wet depressions. North of the Valparaiso
+Moraine, in the Lake Plain, they are best developed in the large flats behind the high dunes.&lt;/p&gt;
+&lt;p&gt;Along the Kankakee River they occur in bottomlands, with characteristic species including &lt;em&gt;Carex
+typhina&lt;/em&gt;, &lt;em&gt;Cephalanthus occidentalis&lt;/em&gt;, &lt;em&gt;Fraxinus pennsylvanica subintegerrima&lt;/em&gt;, &lt;em&gt;Fraxinus tomentosa&lt;/em&gt;, &lt;em&gt;Mikania
+scandens&lt;/em&gt;, &lt;em&gt;Populus heterophylla&lt;/em&gt;, and &lt;em&gt;Styrax americana&lt;/em&gt;. In sandy, poorly drained flats with a high water
+table, a fire-dependent savanna-like swamp dominated by &lt;em&gt;Quercus palustris&lt;/em&gt; is characterized by &lt;em&gt;Bartonia
+virginica&lt;/em&gt;, &lt;em&gt;Betula nigra&lt;/em&gt;, &lt;em&gt;Carex haydenii&lt;/em&gt;, &lt;em&gt;Carex longii&lt;/em&gt;, &lt;em&gt;Carex straminea&lt;/em&gt;, &lt;em&gt;Eleocharis tenuis verrucosa&lt;/em&gt;, and
+&lt;em&gt;Rubus hispidus&lt;/em&gt;. On the moraines, especially the Valparaiso and Lake Border moraines, there are shallow
+depressions characterized by &lt;em&gt;Quercus bicolor&lt;/em&gt;; other characteristic species include &lt;em&gt;Carex crus-corvi&lt;/em&gt;, &lt;em&gt;Carex
+lupuliformis&lt;/em&gt;, &lt;em&gt;Carex muskingumensis&lt;/em&gt;, &lt;em&gt;Carex squarrosa&lt;/em&gt;, &lt;em&gt;Carex tuckermanii&lt;/em&gt;, &lt;em&gt;Carex vesicaria monile&lt;/em&gt;,
+&lt;em&gt;Cephalanthus occidentalis&lt;/em&gt;, &lt;em&gt;Fraxinus nigra&lt;/em&gt;, &lt;em&gt;Onoclea sensibilis&lt;/em&gt;, and &lt;em&gt;Lycopus rubellus&lt;/em&gt;. There is a phase
+of this swamp on the low terraces of the Kankakee River, characterized by &lt;em&gt;Carex grayii&lt;/em&gt;, &lt;em&gt;Carex lupulina&lt;/em&gt;,
+&lt;em&gt;Carex muskingumensis&lt;/em&gt;, &lt;em&gt;Leersia lenticularis&lt;/em&gt;, &lt;em&gt;Lysimachia hybrida&lt;/em&gt;, and &lt;em&gt;Quercus bicolor&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In the broad low flats behind the high dunesof Lake Michigan lies one of the richest and most
+complicated forested systems in our region. It is characterized by a complex hydrology and is interspersed
+by gentle rises, shallow depressions, and hummocks, and consists of an inseparable mixture of wooded
+fen, bog, and mesic forest. It supports a wide array of species, including trees such as &lt;em&gt;Acer saccharum&lt;/em&gt;,
+&lt;em&gt;Betula alleghaniensis&lt;/em&gt;, &lt;em&gt;Betula papyrifera&lt;/em&gt;, &lt;em&gt;Fagus grandifolia&lt;/em&gt;, &lt;em&gt;Quercus bicolor&lt;/em&gt;, &lt;em&gt;Quercus palustris&lt;/em&gt;, &lt;em&gt;Quercus
+rubra&lt;/em&gt;, and &lt;em&gt;Tilia americana&lt;/em&gt;; other characteristic species include &lt;em&gt;Carex bromoides&lt;/em&gt;, &lt;em&gt;Carex crinita&lt;/em&gt;, &lt;em&gt;Carex
+debilis rudgei&lt;/em&gt;, &lt;em&gt;Carex folliculata&lt;/em&gt;, &lt;em&gt;Carex intumescens&lt;/em&gt;, &lt;em&gt;Carex seorsa&lt;/em&gt;, &lt;em&gt;Chrysosplenium americanum&lt;/em&gt;, &lt;em&gt;Coptis
+trifolia&lt;/em&gt;, &lt;em&gt;Cypripedium calceolus pubescens&lt;/em&gt;, &lt;em&gt;Dryopteris cristata&lt;/em&gt;, &lt;em&gt;Habenaria clavellata&lt;/em&gt;, &lt;em&gt;Habenaria flava
+herbiola&lt;/em&gt;, &lt;em&gt;Habenaria psycodes&lt;/em&gt;, &lt;em&gt;Lycopodium lucidulum&lt;/em&gt;, &lt;em&gt;Lycopodium obscurum&lt;/em&gt;, &lt;em&gt;Medeola virginiana&lt;/em&gt;, &lt;em&gt;Milium
+effusum&lt;/em&gt;, &lt;em&gt;Nemopanthus mucronata&lt;/em&gt;, &lt;em&gt;Poa paludigena&lt;/em&gt;, &lt;em&gt;Rubus pubescens&lt;/em&gt;, &lt;em&gt;Trientalis borealis&lt;/em&gt;, and &lt;em&gt;Viola
+incognita&lt;/em&gt;. Such swamps, while they retain their essential characteristics, change in specific species
+composition as one travels northeastward from Dune Acres in Porter County to Benton Harbor in Berrien County.&lt;/p&gt;
+&lt;h3 id=&#34;forest&#34;&gt;Forest&lt;/h3&gt;
+&lt;p&gt;Forests occur in our eastern sector on rises which are relatively well drained and physiographically
+located such that exposure to fire is rare. Such forests are dominated by &lt;em&gt;Acer saccharum&lt;/em&gt; and &lt;em&gt;Fagus
+grandifolia&lt;/em&gt;. The ground cover vegetation is not physiognomically capable of sustaining a line of fire.
+Characteristic species include &lt;em&gt;Athyrium pycnocarpon&lt;/em&gt;, &lt;em&gt;Athyrium thelypterioides&lt;/em&gt;, &lt;em&gt;Carex amphibola&lt;/em&gt;, &lt;em&gt;Carex
+careyana&lt;/em&gt;, &lt;em&gt;Carex deweyana&lt;/em&gt;, &lt;em&gt;Carex digitalis&lt;/em&gt;, &lt;em&gt;Carex laxiflora&lt;/em&gt;, &lt;em&gt;Carex leptonervia&lt;/em&gt;, &lt;em&gt;Carex plantaginea&lt;/em&gt;, &lt;em&gt;Carex
+prasina&lt;/em&gt;, &lt;em&gt;Corallorhiza maculata&lt;/em&gt;, &lt;em&gt;Cornus rugosa&lt;/em&gt;, &lt;em&gt;Dentaria diphylla&lt;/em&gt;, &lt;em&gt;Dicentra canadensis&lt;/em&gt;, &lt;em&gt;Dirca palustris&lt;/em&gt;,
+&lt;em&gt;Dryopteris hexagonoptera&lt;/em&gt;, &lt;em&gt;Dryopteris marginalis&lt;/em&gt;, &lt;em&gt;Dryopteris noveboracensis&lt;/em&gt;, &lt;em&gt;Galium circaezans&lt;/em&gt;, &lt;em&gt;Galium
+lanceolatum&lt;/em&gt;, &lt;em&gt;Hieracium paniculatum&lt;/em&gt;, &lt;em&gt;Hydrophyllum canadense&lt;/em&gt;, &lt;em&gt;Lonicera canadensis&lt;/em&gt;, &lt;em&gt;Maianthemum
+canadense&lt;/em&gt;, &lt;em&gt;Mitella diphylla&lt;/em&gt;, &lt;em&gt;Panax trifolius&lt;/em&gt;, &lt;em&gt;Panicum commutatum ashei&lt;/em&gt;, &lt;em&gt;Panicum dichotomum&lt;/em&gt;, &lt;em&gt;Poa
+alsodes&lt;/em&gt;, &lt;em&gt;Pyrola asarifolia purpurea&lt;/em&gt;, &lt;em&gt;Sambucus pubens&lt;/em&gt;, &lt;em&gt;Tipularia discolor&lt;/em&gt;, and &lt;em&gt;Viola rostrata&lt;/em&gt;. Another
+type of forest is along the high dunes, northward in Berrien County, characterized by &lt;em&gt;Betula alleghaniensis&lt;/em&gt;, &lt;em&gt;Cornus rugosa&lt;/em&gt;, &lt;em&gt;Dirca palustris&lt;/em&gt;, &lt;em&gt;Fagus grandifolia&lt;/em&gt;, &lt;em&gt;Taxus canadensis&lt;/em&gt;, and &lt;em&gt;Tsuga canadensis&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;A relative of our eastern forest occurs on the western bluff of Lake Michigan in the deep morainic
+dissections or ravines. Here also grow &lt;em&gt;Acer saccharum&lt;/em&gt; and &lt;em&gt;Fagus grandifolia&lt;/em&gt;, but the ground cover
+vegetation is such that sporadic ground fires could creep down the slopes from the savannas on the higher,
+more level ground, and nose slopes. Characteristic species include &lt;em&gt;Betula papyrifera&lt;/em&gt;, &lt;em&gt;Carex pedunculata&lt;/em&gt;,
+&lt;em&gt;Dryopteris filix-mas&lt;/em&gt;, &lt;em&gt;Matteuccia struthiopteris&lt;/em&gt;, &lt;em&gt;Poa languida&lt;/em&gt;, &lt;em&gt;Populus balsamifera&lt;/em&gt;, &lt;em&gt;Prunus nigra&lt;/em&gt;, &lt;em&gt;Pyrola
+elliptica&lt;/em&gt;, and &lt;em&gt;Shepherdia canadensis&lt;/em&gt;. &lt;em&gt;Pinus resinosa&lt;/em&gt; may also have grown here.&lt;/p&gt;
+&lt;h3 id=&#34;savanna&#34;&gt;Savanna&lt;/h3&gt;
+&lt;p&gt;Savannas, as interpreted here, include those portions of our wooded landscape in which structure
+was, to one degree or another, affected by fires set by Native Americans in the thousands of years before
+European settlement. Generally, these communities were intercalated among the prairies and developed
+a ground-cover vegetation which would carry at least occasional fires in the autumn, when their
+surrounding prairies were wont to burn. Such savannas ranged in character from completely closed and
+forest-like, to very open with only scattered trees.&lt;/p&gt;
+&lt;p&gt;Most related to the forest communities are mesic savannas. These are closed-canopy woodlands,
+dominated by &lt;em&gt;Acer nigrum&lt;/em&gt; and &lt;em&gt;Quercus rubra&lt;/em&gt;, and with a graminoid ground cover capable of sustaining
+small but occasional ground fires. Such savannas are best developed on north- and east-facing slopes in
+dissected or topographically complex portions of the moraines. Characteristic species include &lt;em&gt;Actaea
+rubra&lt;/em&gt;, &lt;em&gt;Adiantum pedatum&lt;/em&gt;, &lt;em&gt;Agrimonia rostellata&lt;/em&gt;, &lt;em&gt;Arabis canadensis&lt;/em&gt;, &lt;em&gt;Aralia racemosa&lt;/em&gt;, &lt;em&gt;Aristolochia
+serpentaria&lt;/em&gt;, &lt;em&gt;Aster furcatus&lt;/em&gt;, &lt;em&gt;Aureolaria virginica&lt;/em&gt;, &lt;em&gt;Brachyelytrum erectum&lt;/em&gt;, &lt;em&gt;Carex gracillima&lt;/em&gt;, &lt;em&gt;Carex
+hitchcockiana&lt;/em&gt;, &lt;em&gt;Carex laxiculmis&lt;/em&gt;, &lt;em&gt;Carex shortiana&lt;/em&gt;, &lt;em&gt;Carex woodii&lt;/em&gt;, &lt;em&gt;Cercis canadensis&lt;/em&gt;, &lt;em&gt;Collinsia verna&lt;/em&gt;,
+&lt;em&gt;Conopholis americana&lt;/em&gt;, &lt;em&gt;Diarrhena americana&lt;/em&gt;, &lt;em&gt;Dryopteris goldiana&lt;/em&gt;, &lt;em&gt;Habenaria viridis bracteata&lt;/em&gt;,
+&lt;em&gt;Jeffersonia diphylla&lt;/em&gt;, &lt;em&gt;Linum virginianum&lt;/em&gt;, &lt;em&gt;Lonicera dioica&lt;/em&gt;, &lt;em&gt;Morus rubra&lt;/em&gt;, &lt;em&gt;Muhlenbergia sylvatica&lt;/em&gt;, &lt;em&gt;Orchis
+spectabilis&lt;/em&gt;, &lt;em&gt;Poa sylvestris&lt;/em&gt;, &lt;em&gt;Sanicula trifoliata&lt;/em&gt;, &lt;em&gt;Scutellaria ovata versicolor&lt;/em&gt;, and &lt;em&gt;Trillium grandifiorum&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;On the more undulating, well drained, but fertile morainic ridges and knolls are the dry-mesic
+savannas dominated by &lt;em&gt;Quercus alba&lt;/em&gt; and &lt;em&gt;Quercus macrocarpa&lt;/em&gt;. It is probable that portions of such
+woodlands burned fairly regularly, and carried low but steady lines of flame. Characteristic species
+include &lt;em&gt;Agalinis gattingeri&lt;/em&gt;, &lt;em&gt;Arenaria lateriflora&lt;/em&gt;, &lt;em&gt;Aster schreberi&lt;/em&gt;, &lt;em&gt;Bromus purgans&lt;/em&gt;, &lt;em&gt;Camassia scilloides&lt;/em&gt;,
+&lt;em&gt;Carex hirtifolia&lt;/em&gt;, &lt;em&gt;Carex oligocarpa&lt;/em&gt;, &lt;em&gt;Carex pensylvanica&lt;/em&gt;, &lt;em&gt;Carya ovata&lt;/em&gt;, &lt;em&gt;Corylus americana&lt;/em&gt;, &lt;em&gt;Dodecatheon
+meadia&lt;/em&gt;, &lt;em&gt;Erigeron pulchellus&lt;/em&gt;, &lt;em&gt;Eupatorium sessilifolium brittonianum&lt;/em&gt;, &lt;em&gt;Helianthemum bicknellii&lt;/em&gt;, &lt;em&gt;Heuchera
+richardsonii&lt;/em&gt;, &lt;em&gt;Hystrix patula&lt;/em&gt;, &lt;em&gt;Krigia biflora&lt;/em&gt;, &lt;em&gt;Lathyrus ochroleucus&lt;/em&gt;, &lt;em&gt;Lechea intermedia&lt;/em&gt;, &lt;em&gt;Monotropa uniflora&lt;/em&gt;,
+&lt;em&gt;Orobanche uniflora&lt;/em&gt;, &lt;em&gt;Silene virginica&lt;/em&gt;, &lt;em&gt;Swertia caroliniensis&lt;/em&gt;, &lt;em&gt;Taenidia integerrima&lt;/em&gt;, &lt;em&gt;Trillium sessile&lt;/em&gt;, and
+&lt;em&gt;Vici caroliniana&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;On the nearly level or gently undulating moraines are the open savannas of heavier soil
+characterized by open-grown trees of &lt;em&gt;Quercus macrocarpa&lt;/em&gt;. Such savannas have a well developed
+graminoid ground cover, and carry substantial fires on a regular basis. These savannas developed on low
+mounds within the mesic or wet prairies, or in transitional zones between the lower prairies and the dry
+prairies of kames and eskers. Little is known about the conservative flora of these savannas, but species
+which we associate with the Bur Oak include &lt;em&gt;Andropogon gerardii&lt;/em&gt;, &lt;em&gt;Carex pensylvanica&lt;/em&gt;, &lt;em&gt;Carya ovata&lt;/em&gt;,
+&lt;em&gt;Corylus americana&lt;/em&gt;, &lt;em&gt;Galium concinnum&lt;/em&gt;, &lt;em&gt;Helianthus hirsutus&lt;/em&gt;, &lt;em&gt;Hypoxis hirsuta&lt;/em&gt;, &lt;em&gt;Lilium michiganense&lt;/em&gt;, &lt;em&gt;Rosa
+setigera&lt;/em&gt;, &lt;em&gt;Solidago juncea&lt;/em&gt;, &lt;em&gt;Thalictrum dasycarpum&lt;/em&gt;, &lt;em&gt;Trillium recurvatum&lt;/em&gt;, and &lt;em&gt;Veronicastrum virginicum&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In sandy soils, especially in our eastern sector, along well drained ridges and old dunes, the
+savannas are dominated by Quercus velutina. Such savannas are closely associated with sand prairies, and
+the two communities have many species in common. The sand savannas burn regularly and are
+characterized by species such as &lt;em&gt;Aralia hispida&lt;/em&gt;, &lt;em&gt;Aster linariifolius&lt;/em&gt;, &lt;em&gt;Baptisia tinctoria crebra&lt;/em&gt;, &lt;em&gt;Campanula
+rotundifolia&lt;/em&gt;, &lt;em&gt;Carex siccata&lt;/em&gt;, &lt;em&gt;Chimaphila umbellata cisatlantica&lt;/em&gt;, &lt;em&gt;Corydalis sempervirens&lt;/em&gt;, &lt;em&gt;Galium pilosum&lt;/em&gt;,
+&lt;em&gt;Liatris aspera&lt;/em&gt;, &lt;em&gt;Lysimachia quadrifolia&lt;/em&gt;, &lt;em&gt;Monotropa hypopithys&lt;/em&gt;, &lt;em&gt;Pteridium aquilinum latiusculum&lt;/em&gt;, &lt;em&gt;Rubus
+enslenii&lt;/em&gt;, &lt;em&gt;Spiranthes lacera&lt;/em&gt;, and &lt;em&gt;Vaccinium angustifolium&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;It would seem that there is a close association between the sand savannas and what once were pine
+savannas near the southern shore of Lake Michigan, where &lt;em&gt;Pinus strobus&lt;/em&gt; was plentiful along the dunes.
+There remain a few isolated stands where one can only imagine what species once characterized these pine
+savannas. It was probably in these pine savannas wherein resided such now rare plants as &lt;em&gt;Arctostaphylos
+uva-ursi coactilis&lt;/em&gt;, &lt;em&gt;Epigaea repens&lt;/em&gt;, &lt;em&gt;Habenaria hookeri&lt;/em&gt;, &lt;em&gt;Lactuca hirsuta&lt;/em&gt;, &lt;em&gt;Melampyrum lineare latifolium&lt;/em&gt;,
+&lt;em&gt;Oryzopsis pungens&lt;/em&gt;, and &lt;em&gt;Polygala paucifolia&lt;/em&gt;. Probably also included here are the associates of &lt;em&gt;Carex
+eburnea&lt;/em&gt;, &lt;em&gt;Celtis tenuifolia&lt;/em&gt;, &lt;em&gt;Chimaphila maculata&lt;/em&gt;, &lt;em&gt;Juniperus communis&lt;/em&gt;, &lt;em&gt;Oryzopsis asperifolia&lt;/em&gt;, and &lt;em&gt;Pyrola
+rotundifolia americana&lt;/em&gt;. Farther north, along the high dunes, the pine savannas give way to a wooded
+dune forest.&lt;/p&gt;
+&lt;h3 id=&#34;dune&#34;&gt;Dune&lt;/h3&gt;
+&lt;p&gt;On the open sand of foredunes of Lake Michigan is a special habitat characterized by species which
+grow locally only in the dunes near the lake. These include &lt;em&gt;Ammophila breviligulata&lt;/em&gt;, &lt;em&gt;Cakile edentula&lt;/em&gt;,
+&lt;em&gt;Cirsium pitcheri&lt;/em&gt;, &lt;em&gt;Euphorbia polygonifolia&lt;/em&gt;, &lt;em&gt;Lathyrus japonicus glaber&lt;/em&gt;, &lt;em&gt;Salix syrticola&lt;/em&gt;, and &lt;em&gt;Solidago
+racemosa gillmanii&lt;/em&gt;. Confined to the lower dunes along the western shore of Lake Michigan is &lt;em&gt;Juniperus
+horizontalis&lt;/em&gt;. In the more active sands in the dunes of our eastern sector grow &lt;em&gt;Hudsonia tomentosa&lt;/em&gt;,
+&lt;em&gt;Polygonella articulata&lt;/em&gt;, and &lt;em&gt;Selaginella rupestris&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In wet, interdunal flats (pannes), where sand has been blown out down to the water table, is a plant
+community generally characterized by species such as &lt;em&gt;Carex aurea&lt;/em&gt;, &lt;em&gt;Carex garberi&lt;/em&gt;, &lt;em&gt;Gentiana crinita&lt;/em&gt;,
+&lt;em&gt;Hypericum kalmianum&lt;/em&gt;, &lt;em&gt;Sabatia angularis&lt;/em&gt;, &lt;em&gt;Triglochin maritima&lt;/em&gt;, and &lt;em&gt;Utricularia cornuta&lt;/em&gt;. The pannes near
+Ogden Dunes, Porter County, are characteristically surrounded by small forests of Pinus banksiana.
+Related to both the pannes and the prairie fens is a kind of wet alkaline prairie, characterized by plants
+such as &lt;em&gt;Agalinis skinneriana&lt;/em&gt;, &lt;em&gt;Carex conoidea&lt;/em&gt;, &lt;em&gt;Carex crawei&lt;/em&gt;, &lt;em&gt;Carex flava&lt;/em&gt;, &lt;em&gt;Carex viridula&lt;/em&gt;, &lt;em&gt;Castilleja
+coccinea&lt;/em&gt;, &lt;em&gt;Cladium mariscoides&lt;/em&gt;, &lt;em&gt;Cypripedium calceolus parviflorum&lt;/em&gt;, &lt;em&gt;Eleocharis compressa&lt;/em&gt;, &lt;em&gt;Panicum
+boreale&lt;/em&gt;, and &lt;em&gt;Scleria triglomerata&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;prairie&#34;&gt;Prairie&lt;/h3&gt;
+&lt;p&gt;The prairies comprise those plant communities that are dominated by a diversity of perennial forbs
+growing in a perennial graminoid matrix, which forms a dry flammable turf in autumn. A part of the
+habitat of our prairies was the regular autumnal fire, which, lacking a regular occurrence of dry lightning,
+was set annually by the Native Americans. Prairies developed on those substrates in which the aboveground perennial phytomass produced more fixed carbon annually than was likely to be grazed or
+decomposed. In our area prairie communities range from wet to dry and once dominated much of the
+landscape, intercalating or even blending with savannas and fens.&lt;/p&gt;
+&lt;p&gt;To a Midwesterner, perhaps the first image evoked with the term prairie is that of the tall grasses
+of &lt;em&gt;Andropogon gerardii&lt;/em&gt; and &lt;em&gt;Sorghastrum nutans&lt;/em&gt; in their full, late-summer development&amp;ndash;&amp;ldquo;high as a man
+on a horse,&amp;rdquo; interspersed with the rosinweeds, sunflowers, and asters. Such are the mesic prairies;
+conservative species within them include &lt;em&gt;Baptisia leucophaea&lt;/em&gt;, &lt;em&gt;Cacalia plantaginea&lt;/em&gt;, &lt;em&gt;Carex bicknellii&lt;/em&gt;,
+&lt;em&gt;Eryngium yuccifolium&lt;/em&gt;, &lt;em&gt;Gentiana andrewsii&lt;/em&gt;, &lt;em&gt;Gentiana puberulenta&lt;/em&gt;, &lt;em&gt;Habenaria leucophaea&lt;/em&gt;, &lt;em&gt;Lilium
+philadelphicum andinum&lt;/em&gt;, &lt;em&gt;Panicum leibergii&lt;/em&gt;, &lt;em&gt;Sisyrinchium albidum&lt;/em&gt;, and &lt;em&gt;Sporobolus heterolepis&lt;/em&gt;. A wetter
+variant of the mesic prairie is more likely to be dominated by &lt;em&gt;Calamagrostis canadensis&lt;/em&gt; and &lt;em&gt;Spartina
+pectinata&lt;/em&gt;, with &lt;em&gt;Aster puniceus firmus&lt;/em&gt;, &lt;em&gt;Beckmannia syzigachne&lt;/em&gt;, &lt;em&gt;Chelone glabra&lt;/em&gt;, &lt;em&gt;Eleocharis wolfii&lt;/em&gt;,
+&lt;em&gt;Lysimachia quadriflora&lt;/em&gt;, &lt;em&gt;Oenothera perennis&lt;/em&gt;, &lt;em&gt;Oenothera pilosella&lt;/em&gt;, &lt;em&gt;Pedicularis lanceolata&lt;/em&gt;, and &lt;em&gt;Solidago
+ohioensis&lt;/em&gt;, and in its best development is fen-like.&lt;/p&gt;
+&lt;p&gt;In the drier prairies &lt;em&gt;Andropogon scoparius&lt;/em&gt; and &lt;em&gt;Stipa spartea&lt;/em&gt; are commonly the more obvious
+grasses, with conservative species including &lt;em&gt;Agalinis aspera&lt;/em&gt;, &lt;em&gt;Asclepias viridiflora&lt;/em&gt;, &lt;em&gt;Aster ptarmicoides&lt;/em&gt;,
+&lt;em&gt;Aster sericeus&lt;/em&gt;, &lt;em&gt;Astragalus tennesseensis&lt;/em&gt;, &lt;em&gt;Blephilia ciliata&lt;/em&gt;, &lt;em&gt;Bromus kalmii&lt;/em&gt;, &lt;em&gt;Carex meadii&lt;/em&gt;, &lt;em&gt;Cirsium hillii&lt;/em&gt;,
+&lt;em&gt;Convolvulus spithamaeus&lt;/em&gt;, &lt;em&gt;Helianthus occidentalis&lt;/em&gt;, &lt;em&gt;Panicum perlongum&lt;/em&gt;, &lt;em&gt;Polytaenia nuttallii&lt;/em&gt;, &lt;em&gt;Psoralea
+tenuifoa&lt;/em&gt; and &lt;em&gt;Zizia aptera&lt;/em&gt;. Another kind of dry prairie occurs in the Kettle Moraine Section, or our
+northwestern sector and, growing among short warm-season grasses like &lt;em&gt;Bouteloua curtipendula&lt;/em&gt;,
+characteristic species include &lt;em&gt;Agoseris cuspidata&lt;/em&gt;, &lt;em&gt;Allium stellatum&lt;/em&gt;, &lt;em&gt;Anemone patens wolfgangiana&lt;/em&gt;,
+&lt;em&gt;Artemisia serrata&lt;/em&gt;, &lt;em&gt;Asclepias lanuginosa&lt;/em&gt;, &lt;em&gt;Blephilia ciliata&lt;/em&gt;, &lt;em&gt;Carex richardsonii&lt;/em&gt;, &lt;em&gt;Geum triflorum&lt;/em&gt;, &lt;em&gt;Houstonia
+longifolia&lt;/em&gt;, &lt;em&gt;Oenothera serrulata&lt;/em&gt;, &lt;em&gt;Panicum wilcoxianum&lt;/em&gt;, &lt;em&gt;Potentilla pensylvanica bipinnatifida&lt;/em&gt;, &lt;em&gt;Ranunculus
+rhomboideus&lt;/em&gt;, &lt;em&gt;Sisyrinchium campestre&lt;/em&gt;, and &lt;em&gt;Wulfenia bullii&lt;/em&gt;. Another variant of the dry prairie occurs on
+the dolomitic bedrock pavements exposed along our major rivers, particularly the lower Des Plaines;
+characteristic species are &lt;em&gt;Actinea herbacea&lt;/em&gt;, &lt;em&gt;Arenaria patula&lt;/em&gt;, &lt;em&gt;Deschampsia caespitosa glauca&lt;/em&gt;,
+&lt;em&gt;Muhlenbergia cuspidata&lt;/em&gt;, &lt;em&gt;Petalostemum foliosum&lt;/em&gt;, and &lt;em&gt;Scutellaria parvula&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;A major variant of the dry prairie is the sand prairie, in which the principal fuel species is
+commonly &lt;em&gt;Andropogon scoparius&lt;/em&gt;; in many respects it seems scarcely more than an exaggerated opening
+in the sand savanna. Characteristic species include &lt;em&gt;Asclepias hirtella&lt;/em&gt;, &lt;em&gt;Astragalus canadensis&lt;/em&gt;, &lt;em&gt;Callirhoë
+triangulata&lt;/em&gt;, &lt;em&gt;Carex muhlenbergii&lt;/em&gt;, &lt;em&gt;Ceanothus herbaceus&lt;/em&gt;, &lt;em&gt;Commelina erecta deamiana&lt;/em&gt;, &lt;em&gt;Desmodium ciliare&lt;/em&gt;,
+&lt;em&gt;Fimbristylis puberula&lt;/em&gt;, &lt;em&gt;Orobanche fasciculata&lt;/em&gt;, and &lt;em&gt;Sisyrinchium montanum&lt;/em&gt;. In moist to wet, acid sandy
+flats occurs an array of conservative species, many of them with affinities to the Coastal Plain. Such flats
+occur here and there throughout our southern and eastern sectors, off the moraines in the Lake Plain and
+in the Kankakee Sand Sections. Each such area has its own distinctive flora; characteristic conservative
+species in the aggregate include &lt;em&gt;Aletris farinosa&lt;/em&gt;, &lt;em&gt;Buchnera americana&lt;/em&gt;, &lt;em&gt;Calopogon tuberosus&lt;/em&gt;, &lt;em&gt;Carex alata&lt;/em&gt;,
+&lt;em&gt;Carex atlantica&lt;/em&gt;, &lt;em&gt;Cyperus dentatus&lt;/em&gt;, &lt;em&gt;Eleocharis melanocarpa&lt;/em&gt;, &lt;em&gt;Eleocharis microcarpa filiculmis&lt;/em&gt;, &lt;em&gt;Hypericum
+adpressum&lt;/em&gt;, &lt;em&gt;Hypericum canadense&lt;/em&gt;, &lt;em&gt;Hypericum gymnanthum&lt;/em&gt;, &lt;em&gt;Juncus biflorus&lt;/em&gt;, &lt;em&gt;Juncus nodatus&lt;/em&gt;, &lt;em&gt;Linum intercursum&lt;/em&gt;, &lt;em&gt;Linum striatum&lt;/em&gt;, &lt;em&gt;Ludwigia sphaerocarpa deamii&lt;/em&gt;, &lt;em&gt;Lycopodium inundatum&lt;/em&gt;, &lt;em&gt;Lycopus amplectens&lt;/em&gt;,
+&lt;em&gt;Panicum polyanthes&lt;/em&gt;, &lt;em&gt;Panicum verrucosum&lt;/em&gt;, &lt;em&gt;Polygala cruciata aquilonia&lt;/em&gt;, &lt;em&gt;Psilocarya scirpoides&lt;/em&gt;,
+&lt;em&gt;Rhynchospora globularis recognita&lt;/em&gt;, &lt;em&gt;Rhynchospora macrostachya&lt;/em&gt;, &lt;em&gt;Rubus setosus&lt;/em&gt;, &lt;em&gt;Salix lucida&lt;/em&gt;, &lt;em&gt;Scirpus
+hallii&lt;/em&gt;, &lt;em&gt;Scleria pauciflora caroliniana&lt;/em&gt;, &lt;em&gt;Utricularia subulata&lt;/em&gt;, &lt;em&gt;Viola primulifolia&lt;/em&gt;, &lt;em&gt;Xyris difformis&lt;/em&gt;, and &lt;em&gt;Xyris
+torta&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;ruderal-areas&#34;&gt;Ruderal Areas&lt;/h3&gt;
+&lt;p&gt;It is presumed that many of our non-conservative native species developed their &amp;ldquo;weedy&amp;rdquo; tendencies
+in connection with the Native American peoples, particular those who were sedentary and agricultural.
+These plants are well adapted to soils regularly disturbed mechanically, subject to heavy trampling or
+compaction, or to very fertile soils free of conservative competition. In the drier soils such species include
+&lt;em&gt;Acalypha rhomboidea&lt;/em&gt;, &lt;em&gt;Agrostis hyemalis&lt;/em&gt;, &lt;em&gt;Amaranthus hybridus&lt;/em&gt;, &lt;em&gt;Ambrosia artemisiifolia elatior&lt;/em&gt;, &lt;em&gt;Aristida
+aligantha&lt;/em&gt;, &lt;em&gt;Asclepias syriaca&lt;/em&gt;, &lt;em&gt;Asclepias verticillata&lt;/em&gt;, &lt;em&gt;Aster pilosus&lt;/em&gt;, &lt;em&gt;Bidens vulgata&lt;/em&gt;, &lt;em&gt;Brassica kaber&lt;/em&gt;, &lt;em&gt;Carex
+blanda&lt;/em&gt;, &lt;em&gt;Cenchrus longispinus&lt;/em&gt;, &lt;em&gt;Convolvulus sepium&lt;/em&gt;, &lt;em&gt;Cuscuta campestris&lt;/em&gt;, &lt;em&gt;Equisetum arvense&lt;/em&gt;, &lt;em&gt;Eragrostis
+pectinacea&lt;/em&gt;, &lt;em&gt;Erigeron annuus&lt;/em&gt;, &lt;em&gt;Erigeron canadensis&lt;/em&gt;, &lt;em&gt;Euphorbia maculata&lt;/em&gt;, &lt;em&gt;Euphorbia supina&lt;/em&gt;, &lt;em&gt;Galium
+aparine&lt;/em&gt;, &lt;em&gt;Geum canadense&lt;/em&gt;, &lt;em&gt;Juncus tenuis&lt;/em&gt;, &lt;em&gt;Lepidium virginicum&lt;/em&gt;, &lt;em&gt;Muhlenbergia schreberi&lt;/em&gt;, &lt;em&gt;Oenothera
+biennis&lt;/em&gt;, &lt;em&gt;Oxalis europaea&lt;/em&gt;, &lt;em&gt;Oxalis stricta&lt;/em&gt;, &lt;em&gt;Panicum capillare&lt;/em&gt;, &lt;em&gt;Physalis subglabrata&lt;/em&gt;, &lt;em&gt;Phytolacca americana&lt;/em&gt;,
+&lt;em&gt;Plantago aristata&lt;/em&gt;, &lt;em&gt;Plantago rugelii&lt;/em&gt;, &lt;em&gt;Plantago virginica&lt;/em&gt;, &lt;em&gt;Polygonum achoreum&lt;/em&gt;, &lt;em&gt;Polygonum buxiforme&lt;/em&gt;,
+&lt;em&gt;Polygonum scandens&lt;/em&gt;, &lt;em&gt;Potentilla norvegica&lt;/em&gt;, &lt;em&gt;Rhus glabra&lt;/em&gt;, &lt;em&gt;Rhus typhina&lt;/em&gt;, &lt;em&gt;Rudbeckia hirta&lt;/em&gt;, &lt;em&gt;Silene antirrhina&lt;/em&gt;,
+&lt;em&gt;Solanum americanum&lt;/em&gt;, &lt;em&gt;Solidago altissima&lt;/em&gt;, &lt;em&gt;Solidago canadensis&lt;/em&gt;, &lt;em&gt;Sporobolus vaginiflorus&lt;/em&gt;, &lt;em&gt;Verbena
+bracteata&lt;/em&gt;, and &lt;em&gt;Veronica peregrina&lt;/em&gt;. Plants of moister or wetter ruderal ground include &lt;em&gt;Acer negundo&lt;/em&gt;, &lt;em&gt;Acer
+saccharmum Acnida altissima&lt;/em&gt;, &lt;em&gt;Alopecurus carolinianus&lt;/em&gt;, &lt;em&gt;Ambrosia trifida&lt;/em&gt;, &lt;em&gt;Bidens frondosa&lt;/em&gt;, &lt;em&gt;Cornus
+racemosa&lt;/em&gt;, &lt;em&gt;Cyperus esculentus&lt;/em&gt;, &lt;em&gt;Cyperus strigosus&lt;/em&gt;, &lt;em&gt;Echinochloa crusgalli&lt;/em&gt;, &lt;em&gt;Panicum dichotomiflorum&lt;/em&gt;,
+&lt;em&gt;Polygonum lapathifolium&lt;/em&gt;, &lt;em&gt;Polygonum pensylvanicum&lt;/em&gt;, &lt;em&gt;Ranunculus abortivus&lt;/em&gt;, &lt;em&gt;Rumex maritimus fueginus&lt;/em&gt;,
+&lt;em&gt;Salix interior&lt;/em&gt;, &lt;em&gt;Sambucus canadensis&lt;/em&gt;, &lt;em&gt;Typha angustifolia&lt;/em&gt;, and &lt;em&gt;Typha latifolia&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;boreal-and-coastal-plain-relicts&#34;&gt;Boreal and Coastal Plain Relicts&lt;/h3&gt;
+&lt;p&gt;An interesting aspect of the Chicago region is its position at the southern end of Lake Michigan
+with its Lake Plain flora, coupled with the large sand district associated with the Kankakee River.
+Together these singular areas have provided a remarkable context for habitats that support species
+otherwise more common northward or with their principal range in the Atlantic Coastal Plain. Many of
+these plants and their habitats, especially those which occur in the Indiana dune region, are discussed at
+length by Wilhelm.&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Those plants with an affinity for the Coastal Plain include &lt;em&gt;Ammophila breviligulata&lt;/em&gt;, &lt;em&gt;Aristida
+tuberculosa&lt;/em&gt;, &lt;em&gt;Bartonia virginica&lt;/em&gt;, &lt;em&gt;Bidens discoidea&lt;/em&gt;, &lt;em&gt;Cakile edentula&lt;/em&gt;, &lt;em&gt;Carex alata&lt;/em&gt;, &lt;em&gt;Carex albolutescens&lt;/em&gt;,
+&lt;em&gt;Carex debilis&lt;/em&gt;, &lt;em&gt;Carex longii&lt;/em&gt;, &lt;em&gt;Carex seorsa&lt;/em&gt;, &lt;em&gt;Cirsium pitcheri&lt;/em&gt;, &lt;em&gt;Cladium mariscoides&lt;/em&gt;, &lt;em&gt;Decodon verticillatus&lt;/em&gt;,
+&lt;em&gt;Drosera intermedia&lt;/em&gt;, &lt;em&gt;Drosera rotundifolia&lt;/em&gt;, &lt;em&gt;Eleocharis olivacea&lt;/em&gt;, &lt;em&gt;Eleocharis equisetoides&lt;/em&gt;, &lt;em&gt;Eleocharis
+geniculata&lt;/em&gt;, &lt;em&gt;Eleocharis melanocarpa&lt;/em&gt;, &lt;em&gt;Eleocharis microcarpa filiculmis&lt;/em&gt;, &lt;em&gt;Eleocharis robbinsii&lt;/em&gt;, &lt;em&gt;Eriocaulon
+septangulare&lt;/em&gt;, &lt;em&gt;Euphorbia polygonifolia&lt;/em&gt;, &lt;em&gt;Fimbristylis drummondii&lt;/em&gt;, &lt;em&gt;Fuirena pumila&lt;/em&gt;, &lt;em&gt;Gratiola aurea&lt;/em&gt;,
+&lt;em&gt;Hudsonia tomentosa&lt;/em&gt;, &lt;em&gt;Hydrocotyle umbellata&lt;/em&gt;, &lt;em&gt;Hypericum virginicum&lt;/em&gt;, &lt;em&gt;Juncus balticus littoralis&lt;/em&gt;, &lt;em&gt;Juncus
+militaris&lt;/em&gt;, &lt;em&gt;Juncus pelocarpus&lt;/em&gt;, &lt;em&gt;Juncus scirpoides&lt;/em&gt;, &lt;em&gt;Lathyrus japonicus glaber&lt;/em&gt;, &lt;em&gt;Lechea pulchella&lt;/em&gt;, &lt;em&gt;Linum
+striatum&lt;/em&gt;, &lt;em&gt;Ludwigia sphaerocarpadeamii&lt;/em&gt;, &lt;em&gt;Lycopodium inundatum&lt;/em&gt;, &lt;em&gt;Panicum lucidum&lt;/em&gt;, &lt;em&gt;Panicumoligosanthes&lt;/em&gt;,
+&lt;em&gt;Panicum spretum&lt;/em&gt;, &lt;em&gt;Panicum verrucosum&lt;/em&gt;, &lt;em&gt;Peltandra virginica&lt;/em&gt;, &lt;em&gt;Polygala cruciata aquilonia&lt;/em&gt;, &lt;em&gt;Polygonella
+articulata&lt;/em&gt;, &lt;em&gt;Polygonum careyi&lt;/em&gt;, &lt;em&gt;Polygonum opelousanum adenocalyx&lt;/em&gt;, &lt;em&gt;Potamogeton pulcher&lt;/em&gt;, &lt;em&gt;Psilocarya
+nitens&lt;/em&gt;, &lt;em&gt;Psilocarya scirpoides&lt;/em&gt;, &lt;em&gt;Rhexia virginica&lt;/em&gt;, &lt;em&gt;Rhynchospora alba&lt;/em&gt;, &lt;em&gt;Rhynchospora globularis recognita&lt;/em&gt;,
+&lt;em&gt;Rhynchospora macrostachya&lt;/em&gt;, &lt;em&gt;Scirpus purshianus&lt;/em&gt;, &lt;em&gt;Scleria reticularis&lt;/em&gt;, &lt;em&gt;Sisyrinchium atlanticum&lt;/em&gt;, &lt;em&gt;Solidago
+tenuifolia&lt;/em&gt;, &lt;em&gt;Stachys hyssopifolia&lt;/em&gt;, &lt;em&gt;Utricularia cornuta&lt;/em&gt;, &lt;em&gt;Utricularia geminiscapa&lt;/em&gt;, &lt;em&gt;Utricularia gibba&lt;/em&gt;,
+&lt;em&gt;Utricularia inflata minor&lt;/em&gt;, &lt;em&gt;Utricularia purpurea&lt;/em&gt;, &lt;em&gt;Utricularia resupinata&lt;/em&gt;, &lt;em&gt;Utricularia subulata&lt;/em&gt;, &lt;em&gt;Viola
+primulifolia&lt;/em&gt;, &lt;em&gt;Woodwardia virginica&lt;/em&gt;, &lt;em&gt;Xyris difformis&lt;/em&gt;, and &lt;em&gt;Xyris torta&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Plants believed to be relicts of a more boreal flora include &lt;em&gt;Andromeda glaucophylla&lt;/em&gt;, &lt;em&gt;Arctostaphylos
+uva-ursi coactilis&lt;/em&gt;, &lt;em&gt;Betula alleghaniensis&lt;/em&gt;, &lt;em&gt;Betula papyrifera&lt;/em&gt;, &lt;em&gt;Betula populifolia&lt;/em&gt;, &lt;em&gt;Betula pumila&lt;/em&gt;, &lt;em&gt;Calla
+palustris&lt;/em&gt;, &lt;em&gt;Campanula rotundifolia&lt;/em&gt;, &lt;em&gt;Carex eburnea&lt;/em&gt;, &lt;em&gt;Chamaedaphne calyculata angustifolia&lt;/em&gt;, &lt;em&gt;Circaea alpina&lt;/em&gt;,
+&lt;em&gt;Comptonia peregrina&lt;/em&gt;, &lt;em&gt;Coptis groenlandica&lt;/em&gt;, &lt;em&gt;Cornus rugosa&lt;/em&gt;, &lt;em&gt;Cypripedium reginae&lt;/em&gt;, &lt;em&gt;Diervilla lonicera&lt;/em&gt;,
+&lt;em&gt;Epigaea repens&lt;/em&gt;, &lt;em&gt;Glyceria borealis&lt;/em&gt;, &lt;em&gt;Habenaria clavellata&lt;/em&gt;, &lt;em&gt;Habenaria hyperborea huronensis&lt;/em&gt;, &lt;em&gt;Juniperus
+communis&lt;/em&gt;, &lt;em&gt;Linnaea borealis americana&lt;/em&gt;, &lt;em&gt;Maianthemum canadense&lt;/em&gt;, &lt;em&gt;Myosotis laxa&lt;/em&gt;, &lt;em&gt;Panax trifolius&lt;/em&gt;, &lt;em&gt;Pinus
+banksiana&lt;/em&gt;, &lt;em&gt;Pinus strobus&lt;/em&gt;, &lt;em&gt;Poa paludigena&lt;/em&gt;, &lt;em&gt;Polygala paucifolia&lt;/em&gt;, &lt;em&gt;Potentilla fruticosa&lt;/em&gt;, &lt;em&gt;Pyrola elliptica&lt;/em&gt;,
+&lt;em&gt;Pyrola rotundifolia americana&lt;/em&gt;, &lt;em&gt;Rhamnus alnifolia&lt;/em&gt;, &lt;em&gt;Salix candida&lt;/em&gt;, &lt;em&gt;Salix syrticola&lt;/em&gt;, &lt;em&gt;Spiranthes lucida&lt;/em&gt;, &lt;em&gt;Thuja
+occidentalis&lt;/em&gt;, &lt;em&gt;Trientalis borealis&lt;/em&gt;, &lt;em&gt;Vaccinium macrocarpon&lt;/em&gt;, and &lt;em&gt;Vaccinium oxycoccos&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Homoya M.A., Abrell, D.B., Aldrich, J.R., Post, T.W. (1985). &lt;a href=&#34;https://journals.indianapolis.iu.edu/index.php/ias/article/view/8352&#34;&gt;The Natural Regions of Indiana&lt;/a&gt;. &lt;i&gt;Proc. Ind. Acad. Sci.&lt;/i&gt; 94, 245-268&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Schwegman, J.E. (1973). &amp;ldquo;&lt;a href=&#34;https://naturalheritage.illinois.gov/content/dam/soi/en/web/naturalheritage/documents/Natural%20divisions%20part%202.pdf&#34;&gt;Comprehensive plan for the Illinois nature preserve system. Part 2: the natural divisions of Illinois&lt;/a&gt;.&amp;rdquo; Rockford, Ill.: Published by the Illinois Nature Preserves Commission.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Albert, D.A., Denton, S.R., Barnes, B.V. (1986). &lt;a href=&#34;https://doi.org/10.2737/NC-GTR-178&#34;&gt;Regional landscape ecosystems of Michigan&lt;/a&gt;. &lt;em&gt;University of Michigan, School of Natural Resources&lt;/em&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Albert (in press)&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;Hole &amp;amp; Germain (in press)&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;Ellsworth, H.L. (1837). &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/16000813&#34;&gt;Illinois in 1837&lt;/a&gt;&lt;/i&gt;. Philadelphia: Published by S. Augustus Mitchell, and by Grigg and Elliot.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34;&gt;
+&lt;p&gt;Brown, S.R. (1817) &lt;i&gt;&lt;a href=&#34;https://archive.org/details/westerngazetteer00inbrow&#34;&gt;The western gazetteer; or emigrant&amp;rsquo;s directory, containing a geographical description of the western states and territories&amp;hellip;&lt;/a&gt;&lt;/i&gt; Auburn, N.Y.: Published by H.C. Southwick.&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34;&gt;
+&lt;p&gt;Parker, A.A. (1835) &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/01008713&#34;&gt;Trip to the West and Texas&lt;/a&gt;&lt;/i&gt;. Concord, Mass.: Published by White and Fisher.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref2:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref3:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34;&gt;
+&lt;p&gt;Pratt, H.E. (1835) &lt;a href=&#34;https://www.jstor.org/stable/40189796&#34;&gt;John Dean Caton&amp;rsquo;s reminiscences of Chicago in 1833 and 1834&lt;/a&gt;. &lt;i&gt;J. Ill. State Hist. Soc.&lt;/i&gt; 28(1), 5-25&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34;&gt;
+&lt;p&gt;Coffinberry, S.C. (1880) Incidents connected with the first settlement of Nottawa-Sippi Prairie in St. Joseph County. &lt;em&gt;Mich. Pioneer Hist. Coll.&lt;/em&gt; 2:489-501&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34;&gt;
+&lt;p&gt;Eleven percent of our native species have &lt;em&gt;C&lt;/em&gt; values from 0-3, 89% from 4-10.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34;&gt;
+&lt;p&gt;Wilhelm, G.S. (1990) &lt;a href=&#34;https://pubs.nps.gov/eTIC/HOSP-INDU/INDU_626_D92_0376pg.pdf&#34;&gt;Special vegetation of the Indiana Dunes National Lakeshore&lt;/a&gt;. Indiana Dunes National Lakeshore Research Program, Report 90-02. Published by the National Park Service.&amp;#160;&lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
