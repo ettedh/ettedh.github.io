@@ -10,6 +10,70 @@
 	
 	
 	<item>
+		<title>Diglossic, parallel CSS</title>
+		<link>https://ettedh.github.io/articles/diglossic-text/</link>
+		<pubDate>Sat, 22 Mar 2025 08:28:28 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/articles/diglossic-text/</guid>
+		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;https://ettedh.github.io/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) is a stylesheet to help create diglossic texts with properly-flowing, progressive, &lt;em&gt;correct&lt;/em&gt;, HTML. Its features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aligning like elements in columns,&lt;/li&gt;
+&lt;li&gt;selectable, single-source texts,&lt;/li&gt;
+&lt;li&gt;unobstructed by HTML-isms like &lt;code&gt;div&lt;/code&gt; or &lt;code&gt;table&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;being readable, even without CSS (for future-proofing).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is what it looks like&amp;hellip; (See also &lt;a href=&#34;https://ettedh.github.io/mul/texts/famo/&#34;&gt;my demo page&lt;/a&gt;.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;diglossic-text&#34;&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-l&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;first-text&#34;&gt;First text&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&amp;hellip;&lt;/p&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-r&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;second-text&#34;&gt;Second text&lt;/h3&gt;
+&lt;p&gt;Pain itself desires pain&amp;hellip;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;It is supported by all modern desktop web browsers (Chrome, Firefox&lt;code&gt;++&lt;/code&gt;). To use the file, add the following line to your document head:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/diglossic-text.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, format your text (assuming a &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; format) like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This paragraph will not be rendered in two columns.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-text&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-l&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### First text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Lorem ipsum dolor sit amet...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-r&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Second text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Pain itself desires pain...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This text is outside of the diglossic text.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Keep in mind that only the block-level elements of &lt;code&gt;h1--h1&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;blockquote&lt;/code&gt;, and &lt;code&gt;pre&lt;/code&gt; are rendered in parallel. All parallel texts must have the same number of blocks to line up properly.&lt;/p&gt;
+&lt;h2 id=&#34;why-make-this&#34;&gt;Why make this?&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.hup.harvard.edu/series/loeb-classical-library&#34;&gt;Loeb Classical Library&lt;/a&gt;
+is a beautiful series of Latin and Greek texts, with English translations, published by Harvard University Press.
+Their books feature the source text on the left page, with the translation on the right page.
+It seems like all other implementations fall short on at least one of my goals, as well as &lt;a href=&#34;https://motherfuckingwebsite.com&#34;&gt;working on the web&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;The horizontal lines are not part of the formatting, just something to make it clear what is what.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Camino Real</title>
 		<link>https://ettedh.github.io/texts/camino-real/</link>
 		<pubDate>Fri, 14 Mar 2025 17:30:33 -0500</pubDate>
@@ -100,7 +164,7 @@ Western United States and Mexico. But there is only one &lt;i xml:lang=&#34;es&#
 Tierra Adentro&lt;/i&gt;, the one Jackson and I drove; in addition to its
 incredible length, it predates the other &lt;i xml:lang=&#34;es&#34;&gt;camino reals&lt;/i&gt; by more than two hundred
 years, according to George Torok, president of the Camino Real de Tierra
-Adentro (CARTA) association.&lt;/p&gt;
+Adentro (&lt;span class=&#34;small-caps&#34;&gt;CARTA&lt;/span&gt;) association.&lt;/p&gt;
 &lt;p&gt;Beyond simply offering a way to get around, the Camino Real became a
 palimpsest of cultural, religious, economic, and ethnic crossovers.
 Skirmishes, business deals, wars, and treaties were wrought along its
@@ -267,7 +331,7 @@ during the crossing. &amp;ldquo;One thing appears very certain,&amp;rdquo; he wr
 this dangerous pass has cost the life of many travelers in days of
 yore&amp;hellip; we felt truly grateful that the arid Jornada had not been
 productive of more serious consequences to our party.&amp;rdquo; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;In El Paso we met up with CARTA&amp;rsquo;s president, George Torok, and Ben
+&lt;p&gt;In El Paso we met up with &lt;span class=&#34;small-caps&#34;&gt;CARTA&lt;/span&gt;&amp;rsquo;s president, George Torok, and Ben
 Brown, an archeologist employed by Mexico&amp;rsquo;s National Institute of
 Anthropology and History (&lt;i xml:lang=&#34;es&#34;&gt;Instituto Nacionale de Antropologia e
 Historia&lt;/i&gt;), whose work has led him to study various areas around or on
@@ -483,7 +547,7 @@ on, and I kept dancing.&lt;/p&gt;
 		<guid>https://ettedh.github.io/texts/plants-chicago-region/</guid>
 		<description>&lt;h2 id=&#34;natural-divisions-of-the-chicago-region&#34;&gt;Natural Divisions of the Chicago Region&lt;/h2&gt;
 &lt;p&gt;The authors are indebted to Kenneth Mierzwa of TAMS
-Consultants, Inc., Chicago, IL, for having made
+Consultants, Inc., Chicago, Ill., for having made
 available for this book a synopsis of the Natural
 Divisions of the Chicago Region, a distillation of a
 forthcoming paper.&lt;/p&gt;
@@ -579,7 +643,7 @@ sand areas of irregular shape which once existed on
 the lake plain were probably similar; these are within
 the present limits of Evanston and Chicago.&lt;/p&gt;
 &lt;h4 id=&#34;2e-ridge-and-swale-section&#34;&gt;2E. Ridge and Swale Section.&lt;/h4&gt;
-&lt;p&gt;Formed only within the past 6,000 years, characterized
+&lt;p&gt;Formed only within the past 6000 years, characterized
 by alternating parallel low ridges and swales. Ridges
 consist of relatively alkaline sandy soils and are
 covered by sand prairie and a sparse savanna of black
@@ -826,7 +890,7 @@ amplifolius&lt;/em&gt;, &lt;em&gt;Potamogeton richardsonii&lt;/em&gt;, &lt;em&gt
 palustris&lt;/em&gt;. In softer waters one is more likely to encounter plants such as &lt;em&gt;Nuphar advena&lt;/em&gt;, &lt;em&gt;Nuphar
 variegatum&lt;/em&gt;, &lt;em&gt;Nymphaea tuberosa&lt;/em&gt;, &lt;em&gt;Utricularia geminiscapa&lt;/em&gt;, and &lt;em&gt;Utricularia purpurea&lt;/em&gt;. Alluvial or surface
 water communities are characterized by members of the &lt;em&gt;Lemnaceae&lt;/em&gt;, &lt;em&gt;Ceratophyllum demersum&lt;/em&gt;,
-Potamogeton foliosus_, &lt;em&gt;Potamogeton pectinatus&lt;/em&gt;, &lt;em&gt;Potamogeton illinoensis&lt;/em&gt;, and &lt;em&gt;Potamogeton natans&lt;/em&gt;.&lt;/p&gt;
+&lt;em&gt;Potamogeton foliosus&lt;/em&gt;, &lt;em&gt;Potamogeton pectinatus&lt;/em&gt;, &lt;em&gt;Potamogeton illinoensis&lt;/em&gt;, and &lt;em&gt;Potamogeton natans&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;marsh&#34;&gt;Marsh&lt;/h3&gt;
 &lt;p&gt;Marsh plant communities generally occur along the transition between aquatic communities and
 drier communities, or in large flats which are regularly inundated by shallow surface waters for much of the growing season. Marshes are best developed with us in the Lake Plain, in the lacustrine flats of our
@@ -991,7 +1055,7 @@ dune forest.&lt;/p&gt;
 grow locally only in the dunes near the lake. These include &lt;em&gt;Ammophila breviligulata&lt;/em&gt;, &lt;em&gt;Cakile edentula&lt;/em&gt;,
 &lt;em&gt;Cirsium pitcheri&lt;/em&gt;, &lt;em&gt;Euphorbia polygonifolia&lt;/em&gt;, &lt;em&gt;Lathyrus japonicus glaber&lt;/em&gt;, &lt;em&gt;Salix syrticola&lt;/em&gt;, and &lt;em&gt;Solidago
 racemosa gillmanii&lt;/em&gt;. Confined to the lower dunes along the western shore of Lake Michigan is &lt;em&gt;Juniperus
-horizontalis&lt;/em&gt;. In the more active sands in the dunes of our eastern sector grow &lt;em&gt;Hudsonia tomentosa&lt;/em&gt;_,
+horizontalis&lt;/em&gt;. In the more active sands in the dunes of our eastern sector grow &lt;em&gt;Hudsonia tomentosa&lt;/em&gt;,
 &lt;em&gt;Polygonella articulata&lt;/em&gt;, and &lt;em&gt;Selaginella rupestris&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;In wet, interdunal flats (pannes), where sand has been blown out down to the water table, is a plant
 community generally characterized by species such as &lt;em&gt;Carex aurea&lt;/em&gt;, &lt;em&gt;Carex garberi&lt;/em&gt;, &lt;em&gt;Gentiana crinita&lt;/em&gt;,
@@ -1019,7 +1083,7 @@ pectinata&lt;/em&gt;, with &lt;em&gt;Aster puniceus firmus&lt;/em&gt;, &lt;em&gt
 &lt;em&gt;Lysimachia quadriflora&lt;/em&gt;, &lt;em&gt;Oenothera perennis&lt;/em&gt;, &lt;em&gt;Oenothera pilosella&lt;/em&gt;, &lt;em&gt;Pedicularis lanceolata&lt;/em&gt;, and &lt;em&gt;Solidago
 ohioensis&lt;/em&gt;, and in its best development is fen-like.&lt;/p&gt;
 &lt;p&gt;In the drier prairies &lt;em&gt;Andropogon scoparius&lt;/em&gt; and &lt;em&gt;Stipa spartea&lt;/em&gt; are commonly the more obvious
-grasses, with conservative species including &lt;em&gt;Agalinis aspera&lt;/em&gt;_, &lt;em&gt;Asclepias viridiflora&lt;/em&gt;, &lt;em&gt;Aster ptarmicoides&lt;/em&gt;,
+grasses, with conservative species including &lt;em&gt;Agalinis aspera&lt;/em&gt;, &lt;em&gt;Asclepias viridiflora&lt;/em&gt;, &lt;em&gt;Aster ptarmicoides&lt;/em&gt;,
 &lt;em&gt;Aster sericeus&lt;/em&gt;, &lt;em&gt;Astragalus tennesseensis&lt;/em&gt;, &lt;em&gt;Blephilia ciliata&lt;/em&gt;, &lt;em&gt;Bromus kalmii&lt;/em&gt;, &lt;em&gt;Carex meadii&lt;/em&gt;, &lt;em&gt;Cirsium hillii&lt;/em&gt;,
 &lt;em&gt;Convolvulus spithamaeus&lt;/em&gt;, &lt;em&gt;Helianthus occidentalis&lt;/em&gt;, &lt;em&gt;Panicum perlongum&lt;/em&gt;, &lt;em&gt;Polytaenia nuttallii&lt;/em&gt;, &lt;em&gt;Psoralea
 tenuifoa&lt;/em&gt; and &lt;em&gt;Zizia aptera&lt;/em&gt;. Another kind of dry prairie occurs in the Kettle Moraine Section, or our

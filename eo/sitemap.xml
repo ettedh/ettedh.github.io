@@ -2,12 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ettedh.github.io/eo/articles/</loc>
+    <lastmod>2025-03-22T11:09:23-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/articles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/articles/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/eo/articles/diglossic-text/</loc>
+    <lastmod>2025-03-22T11:09:23-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/articles/diglossic-text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/articles/diglossic-text/"
+                />
+  </url><url>
     <loc>https://ettedh.github.io/eo/</loc>
-    <lastmod>2024-04-16T11:40:14-05:00</lastmod>
+    <lastmod>2025-03-22T09:56:45-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -17,6 +48,40 @@
   </url><url>
     <loc>https://ettedh.github.io/eo/texts/famo/</loc>
     <lastmod>2024-04-16T11:40:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/texts/famo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/texts/famo/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/eo/tags/literatura/</loc>
+    <lastmod>2024-04-16T11:40:14-05:00</lastmod>
+  </url><url>
+    <loc>https://ettedh.github.io/eo/tags/romia/</loc>
+    <lastmod>2024-04-16T11:40:14-05:00</lastmod>
+  </url><url>
+    <loc>https://ettedh.github.io/eo/tags/</loc>
+    <lastmod>2024-04-16T11:40:14-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/tags/"
+                />
   </url><url>
     <loc>https://ettedh.github.io/eo/texts/</loc>
     <lastmod>2024-04-16T11:40:14-05:00</lastmod>
@@ -24,6 +89,11 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/texts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/texts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -40,24 +110,16 @@
     <loc>https://ettedh.github.io/eo/tags/literature/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ettedh.github.io/eo/tags/</loc>
-    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ettedh.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://ettedh.github.io/eo/tags/"
-                />
-  </url><url>
     <loc>https://ettedh.github.io/eo/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/categories/"
                 />
     <xhtml:link
                 rel="alternate"
