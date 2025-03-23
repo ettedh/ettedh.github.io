@@ -35,8 +35,7 @@
 &lt;hr&gt;
 &lt;p&gt;Ĝi subteniĝas per ĉiuj modernaj retumiloj (Chrome, Firefox&lt;code&gt;++&lt;/code&gt;), Por uzi la dosieron, aldonu la jena linio al via dokumenta kapo:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/diglossic-text.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then, format your text
-Tiam, aranĝu vian tekston (supozante &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown-a&lt;/a&gt; aranĝo) jene:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tiam, aranĝu vian tekston (supozante &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown-a&lt;/a&gt; aranĝo) jene:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ĉi tiu alineo ne bildiĝos en du kolumnojn.
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -44,13 +43,13 @@ Tiam, aranĝu vian tekston (supozante &lt;a href=&#34;https://daringfireball.net
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-l&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### First text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Unua teksto
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Lorem ipsum dolor sit amet...
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-r&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Second text
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Dua teksto
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Doloro mem amas doloron...
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -59,10 +58,7 @@ Tiam, aranĝu vian tekston (supozante &lt;a href=&#34;https://daringfireball.net
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ĉi tiu teksto estas ekstere de la dulingva teksto.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notu ke nur la blok-nivelaj elementoj de &lt;code&gt;h1--h6&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;blockquote&lt;/code&gt;, kaj &lt;code&gt;pre&lt;/code&gt; bildiĝas paralele. Ĉiuj paralelaj tekstoj bezonas havi la sama nombrado de blokoj por viciĝi ĝuste.&lt;/p&gt;
 &lt;h2 id=&#34;kial-krei-ĉi-tiun&#34;&gt;Kial krei ĉi tiun?&lt;/h2&gt;
-&lt;p&gt;La &lt;a href=&#34;https://www.hup.harvard.edu/series/loeb-classical-library&#34;&gt;Loeb-a Klasika Libraro&lt;/a&gt;
-estas bela serio de latinaj kaj grekaj tekstoj, kun anglaj tradukaĵoj, eldonita de Harvarda Universitata Preso.
-Iliaj libroj enhavas la fontan tekston sur la maldekstra paĝo, kaj la tradukaĵo sur la dekstra paĝo.
-Ŝajnas ke ĉiuj aliaj realigoj mankas almenaŭ unu de miaj celmaldekstra, ankaŭ &lt;a href=&#34;https://motherfuckingwebsite.com&#34;&gt;verki per la reto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;La &lt;a href=&#34;https://www.hup.harvard.edu/series/loeb-classical-library&#34;&gt;Loeb-a Klasika Libraro&lt;/a&gt; estas bela serio de latinaj kaj grekaj tekstoj, kun anglaj tradukaĵoj, eldonita de Harvarda Universitata Preso. Iliaj libroj enhavas la fontan tekston sur la maldekstra paĝo, kaj la tradukaĵo sur la dekstra paĝo. Ŝajnas ke ĉiuj aliaj realigoj mankas almenaŭ unu de miaj celmaldekstra, ankaŭ &lt;a href=&#34;https://motherfuckingwebsite.com&#34;&gt;verki per la reto&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

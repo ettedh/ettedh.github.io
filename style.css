@@ -30,7 +30,7 @@ footer {
 
 main {
 	max-width: 70ch;
-	margin: 0 auto 2em auto;
+	margin: 0 auto 1em auto;
 	padding: 2em;
 	background-color: var(--page);
 	border-radius: 0.5em;
@@ -98,9 +98,12 @@ p[rel="author"] { font-weight: bold; }
 	}
 }
 
-ul#tagcloud > li {
-	display: inline;
-	padding: 0 1ch;
+ul#tagcloud {
+	margin-bottom: 0;
+	li {
+		display: inline;
+		padding-right: 1ch;
+	}
 }
 
 #nextprev { overflow: hidden }
