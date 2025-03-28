@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ettedh.github.io/tags/natural-history/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <loc>https://ettedh.github.io/articles/</loc>
+    <lastmod>2025-03-22T08:28:28-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="mul"
-                href="https://ettedh.github.io/mul/tags/natural-history/"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/articles/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://ettedh.github.io/tags/natural-history/"
+                href="https://ettedh.github.io/articles/"
                 />
   </url><url>
     <loc>https://ettedh.github.io/texts/vesuvius/</loc>
@@ -26,6 +26,24 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/texts/vesuvius/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/tags/natural-history/</loc>
+    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="eo"
+                href="https://ettedh.github.io/eo/tags/natural-history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/tags/natural-history/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/tags/natural-history/"
                 />
   </url><url>
     <loc>https://ettedh.github.io/tags/</loc>
@@ -65,7 +83,7 @@
                 />
   </url><url>
     <loc>https://ettedh.github.io/</loc>
-    <lastmod>2025-03-22T09:56:45-05:00</lastmod>
+    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -82,19 +100,6 @@
                 href="https://ettedh.github.io/"
                 />
   </url><url>
-    <loc>https://ettedh.github.io/articles/</loc>
-    <lastmod>2025-03-22T08:28:28-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="eo"
-                href="https://ettedh.github.io/eo/articles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ettedh.github.io/articles/"
-                />
-  </url><url>
     <loc>https://ettedh.github.io/articles/diglossic-text/</loc>
     <lastmod>2025-03-22T08:28:28-05:00</lastmod>
     <xhtml:link
@@ -108,7 +113,7 @@
                 href="https://ettedh.github.io/articles/diglossic-text/"
                 />
   </url><url>
-    <loc>https://ettedh.github.io/tags/software/</loc>
+    <loc>https://ettedh.github.io/tags/technology/</loc>
     <lastmod>2025-03-22T08:28:28-05:00</lastmod>
   </url><url>
     <loc>https://ettedh.github.io/texts/camino-real/</loc>

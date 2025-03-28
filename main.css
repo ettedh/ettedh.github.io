@@ -1,0 +1,163 @@
+/* ettedh's webpage
+ * Default theme is based on example.com CSS.
+ * Dark theme uses the everforest color scheme.
+ * Print theme is modified from AGPLv3 code,
+ * available at github://lowtechmag/solar_v2 */
+
+:root {
+	--bg-color:  whitesmoke;
+	--highlight: #2684d6;
+	--lowlight:  #0063bf;
+	--text:      black;
+	--page:      white;
+	--gray:      dimgray;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text:      #ebdbb2;
+		--page:      #1d2021;
+		--bg-color:  #282828;
+		--gray:      #a89984;
+		--highlight: #fabd2f;
+		--lowlight:  #d79921;
+	}
+	img { filter: invert(0.9); }
+}
+
+body {
+	font-family: "Charis SIL", "Noto Serif", "Georgia", serif;
+	background: var(--bg-color);
+	margin: 0; padding: 0;
+	color: var(--text);
+}
+
+header {
+	max-width: 40ch;
+	font-size: 1.75em;
+	text-align: right;
+	margin: 0.30em auto;
+	padding: 0 1ch;
+}
+
+aside {
+	font-style: italic;
+	color: var(--gray);
+}
+
+main {
+	max-width: 70ch;
+	margin: 0 auto 1em auto;
+	padding: 2em;
+	background-color: var(--page);
+	border-radius: 0.5em;
+	box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+}
+
+footer {
+	max-width: 70ch;
+	margin: 0 auto 5em;
+}
+
+h1, h2 { margin-top: 0; margin-bottom: 0; }
+
+h4, h5, h6 {
+	font-size: 1em;
+	float: left;
+	margin: 0 1ch 0 0;
+}
+
+h4::after, h5::after, h6::after { content: "."; }
+
+a {text-decoration: none; }
+a:link    { color: var(--highlight); }
+a:visited { color: var(--lowlight); }
+a:hover   { text-decoration: underline; }
+
+a.external::after {
+	vertical-align: top;
+	font-size: 0.6em;
+	content: " ↗";
+}
+
+.small-caps {font-variant-caps: all-small-caps;}
+
+p, li {	line-height: 1.7em; }
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+blockquote {
+	font-size: smaller;
+	margin: 0 40px;
+}
+
+img { max-width: 100%; }
+
+hr {margin:1em;}
+
+aside, p[rel="author"], sup { line-height: 1em; }
+
+p[rel="author"] { font-weight: bold; }
+
+::selection {
+	background: var(--highlight);
+	color:      var(--page);
+}
+
+@media (max-width: 36em) {
+	header { font-size: 1.2em; }
+	main {
+		margin: 0 auto;
+		width: auto;
+		padding: 1em;
+	}
+
+	p { text-align: left; }
+}
+
+@media print {
+	html {
+		font-size: 10.5pt;
+		p, li {
+			line-height: 1.3em;
+		}
+	}
+	body { background: none; }
+	main {
+		padding: 0 1em;
+		max-width: 100%;
+		columns: 2;
+		column-gap: 20pt;
+	}
+	/*a {color: black; }*/
+	h4, h5, h6 { line-height: 1.3em;}
+	img { page-break-inside: avoid; }
+	blockquote {margin: 0 0 0 20pt; }
+	/*sup {
+		::before { content: "["}
+		::after { content: "]"}
+	}*/
+}
+
+ul#tagcloud {
+	margin-bottom: 0;
+	li {
+		display: inline;
+		padding-right: 1ch;
+	}
+}
+
+#nextprev { overflow: hidden }
+
+#prevart {
+	float: left;
+	text-align: left;
+}
+#nextart {
+	float: right;
+	text-align: right;
+}
+#nextart,#prevart { max-width: 45%; }

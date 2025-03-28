@@ -1,9 +1,8 @@
-/*
- * diglossic-text.css v1.0.0
- * CC0: <ettedh.github.io/articles/diglossic-text/>
- */
+/* diglossic-text.css v1.0.1
+ * CC0: <ettedh.github.io/articles/diglossic-text/> */
 
-main { max-width: 100ch; } /* accomodate two texts */
+main { max-width: 100ch;} /* accomodate two texts */
+@media print {main{columns: 1; column-gap: 40pt;} }
 
 .diglossic-text {
 	display: grid;
