@@ -65,7 +65,10 @@ h4, h5, h6 {
 	font-size: 1em;
 	float: left;
 	margin: 0 1ch 0 0;
+	line-height: 1.7em;
 }
+
+h5, h6 { font-style: italic; }
 
 h4::after, h5::after, h6::after { content: "."; }
 
@@ -107,8 +110,8 @@ p[rel="author"] { font-weight: bold; }
 	color:      var(--page);
 }
 
-@media (max-width: 36em) {
-	header { font-size: 1.2em; }
+@media (max-width: 78ch) {
+	header { font-size: smaller; }
 	main {
 		margin: 0 auto;
 		width: auto;
@@ -116,14 +119,12 @@ p[rel="author"] { font-weight: bold; }
 	}
 
 	p { text-align: left; }
+	blockquote { margin: 0 0 0 20pt; }
 }
 
 @media print {
 	html {
 		font-size: 10.5pt;
-		p, li {
-			line-height: 1.3em;
-		}
 	}
 	body { background: none; }
 	main {
@@ -133,9 +134,9 @@ p[rel="author"] { font-weight: bold; }
 		column-gap: 20pt;
 	}
 	/*a {color: black; }*/
-	h4, h5, h6 { line-height: 1.3em;}
+	p, li, h4, h5, h6 { line-height: 1.3em;}
 	img { page-break-inside: avoid; }
-	blockquote {margin: 0 0 0 20pt; }
+	blockquote { margin: 0 0 0 20pt; }
 	/*sup {
 		::before { content: "["}
 		::after { content: "]"}
