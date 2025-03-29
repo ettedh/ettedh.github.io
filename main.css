@@ -110,8 +110,8 @@ p[rel="author"] { font-weight: bold; }
 	color:      var(--page);
 }
 
-@media (max-width: 78ch) {
-	header { font-size: smaller; }
+@media (max-width: 40em) {
+	header { font-size: 1.3em; }
 	main {
 		margin: 0 auto;
 		width: auto;
@@ -132,6 +132,7 @@ p[rel="author"] { font-weight: bold; }
 		max-width: 100%;
 		columns: 2;
 		column-gap: 20pt;
+		box-shadow: unset;
 	}
 	/*a {color: black; }*/
 	p, li, h4, h5, h6 { line-height: 1.3em;}
