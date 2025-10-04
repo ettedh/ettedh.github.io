@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=80&amp;path=livereload" data-no-instant defer></script>
+	<title>City Isolation | ettedh</title>
+	<link rel="canonical" href="http://localhost:80/articles/city-isolation/">
+	<link rel='alternate' type='application/rss+xml' title="ettedh RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/main.css'>
+	
+	<link rel="icon" href="/favicon.svg">
+	<meta name="description" content="The distances between cities.">
+	<meta name="keywords" content="natural-history">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header><a href="http://localhost:80/">ettedh</a></header>
+	<main>
+		<article>
+			<h1>City Isolation</h1>
+			<aside>The distances between cities.</aside>
+			
+
+			<hr id="top">
+			
+			<h1 id="city-isolation">City isolation</h1>
+<p>There is a concept in topography called <a href="https://en.wikipedia.org/w/index.php?title=Topographic_isolation">peak isolation</a>, which describes how far a mountain peak is, from another peak which is higher than itself. By analogy, you can describe cities as having a discrete location and population, and using similar algorithms to compute their city isolation. So, let&rsquo;s define it:</p>
+<blockquote>
+<p>The isolation of a city can be measured from the center of a city, to the center of the nearest city which has a higher population.
+City isolation is the distance along the surface between a city and the nearest city with a higher population.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <a href="https://doi.org/10.1177/0309133317738163">Kirmse 2017</a></p></blockquote>
+<p>Here I admit that the terminology can be confusing. In geography, <em>prominence</em> refers to the elevation difference between a peak, and the lowest contour that has it as a peak (Kirmse 2017). This term does not have a defined meaning in the discrete nature of city populations, except for cases within the same  metro.</p>
+<h2 id="what-is-city-population-anyhow">What is city population anyhow?</h2>
+<p>It should be noted that population is not a perfect analogy to elevation. Unlike elevation, human population is discrete, and so all population estimates are totals over an area. This makes the related metric of <a href="https://en.wikipedia.org/wiki/Topographic_prominence">peak prominence</a> undefined for population. Both of these problems could be solved by using population densities, but this has the problems of being way too varied over small areas and meaningless over large areas. So, I used metropolitan population estimates, which count cities as contiguous until the countryside</p>
+<h2 id="results">Results</h2>
+<p>Sorting a list of cities by isolation gives the usual culprits: Tokyo on top, with Mexico City, New York, Istanbul et cetera in the running.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Rank</th>
+          <th style="text-align: center">City</th>
+          <th style="text-align: center">Isolation (km)</th>
+          <th style="text-align: center">Neighbor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">Tokyo</td>
+          <td style="text-align: center">20,000<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></td>
+          <td style="text-align: center">none</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2</td>
+          <td style="text-align: center">New York</td>
+          <td style="text-align: center">10,856</td>
+          <td style="text-align: center">Tokyo</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
+          <td style="text-align: center">Sao Paulo</td>
+          <td style="text-align: center">7,442</td>
+          <td style="text-align: center">Mexico D.F.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">Mumbai</td>
+          <td style="text-align: center">6,742</td>
+          <td style="text-align: center">Tokyo</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">5</td>
+          <td style="text-align: center">Sydney</td>
+          <td style="text-align: center">5,507</td>
+          <td style="text-align: center">Jakarta</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">Lagos</td>
+          <td style="text-align: center">3,924</td>
+          <td style="text-align: center">Cairo</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">7</td>
+          <td style="text-align: center">Honolulu</td>
+          <td style="text-align: center">3,858</td>
+          <td style="text-align: center">San Francisco</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">Cairo</td>
+          <td style="text-align: center">3,562</td>
+          <td style="text-align: center">Karachi</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">9</td>
+          <td style="text-align: center">McMurdo Station</td>
+          <td style="text-align: center">3,549</td>
+          <td style="text-align: center">Dunedin</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">Papeete</td>
+          <td style="text-align: center">3,387</td>
+          <td style="text-align: center">Suva</td>
+      </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Rank</th>
+          <th style="text-align: center">City</th>
+          <th style="text-align: center">Isolation (mi)</th>
+          <th style="text-align: center">Neighbor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: center">New York</td>
+          <td style="text-align: center">3,362</td>
+          <td style="text-align: center">Mexico D.F.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2</td>
+          <td style="text-align: center">Los Angeles</td>
+          <td style="text-align: center">3,958</td>
+          <td style="text-align: center">New York</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
+          <td style="text-align: center">Honolulu</td>
+          <td style="text-align: center">3,853</td>
+          <td style="text-align: center">San Francisco</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">4</td>
+          <td style="text-align: center">Anchorage</td>
+          <td style="text-align: center">2,270</td>
+          <td style="text-align: center">Seattle</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">5</td>
+          <td style="text-align: center">Miami</td>
+          <td style="text-align: center">1,759</td>
+          <td style="text-align: center">New York</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">6</td>
+          <td style="text-align: center">San Juan</td>
+          <td style="text-align: center">1,673</td>
+          <td style="text-align: center">Miami</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">7</td>
+          <td style="text-align: center">Seattle</td>
+          <td style="text-align: center">1,539</td>
+          <td style="text-align: center">Los Angeles</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">8</td>
+          <td style="text-align: center">Houston</td>
+          <td style="text-align: center">1,509</td>
+          <td style="text-align: center">Chicago</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">9</td>
+          <td style="text-align: center">Chicago</td>
+          <td style="text-align: center">1,157</td>
+          <td style="text-align: center">New York</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">Atlanta</td>
+          <td style="text-align: center">943</td>
+          <td style="text-align: center">Chicago</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="gravity-model">Gravity model</h2>
+<p>The &ldquo;gravity model&rdquo; is a lot like the reverse of the isolation model:
+it compares one city with a system.</p>
+<p>The model has two assumptions:</p>
+<ol>
+<li>Population is a good marker for attraction (pretty reasonable),</li>
+<li>Distance is <em>also</em> a good marker for attraction (in inverse).</li>
+</ol>
+<blockquote>
+<p>It is so readily acceptable that the amount of outside trade which a city enjoys in any surrounding town is a direct function of the population of that city and an inverse function of the distance of the city from that town, that the general law needs no support.</p></blockquote>
+<p>The original formulation suggested recommends P/d^2, which matches conveniently to the formula for universal gravity.</p>
+<p>Another interesting quirk with this is that it can show the direction towards a local, maximum population.</p>
+<h2 id="extrapolation">Extrapolation</h2>
+<p>Of course, not all distances are equal.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://earthscience.stackexchange.com/questions/12375/is-there-a-measure-for-the-dominance-of-a-citys-population">https://earthscience.stackexchange.com/questions/12375/is-there-a-measure-for-the-dominance-of-a-citys-population</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The isolation of the largest city is not actually defined. I have set it to 1/2 the circumference of the Earth, 20,000 kilometers, since no other city can possibly have a greater isolation.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			
+		</article>
+		<hr />
+        <nav class=taglist>Related: <a id="tag_natural-history" href="http://localhost:80/tags/natural-history">Natural-History</a></nav>
+
+	</main>
+	
+	<footer><a href="/index.xml">RSS Feed</a>
+	</footer>
+	
+</body>
+</html>

@@ -15,21 +15,11 @@
                 href="https://ettedh.github.io/articles/"
                 />
   </url><url>
-    <loc>https://ettedh.github.io/texts/vesuvius/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="mul"
-                href="https://ettedh.github.io/mul/texts/vesuvius/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://ettedh.github.io/texts/vesuvius/"
-                />
+    <loc>https://ettedh.github.io/texts/alaska/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ettedh.github.io/tags/natural-history/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -47,7 +37,7 @@
                 />
   </url><url>
     <loc>https://ettedh.github.io/tags/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -65,7 +55,7 @@
                 />
   </url><url>
     <loc>https://ettedh.github.io/texts/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -83,7 +73,7 @@
                 />
   </url><url>
     <loc>https://ettedh.github.io/</loc>
-    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="eo"
@@ -98,6 +88,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ettedh.github.io/"
+                />
+  </url><url>
+    <loc>https://ettedh.github.io/texts/vesuvius/</loc>
+    <lastmod>2025-03-22T19:54:22-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="mul"
+                href="https://ettedh.github.io/mul/texts/vesuvius/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ettedh.github.io/texts/vesuvius/"
                 />
   </url><url>
     <loc>https://ettedh.github.io/articles/diglossic-text/</loc>
