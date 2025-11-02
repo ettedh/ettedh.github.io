@@ -1,28 +1,27 @@
 /* ettedh's webpage
  * Default theme is based on example.com CSS.
- * Dark theme uses the everforest color scheme.
- * Print theme is modified from AGPLv3 code,
- * available at github://lowtechmag/solar_v2 */
+ * Print theme is modified from AGPLv3 code;
+ * see github://lowtechmag/solar_v2 */
 
 :root {
-	--bg-color:  whitesmoke;
-	--highlight: #2684d6;
-	--lowlight:  #0063bf;
 	--text:      black;
 	--page:      white;
+	--bg-color:  whitesmoke;
 	--gray:      dimgray;
+	--highlight: #2684d6;
+	--lowlight:  #0063bf;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text:      #fbf1c7;
-		--page:      #1d2021;
-		--bg-color:  #282828;
+		--text:      antiquewhite;
+		--page:      #1b1b1b;
+		--bg-color:  #222;
 		--gray:      #a89984;
 		--highlight: #fabd2f;
 		--lowlight:  #d79921;
 	}
-	img { filter: invert(0.9); }
+	img:not(:hover) { filter: invert(0.9); }
 }
 
 body {
@@ -40,7 +39,7 @@ header {
 	padding: 0 1ch;
 }
 
-aside {
+aside, figcaption {
 	font-style: italic;
 	color: var(--gray);
 }
@@ -101,18 +100,20 @@ blockquote {
 img { max-width: 100%; }
 
 figcaption {
-	font-style: italic;
 	font-size: smaller;
-}
+	line-height: 1.2em;
+	}
 
-hr {margin:1em;}
+hr { margin: 1em; }
 
 aside, p[rel="author"], sup { line-height: 1em; }
+
+table {line-height: 1.2em;}
 
 p[rel="author"] { font-weight: bold; }
 
 ::selection {
-	background: var(--highlight);
+	background: var(--text);
 	color:      var(--page);
 }
 
@@ -126,6 +127,10 @@ p[rel="author"] { font-weight: bold; }
 
 	p { text-align: left; }
 	blockquote { margin: 0 0 0 20pt; }
+	figure {
+		margin-inline-start: 1em;
+		margin-inline-end: 1em;
+	}
 }
 
 @media print {

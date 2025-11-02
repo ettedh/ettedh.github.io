@@ -11,14 +11,39 @@
 	
 	
 	<item>
+		<title>Chicago Amtrak Directions</title>
+		<link>https://ettedh.github.io/articles/amtrak-ns/</link>
+		<pubDate>Thu, 09 Oct 2025 17:43:47 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/articles/amtrak-ns/</guid>
+		<description>&lt;p&gt;Chicago&amp;rsquo;s Union Station is the most connected rail station in the United States. It is a double stub-end terminal, meaining that trains can come from either the north or the south.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; As it turns out, all Amtrak lines, except for the &lt;em&gt;Empire Builder&lt;/em&gt; and its subsets, come to the south end.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/amtrak-ns.svg&#34; alt=&#34;A map of the United States, showing places accessible to the north in red, and to the south in blue&#34;&gt;
+    &lt;figcaption&gt;States accessible to the north (red) and south (blue) from Chicago Union Station. Illinois has stations to both directions.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Most of this is due to Lake Michigan. Any direction to the east has to go around the south shore, including Michigan to the northeast. Thus, the north side has only &lt;em&gt;two&lt;/em&gt; cardinal directions (north and northwest), whereas the south has the other six: everywhere from California to Massachusetts.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Most states are accessible from Chicago. Two (South Dakota and Wyoming) have no stations whatsoever. Alabama and the New England states have only regional access. And the other two are obviously not reachable by rail.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;There are a couple of under-utilized through-running platforms. &lt;a href=&#34;https://www.hsrail.org/blog/its-time-to-fix-union-station/#through&#34;&gt;Many rail users&lt;/a&gt; think that more through-running is a necessary improvement.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;You can find the detailed alignments from Andrew Lynch&amp;rsquo;s beatiful &amp;ldquo;&lt;a href=&#34;https://www.vanshnookenraggen.com/_index/2020/12/complete-and-geographically-accurate-track-map-of-chicago/&#34;&gt;Chicago Track Map&lt;/a&gt;,&amp;rdquo; last modified in 2025.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>Early Alaska Transportation</title>
 		<link>https://ettedh.github.io/texts/alaska/</link>
 		<pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
 		
 		<guid>https://ettedh.github.io/texts/alaska/</guid>
-		<description>&lt;p&gt;This text is a chapter from the book &lt;i&gt;Blazing Alaska&amp;rsquo;s Trails&lt;/i&gt;, a collection of undated essays by &lt;a href=&#34;https://en.wikipedia.org/wiki/Alfred_Hulse_Brooks&#34;&gt;Alfred Hulse Brooks&lt;/a&gt; about life in early Alaska. The text here is from a scan I made from the 1972 edition, which I have marked up and edited for the web. As Brooks died in 1924, the text should be in the public domain. (Note: as of October 4, all the text is here. I need to come back and add the pictures at prime locations.)&lt;/p&gt;
-&lt;h1 id=&#34;early-alaska-transportation&#34;&gt;Early Alaska Transportation&lt;/h1&gt;
-&lt;p&gt;The period of evolution from man-carried burdens to
+		<description>&lt;p&gt;The period of evolution from man-carried burdens to
 railroad transport, from raft and dugout to steamboat,
 is coextensive with the advance of man from savagery to
 civilization, a period to be measured by many thousands of
@@ -42,6 +67,11 @@ coastal barrier, there were probably few who could realize
 that within a few years it would be possible to reach the
 Yukon by rail in not-as-many days as they took months
 for the journey.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dog-rails.webp&#34; alt=&#34;A team of three dogs carrying two men on a handcar&#34;/&gt;
+    &lt;figcaption&gt; Dog team pulling a
+wheeled vehicle over the railroads tracks on the Seward Penisula, photo by J. B. Mertie.&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Transport is the very essence of frontier life. Progress
 of industry and settlement are absolutely controlled by the
 means of transport. The pioneer whose mission is to obtain
@@ -195,20 +225,20 @@ the steamers running to Kodiak and Saint Michael became
 public carriers, and the same was true of the river steamers
 on the Yukon.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dora.webp&#34; /&gt;
+  &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dora.webp&#34; alt=&#34;A two-mast ship sailing in front of an Alaskan fjord&#34;/&gt;
   &lt;figcaption&gt;The “Dora,” photo by D. F. Higgins&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;The &lt;i&gt;Dora&lt;/i&gt; is perhaps the most famous of Alaska’s vessels,
-and has a record of 40 years of service. At different times
+and has a record of forty years of service. At different times,
 she has served as a poacher of seal on the high seas, as a
 transport for furs and supplies, as a passenger boat, and
 finally as a fish boat. Originally built as a brig, she was
 later given steam power and for years plowed the dangerous
-waters of Bering Sea. From 1891 to 1900, the &lt;i&gt;Dora&lt;/i&gt;
+waters of the Bering Sea. From 1891 to 1900, the &lt;i&gt;Dora&lt;/i&gt;
 plied between Sitka and the ports to the westward as far
 as Unalaska. In 1900, she carried the local traffic from
 Saint Michael to Nome and other settlements along the southern
-coast of Bering Sea. Later, for many years, she was
+coast of the Bering Sea. Later, for many years, she was
 the mail boat between Seward and Alaska Peninsula ports.
 The &lt;i&gt;Dora&lt;/i&gt;, in spite of her great age, was always a staunch
 sea craft and weathered many a fierce gale that carried her
@@ -222,7 +252,7 @@ and difficulties, these were the least of the transportation
 obstacles met with by the pioneer. Once landed with his
 outfit, he had to make further progress entirely on his own
 efforts. It was then a question of packing his supplies
-on his back, building his own boat, &lt;em&gt;or&lt;/em&gt;, where conditions
+on his back, building his own boat—or, where conditions
 favored, making use of dog teams.&lt;/p&gt;
 &lt;h2 id=&#34;sleds&#34;&gt;Sleds&lt;/h2&gt;
 &lt;p&gt;Countless generations of Alaskan natives have used the
@@ -318,7 +348,7 @@ proof against the mosquito, ever present in the summer, but
 these insects sometimes torture them by stings about the
 eyes and nose.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/backpacker.webp&#34; /&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/backpacker.webp&#34; alt=&#34;Man with a backpack flanked by four pack dogs on a rutted trail&#34;/&gt;
     &lt;figcaption&gt;Backpacking man and dogs (photographer unknown)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;There is no standard size for an Alaskan dog team. A
@@ -334,12 +364,6 @@ district, a distance of nearly five hundred miles; the route led over
 a mountain pass in the heart of the Alaska Range and,
 though the journey was performed under great difficulties,
 the trip was completed successfully.&lt;/p&gt;
-&lt;p&gt;[picture 1-2]
-&lt;strong&gt;The Alaskan dog team&lt;/strong&gt;
-Dogs are widely used for hauling sleds over the snow on cross country trips (left),
-but they are sometimes also used in a less orthodox fashion such as (right), pulling a
-wheeled vehicle over the railroads tracks on the Seward Penisula. Photos by
-J. B. Mertie.&lt;/p&gt;
 &lt;p&gt;Sled dogs are hitched both tandem and in pairs, with
 an extra leader. For tandem driving, traces are used, and
 the rig is not unlike that for horses. In pair driving, the
@@ -372,6 +396,10 @@ a speed of 22 miles a day; but the carriers frequently
 exceed this, runs of over 40 miles a day having been recorded.
 The mail carriers haul from 50 to 75 pounds of
 weight per dog.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dog-team.webp&#34; /&gt;
+    &lt;figcaption&gt;&lt;b&gt;The Alaskan dog team.&lt;/b&gt; Dogs are used for hauling sleds over the snow on cross country trips, photo by J.&amp;nbsp;B. Mertie.&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Many long journeys have been made over well-beaten
 trails by good “dog mushers” where a day’s average travel
 was 25 miles. This, however, is hard work for the driver
@@ -380,7 +408,7 @@ except on down grades, but runs behind, guiding and
 steadying it by the handle bars. Where a new trail has
 to be broken through new snow, a man on snowshoes goes
 in advance of the team.&lt;/p&gt;
-&lt;p&gt;The dog sleds are 8–12 feet long and about 20–24
+&lt;p&gt;The dog sleds are 8⁠–⁠12 feet long and about 20⁠–⁠24
 inches wide. They are strong, built of hickory or oak,
 and made not too rigid. A certain looseness and pliability
 allow the runners to follow the tracks. Small sleds weigh
@@ -395,11 +423,14 @@ short rides.&lt;/p&gt;
 &lt;p&gt;Dogs are also used in summer to a limited extent as
 pack animals by both Eskimo and Indian, and occasionally
 a lone prospector will be found to make a similar use of
-them. A dog will pack 20 or 30, even 40, pounds. Unless
+them. A dog will pack 20 or 30, even 40 pounds. Unless
 thoroughly broken, these dogs are difficult to control, and
 one of their favorite tricks is to lie down in water, pack
 and all.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/alaska/portage.webp&#34; alt=&#34;Men on portage from one stream to another&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/portage.webp&#34; alt=&#34;Four men carrying a canoe through a wetland&#34; /&gt;
+    &lt;figcaption&gt;Men on portage from one stream to another. Photo by J. B. Mertie&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Backpacking is the most primitive and laborious mode
 of transport and is resorted to only when all other means
 fail. As an actual means of forwarding supplies, it is
@@ -408,10 +439,10 @@ A portage is chosen, so far as circumstances permit, so
 as to afford firm footing and easy grades. The Chilkoot
 Pass is the most famous portage in the world, for thousands
 of tons of supplies have been carried across it. It lies
-some twenty miles from and 3,100 feet above tidewater; and,
-as has been indicated earlier, the appriach to it, though
+some twenty miles from, and 3,100 feet above, tidewater; and,
+as has been indicated earlier, the approach to it, though
 easy enough at first, beocmes steep and difficult. To the
-place called the “&lt;a href=&#34;https://www.nps.gov/klgo/learn/historyculture/the-scales-history.htm&#34;&gt;Scales&lt;/a&gt;,” sledding was feasible; but from
+place called &lt;a href=&#34;https://www.nps.gov/klgo/learn/historyculture/the-scales-history.htm&#34;&gt;the Scales&lt;/a&gt;, sledding was feasible; but from
 here on, a steep climb to the summit has to be made, and
 transport was on the backs of men. This portage provided
 the test that winnowed out the strong from the weak, the
@@ -473,7 +504,7 @@ Peters and I made the journey from Haines in Southeastern
 Alaska to Eagle on the Yukon, a distance of nearly six hundred
 miles, that has already been referred to in Chapter 16.
 In 1902, I made what is perhaps the longest pack horse
-journey ever accomplished in Alaska, from Cook Inlet, round the base of Mount McKinley, and on to the Yukon at
+journey ever accomplished in Alaska: from Cook Inlet, round the base of Mount McKinley, and on to the Yukon at
 Rampart. In 105 days, the pack train traveled some 800
 miles with the personnel going entirely on foot. At the
 start, the horses were each loaded with 250 pound sacks;
@@ -489,11 +520,15 @@ native grasses which are very nourishing. There is in
 Alaska, however, no natural curing of grasses such as
 takes place in the arid states of the West. When frost comes, about the middle of September, the horse feed is
 practically ruined. Therefore, the use of pack horses in
-Alaska is pretty much limited to the season from June 1st
+Alaska is pretty much limited to the season from June 1
 to the middle of September. By feeding grain one can
 considerably extend the season, but as a horse will eat up
 his own load in ten or fifteen days, such use is impractical for
 long journeys.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/horses-swimming.webp&#34; alt=&#34;Two horses up to their heads in water. Next to them are three men paddling a canoe.&#34;/&gt;
+    &lt;figcaption&gt;Pack train of horses swimming a stream. Photo by A. H. Brooks&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Horse sleds, like pack animals, only came into general
 use after the Klondike discovery. Their efficient use is
 limited to roads which must be at least passable after the
@@ -527,7 +562,7 @@ the winter. The enormous use of reindeer transport in
 Siberia appeared fully to justify these contentions; yet
 after thirty years of reindeer breeding in Alaska, their use in
 transport is almost negligible. In Siberia, a sled load of
-270–300 pounds is easily hauled for long distances by
+270⁠–⁠300 pounds is easily hauled for long distances by
 the reindeer. But these are the large &lt;a href=&#34;https://en.wikipedia.org/wiki/Tungusic_peoples&#34;&gt;Tungus&lt;/a&gt; animals
 which average at least a third larger than the Alaskan
 reindeer, are used as saddle animals, and will carry a
@@ -576,7 +611,7 @@ teams made the furnishing of dried salmon for dog feed
 a well-established industry along the waterocurses. The
 reindeer will eat little except its regular food of lichens,
 but the dog is omnivorous in its appetite. It should be
-added, however, that the great tundra areas of Bering
+added, however, that the great tundra areas of the Bering
 Sea and of northern Alaska are the natural home of the
 reindeer. The barren ground region has as yet but little
 population save for the native whose mode of life has long
@@ -655,7 +690,7 @@ with the rope by main force; while to stop him in his mad career
 once he is started it is often necessary to throw him with the rope.&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Some use of the Alaskan reindeer as pack animals has been
 made, but this mode of employment is not yet well developed.
-The large Siberian reindeer will carry 100–150
+The large Siberian reindeer will carry 100⁠–⁠150
 pounds, but the smaller animal of Alaska will on the average
 probably not carry over 50 pounds. The burden is carried
 in cloth hampers hung over the animals and made secure
@@ -697,6 +732,10 @@ of waters navigable for river steamers. It is these great
 arteries of commerce that have served chiefly in the past
 to open up the interior to settlement.&lt;/p&gt;
 &lt;h3 id=&#34;hand-powered-craft&#34;&gt;Hand-powered craft&lt;/h3&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/raft.webp&#34; alt=&#34;Two men guiding a small raft packed with goods. The man at the back is poling the raft.&#34;/&gt;
+    &lt;figcaption&gt;Two men crossing a stream on raft. Photo by A. H. Brooks&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Long before any steamers had navigated these rivers,
 these waters had been much used for transportation in
 various ways. The inland natives of Alaska were, it is
@@ -725,9 +764,9 @@ stern, of the general type of a dory, and some 18–24
 feet long. Later the Yukon poling boat was devised. This
 was a long, narrow, tapering craft, admirably adapted to
 upstream journeys, against swift current and in shallow
-water. The poling boat was 20–30 feet long, and amidships,
+water. The poling boat was 20⁠–⁠30 feet long, and amidships,
 its bottom measured from 12 to 20 inches with
-tapering sides, giving it 2½–3 feet of
+tapering sides, giving it 2½⁠–⁠3 feet of
 beam at the gunwale. Though tapering rapidly at both
 ends, it is usually built with snub nose at both bow and
 stern. The Yukon poling boat was no doubt an adaptation
@@ -736,16 +775,13 @@ Up to the time of the use of steamers, the Ohio River keelboats,
 said to have been first used in 1793, with their
 expert polers were the only crafts which would go upstream.
 These Ohio River boats were 50 feet long, but
-only 12–15 feet wide, and were propelled by ten polemen.
+only 12⁠–⁠15 feet wide, and were propelled by ten polemen.
 Their form and mode of use were identical with the
 Mississippi craft.&lt;/p&gt;
-&lt;p&gt;[pictures 3-6]
-&lt;strong&gt;Native transportation methods on water&lt;/strong&gt;
-Upper left: Eskimo &amp;ldquo;tracking,&amp;rdquo; photo by A. H. Brooks; upper right: Eskimo in kayak, photo by A. H. Brooks; lower left: Indians in birch bark canoe, photo by W. C. Mendenhall; lower right: Indian propelling canoe with hand push poles, photo by a. g. maddren.&lt;/p&gt;
 &lt;p&gt;It is surprising with what facility good polemen can push a loaded boat of this type up swift streams and with
 barely enough depth of water to float the craft. With fair
 conditions two good men could take a ton of supplies upstream
-at the rate of 10–20 miles a day, and with a
+at the rate of 10⁠–⁠20 miles a day, and with a
 lighter load. 30 miles a day were not uncommon. In the
 early days of Yukon mining it was not infrequent for a
 party of men to make the journey from Fortymile to
@@ -755,7 +791,10 @@ of nearly 600 miles, in a month, an average speed of nearly
 the difficult portage around White Horse Rapids and Miles
 Canyon, and also the easy navigation of Laberge and other
 lakes of the upper Lewes River.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/alaska/eskimo-tracking.webp&#34; alt=&#34;Eskimo “tracking,” photo by A. H. Brooks&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/eskimo-tracking.webp&#34; alt=&#34;Man toeing a boat on a riverbank. To his side is a dog. Behind the man, the bank has a ridge.&#34;/&gt;
+    &lt;figcaption&gt;An Eskimo &#34;tracking,&#34; photo by A. H. Brooks&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;In these upstream journeys propulsion by poling was
 varied by &lt;i&gt;tracking&lt;/i&gt;. This consisted in dragging the boat
 by lines of men walking on the shore. By attaching two
@@ -771,7 +810,10 @@ propulsion, formerly called “bushwhacking” on the Ohio
 River, is slow and tedious; and a whole day may be consumed
 to advance a few miles. It is not uncommon to use
 dogs as draft animals in taking boats up streams.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/alaska/peterborough.webp&#34; alt=&#34;The Peterborough canoe made portages good highways (photo by J. B. Mertie)&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/peterborough.webp&#34; alt=&#34;A Peterborough canoe with two men on it on a stream&#34; /&gt;
+    &lt;figcaption&gt;The well-built Peterborough canoe made portages good highways (photo by J. B. Mertie)&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;It was the Canadian explorers like William Ogilvie who
 first introduced the &lt;a href=&#34;https://en.wikipedia.org/wiki/Peterborough_Canoe_Company&#34;&gt;Peterborough canoes&lt;/a&gt; on the Yukon;
 and later, this craft was much used by the Northwest
@@ -781,7 +823,7 @@ explorer. In general modeled after the Ojibwe bark canoe,
 the Peterborough is an admirable swift water boat, carries
 a large cargo, and is so light that it can be portaged a
 long distance. This model is built in sizes varying from 17
-to 24 feet in length with a beam of 40–52 inches. The
+to 24 feet in length with a beam of 40⁠–⁠52 inches. The
 favorite canoe of the explorer is about 19 feet long and 46
 inches wide. Such a boat built of cedar will, when dry,
 weigh about 120 pounds, and in an emergency can be packed
@@ -819,14 +861,14 @@ during the past two decades by the gas engines.
 Previous to 1900, the prospector and the fisherman traveled
 chiefly in crafts propelled by sail and oars, but now the
 use of power boats is almost universal. The favorite craft
-is the Columbia River fishing boat, 20–30 feet long, of
+is the Columbia River fishing boat, 20⁠–⁠30 feet long, of
 the lifeboat type, and admirable for heavy weather. These,
 formerly propelled solely by sail and oars, are now equipped
 with economical heavyweight gas engines.&lt;/p&gt;
 &lt;p&gt;The Western Union Telegraph exploring expeditions had
 for part of their project the steam navigation of the Yukon
 River. Two flat-bottomed boats about 60 feet long, the
-&lt;i&gt;Wilder&lt;/i&gt; and the &lt;i&gt;Lizzie Horner&lt;/i&gt;, were shipped to St. Michael
+&lt;i&gt;Wilder&lt;/i&gt; and the &lt;i&gt;Lizzie Horner&lt;/i&gt;, were shipped to Saint Michael
 in 1866, but neither succeeded in entering the mouth of
 the Yukon. Navigation of the Yukon continued by small
 boat until the newly organized Alaska Commercial Company
@@ -843,10 +885,10 @@ steamers were brought to the Yukon and navigated the
 river up as far as Fort Selkirk,&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; 1,700 miles from the Bering
 Sea. These boats were chiefly used in the fur trade, but
 they also supplied the few prospectors then in the region.&lt;/p&gt;
-&lt;p&gt;[pictures 7-9]
-&lt;strong&gt;Transportation by boat&lt;/strong&gt;
-Upper: &amp;ldquo;S.S. Scotia&amp;rdquo; taking on wood on Taku Arm, photo by Sidney Paige; center: the &amp;ldquo;Dora,&amp;rdquo; photo by D. F. Higgins; lower: The &amp;ldquo;Sarah&amp;rdquo; loaded with Fairbanks stampeders, photo by L. M. Prindle.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/alaska/ss-scotia.webp&#34; alt=&#34;“S.S. Scotia” taking on wood on Taku Arm, photo by Sidney Page&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/ss-scotia.webp&#34; alt=&#34;A steamboat docked next to massive piles of logs&#34;/&gt;
+    &lt;figcaption&gt;&#34;S.S. Scotia&#34; taking on wood on Taku Arm, photo by Sidney Page&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;With the influx of miners after the discovery of gold
 in the Fortymile district, a larger vessel was demanded.
 In 1889, the Alaska Commercial Company built the &lt;i&gt;Arctic&lt;/i&gt;,&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt;
@@ -939,8 +981,8 @@ whether any other one country in the world has shown such a notable industial ad
 outlay of public funds for transportation facilities.&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;private-construction&#34;&gt;Private construction&lt;/h3&gt;
 &lt;figure&gt;
-&lt;img src=&#34;https://ettedh.github.io/pics/alaska/early-roads-i.webp&#34; alt=&#34;Two photos side by side. The left shows a man standing on a rut trail in the woods. The right shows a man standing on a trail with wagon ruts carved into deep snow.&#34;/&gt;
-&lt;figcaption&gt;&lt;b&gt;Early roads, I.&lt;/b&gt; These roads were frequently crude affairs as is shown by the wagon road (left) up Gold Creek and that to the Jualin Mine in the Berners Bay district (right).&lt;br /&gt; Photos by C. W. Wright.&lt;/figcaption&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/early-roads-i.webp&#34; alt=&#34;Two photos side by side. The left shows a man standing on a rut trail in the woods. The right shows a man standing on a trail with wagon ruts carved into deep snow.&#34;/&gt;
+    &lt;figcaption&gt;&lt;b&gt;Early roads, I.&lt;/b&gt; These roads were frequently crude affairs as is shown by the wagon road (left) up Gold Creek and that to the Jualin Mine in the Berners Bay district (right).&lt;br /&gt; Photos by C. W. Wright.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;A little construction and some improvements of roads at
 Sitka were done by the military authorities between 1867
@@ -962,7 +1004,7 @@ own burdens over it without charge. When the Klondike
 rush started, a wagon road was constructed from tidewater
 at Dyea for eight miles to the entrance of the canyon, and
 during the height of the travel it carried on a brisk business.&lt;/p&gt;
-&lt;p&gt;In the spring of 1898 George A. Bracket completed fifteen
+&lt;p&gt;In the spring of 1898, George A. Bracket completed fifteen
 miles of wagon road from Skagway to the base of the final
 steep thousand-foot climb leading to the summit of the White
 Pass. This road traversed the heavily timbered flat of
@@ -1072,7 +1114,10 @@ but that such a generous project for wagon
 roads was sound is proved by the fact that most of those
 it included have, during the twenty years that have since
 elapsed, been completed or are under construction.&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/alaska/bridge.webp&#34; alt=&#34;The backpackers will probably cross an old-fashioned bridge (photo by F. H. Moffit)&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/bridge.webp&#34; alt=&#34;A simple wooden truss bridge crossing a stream of about twenty feet&#34;/&gt;
+    &lt;figcaption&gt;The backpackers will probably cross an old-fashioned bridge (photo by F. H. Moffit)&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;p&gt;Though the trails established by these early exploring
 expeditions were of use to the prospector, they were little
 more than cuts through the timber, with here and there
@@ -1081,7 +1126,7 @@ such an expedition was that built under the direction of
 Major W. R. Abercrombie, from Valdez inland. Abercrombie,
 commanding the Copper River expedition of the
 U.S. Army, landed at Valdez in the spring of 1898. His
-parties, as already noted in Chapter 16, subsequently
+parties, as already noted in Chapter 16,&lt;sup id=&#34;fnref1:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; subsequently
 made their way inland over the difficult an dangerous
 Valdez Glacier route and also explored other passes through
 the coastal mountain barrier. Abercrombie recommended
@@ -1200,13 +1245,13 @@ many lives.&lt;/p&gt;
 &lt;p&gt;ed.: This essay was seemingly written some time between 1920 and Brook’s death in 1924.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;Cf. “Railroad Routes in Alaska.” &lt;i&gt;Report of Alaska Railroad Commission, and Congress, 3rd session, H. R. Doc. 1346&lt;/i&gt;, 1913, pp. 114–130.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cf. “Railroad Routes in Alaska.” &lt;i&gt;Report of Alaska Railroad Commission, and Congress, 3rd session, H. R. Doc. 1346&lt;/i&gt;, 1913, pp. 114⁠–⁠130.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
 &lt;p&gt;The Russians had only small coastal vessels driven by steam, their trans-Pacific traffic being all by sailing vessels.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;Andrews, C. L., “Marine Disasters of the Alaska Route,” &lt;i&gt;Washington Historical Quarterly&lt;/i&gt;, VII (1916), 24.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;C. L. Andrews, “&lt;a href=&#34;https://journals.lib.washington.edu/index.php/WHQ/article/view/5421&#34;&gt;Marine Disasters of the Alaska Route&lt;/a&gt;,” &lt;i&gt;Washington Historical Quarterly&lt;/i&gt;, 7, no. 1 (1916): 24⁠–⁠37.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:5&#34;&gt;
 &lt;p&gt;In 1878, the entire expenditure for the Alaskan mail service was $18,000, which provided monthly service to Sitka and Wrangell. By 1898, only seven post offices had been established in the Territory. In 1920, there was a total of 159 post offices of all classes.&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -1215,16 +1260,16 @@ many lives.&lt;/p&gt;
 &lt;p&gt;A speed of nine miles an hour for four hours has been recorded in some of the dog races.&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:7&#34;&gt;
-&lt;p&gt;ed.: Published in &lt;i&gt;Blazing Alaska’s Trails&lt;/i&gt;.&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See Alfred H. Brooks, &lt;i&gt;Blazing Alaska&amp;rsquo;s Trails&lt;/i&gt; (University of Alaska Press, 1953).&amp;#160;&lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref1:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:8&#34;&gt;
-&lt;p&gt;Jarvis, D. H. &lt;i&gt;The Cruise of the U.S. Revenue Cutter Bear and the Overland Relief Expedition&lt;/i&gt;, Washington, D.C., 1899, p. 47.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;D. H. Jarvis, &lt;i&gt;&lt;a href=&#34;https://www.loc.gov/resource/gdcmassbookdig.reportofcruiseof03unit/?sp=89&#34;&gt;Report of the Cruise of the U.S. Revenue Cutter Bear and the Overland Relief Expedition&lt;/a&gt;&lt;/i&gt;. Washington: Government Printing Office, 1899. p. 47.&amp;#160;&lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:9&#34;&gt;
-&lt;p&gt;Jackson, Sheldon, &lt;i&gt;14th Annual Report on the Introduction Domestic Reindeer into Alaska&lt;/i&gt;, Washington, D.C., 1906, pp. 104–105.&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sheldon Jackson, &lt;i&gt;&lt;a href=&#34;https://hdl.handle.net/2027/coo.31924070856780&#34;&gt;Fourteenth Annual Report on the Introduction Domestic Reindeer into Alaska&lt;/a&gt;&lt;/i&gt; (Washington, D.C., 1906), pp. 104–105.&amp;#160;&lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:10&#34;&gt;
-&lt;p&gt;Stuck, Hudson, &lt;i&gt;Ten Thousand Miles with a Dog Sled&lt;/i&gt;, New York, 1914, p. 402, p. 407.&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hudson Stuck, &lt;i&gt;&lt;a href=&#34;https://catalog.hathitrust.org/Record/007706307&#34;&gt;Ten Thousand Miles with a Dog Sled&lt;/a&gt;&lt;/i&gt; (New York, 1914), p. 402, 407.&amp;#160;&lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:11&#34;&gt;
 &lt;p&gt;The first trip above Fort Yukon, made in 1875, ascended the Yukon as far as the site of Fort Reliance, about six miles below Dawson.&amp;#160;&lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -1236,7 +1281,7 @@ many lives.&lt;/p&gt;
 &lt;p&gt;Gross tonnage, 800 to 1,211.&amp;#160;&lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:14&#34;&gt;
-&lt;p&gt;During the Klondike days wood for steamers was sold at $15 and $25 a cord, but the normal price is $4 to $8.&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;During the Klondike days, wood for steamers was sold at $15 and $25 a cord, but the normal price is $4 to $8.&amp;#160;&lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:15&#34;&gt;
 &lt;p&gt;In addition, there were 620 miles of winter sled road and 250 miles of improved trail.&amp;#160;&lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -1251,10 +1296,10 @@ many lives.&lt;/p&gt;
 &lt;p&gt;The price paid for the wagon road was $40,000.&amp;#160;&lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:19&#34;&gt;
-&lt;p&gt;Brooks, Alfred H. “Placer Mining in Alaska,” &lt;i&gt;United States Geological Survey Bulletin, No. 225&lt;/i&gt; Washington, D.C., 1904, pp. 56–57.&amp;#160;&lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alfred H. Brooks, “Placer Mining in Alaska,” &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/2003216166&#34;&gt;United States Geological Survey Bulletin&lt;/a&gt;&lt;/i&gt;, no. 225, Washington, D.C., 1904, pp. 56⁠–⁠57.&amp;#160;&lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:20&#34;&gt;
-&lt;p&gt;It is worthy of note that C. W. Purington, then of the Geological Survey, was the first to present definite estimates of the cost of road construction in Alaska and to substantiate by actual figures their need to the placer mining industry. See his “Roads and Road Building in Alaska,” &lt;i&gt;Ibid., No. 263&lt;/i&gt;, 1905, pp. 217–228.&amp;#160;&lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is worthy of note that C. W. Purington, then of the Geological Survey, was the first to present definite estimates of the cost of road construction in Alaska and to substantiate by actual figures their need to the placer mining industry. See his “Roads and Road Building in Alaska,” Ibid., no. 263 (1905). pp. 217⁠–⁠228.&amp;#160;&lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:21&#34;&gt;
 &lt;p&gt;It is estimated that the cost of wagon road construction in Alaska at the prices of 1920 will be from $5,000 to $6,000 a mile.&amp;#160;&lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
@@ -1390,12 +1435,12 @@ many lives.&lt;/p&gt;
 		<description>&lt;p&gt;I scramble gleefully up a concrete incline six feet above the cobblestone road, but Hal Jackson saunters. We stand in the ruins of what was once a large house, twenty minutes outside Zacatecas, Mexico. The air is cool. Scrubby mountains pocked with old silver mines sweep across the landscape. Jackson is uneasy. I collect several pebbles, fallen pieces of wall. Jackson shakes his head, wanders the brush. &amp;ldquo;This is disappointing,&amp;rdquo; he says, eyes scanning, GPS in one hand, notepad in the other, camera slung round his neck. &lt;i&gt;Why?&lt;/i&gt; &amp;ldquo;It just seems&amp;hellip;&amp;rdquo; he trails off, gingerly steps over a sharp rock embedded in the earth. He was once a marathoner, and though it&amp;rsquo;s been thirteen years since his last, he maintains a runner&amp;rsquo;s lean grace. At seventy he looks perhaps fifty-five. &amp;ldquo;I thought it&amp;rsquo;d be bigger,&amp;rdquo; he mutters. &amp;ldquo;This doesn&amp;rsquo;t seem right.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;We are in Pánuco, the birthplace of Juan de Oñate, the last of the Spanish conquistadors, whose hand likely had more influence on the American Southwest and northern Mexico than that of any other single explorer. In 1598, Oñate blazed the &lt;i xml:lang=&#34;es&#34;&gt;Camino Real de Tierra Adentro&lt;/i&gt;, a trail that became the most used and most significant route of commerce and culture for three hundred years. At its peak the Camino Real ran 1,800 miles from Mexico City north to Santa Fe. Spaniards used the trail to settle towns and villages all along the way, Franciscans used it to spread their gospel, troops from the United States and Mexico used it for waging battles and building forts, Indians used it to fight the swelling tide of foreigners, and traders used it for commerce. All morning, Jackson and I have searched for the remains of the Oñate family hacienda, and now, with the Jeep Cherokee parked conspicuously on the narrow road, clouds in full bloom beyond the mountains, and my pocket full of pebbles, Jackson&amp;rsquo;s doubt continues to deepen.&lt;/p&gt;
 &lt;p&gt;A man in stained white jeans and a thinning white undershirt wanders down the road below us in sandals. He greets the two gringos standing atop a ruined wall in a pool of packed dirt bursting with purple wildflowers. Jackson tells him we want Oñate&amp;rsquo;s villa; the man looks bemused, then beckons us down from our perch.&lt;/p&gt;
-&lt;p&gt;A quarter-mile up and three minutes later we find the hacienda for real: an enormous hillock of pink cobblestones with a wall running around the circumference, a turret in the middle, the remnants of an ancient pool, a burrowed garden. The place is grand and empty. Silent with a cool breeze. It bears not a single marker indicating what it once was or who lived here. We three wander about it. Now Jackson is gleeful, running to take pictures, climbing up on the walls to peer at the vistas, his dusty white baseball hat nearly flying off behind him. &amp;ldquo;Now this”⁠—he grins, index finger poised in the air⁠—“this is what I pictured.  &lt;em&gt;This&amp;hellip;is&amp;hellip;it!&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A quarter mile up and three minutes later we find the hacienda for real: an enormous hillock of pink cobblestones with a wall running around the circumference, a turret in the middle, the remnants of an ancient pool, a burrowed garden. The place is grand and empty. Silent with a cool breeze. It bears not a single marker indicating what it once was or who lived here. We three wander about it. Now Jackson is gleeful, running to take pictures, climbing up on the walls to peer at the vistas, his dusty white baseball hat nearly flying off behind him. &amp;ldquo;Now this⁠—&amp;rdquo; he grins, index finger poised in the air⁠—“this is what I pictured.  &lt;em&gt;This&amp;hellip;is&amp;hellip;it!&lt;/em&gt;”&lt;/p&gt;
 &lt;p&gt;Throughout New Mexico and Texas, Oñate&amp;rsquo;s trail is clearly marked, but in Mexico many parts of it remained unknown to modern explorers, and Jackson and I set out on a mission to find them. We carried minutely detailed topographical maps and aerial maps from the early twentieth century, which often showed a trail obvious from a bird&amp;rsquo;s-eye view but elusive on the ground. We also carried copies of travelers&amp;rsquo; journals that contained specific descriptions of the natural landscape, of mountains and valleys that wouldn&amp;rsquo;t have changed much, and of rest areas for caravans that still bore names Oñate had given them. Thus we had a decent idea of where things should have been if they hadn&amp;rsquo;t been paved or farmed over. &amp;ldquo;Trail finding,&amp;rdquo; Jackson assured me, &amp;ldquo;can be an exact science.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Certain facts held true about the trail regardless of any particular location. For example, it always ran above the flood-plain. Also, water was a constant concern, so the caravans went for a route where it was accessible and where attacks by hostile Apache or Comanche Indians came infrequently. &lt;i xml:lang=&#34;es&#34;&gt;Acequias&lt;/i&gt;⁠—irrigation ditches⁠—often paralleled the trail, and they do even today in pueblos and small towns where they are still used. Oñate&amp;rsquo;s hacienda marked the final discovery of our journey, and the apex above all the others. Without Oñate, the trail might never have existed. Without Oñate, geographical boundaries, language, culture, battles, history, food, family, ethnic and racial intersection, economics, trade, and travel would have been vastly different. Without Oñate, Jackson and I⁠—a generation and 1,500 miles apart from each other⁠—would have never met four hundred years later.&lt;/p&gt;
 &lt;p&gt;Our fortuitous guide explained what each walled section might have represented in Oñate&amp;rsquo;s day. He showed us how to climb over trees, and through holes in the walls where vegetation had overgrown the pathways; he pointed out where the aqueduct ran in from the mountains. Hal took measurements, notes, and pictures; he clicked his GPS. We climbed halfway up a mountain for an eagle&amp;rsquo;s-eye view. Were this hacienda in the United States, historical preservation societies would have tagged, ticketed, and renovated it; it would not be inhabited by local fauna and ignored by humans. This was the home of a man who changed the course of history. For Jackson and me, it marked the end of a long journey, but for Juan de Oñate and his Camino Real, this place was just the beginning.&lt;/p&gt;
 &lt;p&gt;Built originally by the Spanish Empire to connect capital cities to one another, &lt;i xml:lang=&#34;es&#34;&gt;camino reals&lt;/i&gt;, or royal roads, snaked throughout what is now the Western United States and Mexico. But there is only one &lt;i xml:lang=&#34;es&#34;&gt;Camino Real de Tierra Adentro&lt;/i&gt;, the one Jackson and I drove; in addition to its incredible length, it predates the other &lt;i xml:lang=&#34;es&#34;&gt;camino reals&lt;/i&gt; by more than two hundred years, according to George Torok, president of the Camino Real de Tierra Adentro (CARTA) association.&lt;/p&gt;
-&lt;p&gt;Beyond simply offering a way to get around, the Camino Real became a palimpsest of cultural, religious, economic, and ethnic crossovers.  Skirmishes, business deals, wars, and treaties were wrought along its path. Like the old Route 66 of the United States, it was as much a cultural symbol as a practical method of travel. Unlike America&amp;rsquo;s modern-day expressways, which mostly skirt cities and often divide ethnicities and races from one neighborhood to the next, Oñate&amp;rsquo;s Camino Real, our country&amp;rsquo;s first superhighway, brought states, countries, and people together.&lt;/p&gt;
+&lt;p&gt;Beyond simply offering a way to get around, the Camino Real became a palimpsest of cultural, religious, economic, and ethnic crossovers.  Skirmishes, business deals, wars, and treaties were wrought along its path. Like the old Route 66 of the United States, it was as much a cultural symbol as a practical method of travel. Unlike America&amp;rsquo;s modern day expressways, which mostly skirt cities and often divide ethnicities and races from one neighborhood to the next, Oñate&amp;rsquo;s Camino Real, our country&amp;rsquo;s first superhighway, brought states, countries, and people together.&lt;/p&gt;
 &lt;p&gt;Because of it, Indians went from &amp;ldquo;hunting grubs to being warriors of the Plains in a single generation after the introduction of the horse,&amp;rdquo; Jackson says; he calls the animal a &amp;ldquo;technological revolution.&amp;rdquo; Mission churches replaced &lt;i xml:lang=&#34;hop&#34;&gt;kivas&lt;/i&gt; as community centers, and villages began to gather around central squares. Catholicism flourished. Crops like corn, beans, and squash were introduced. The English and Spanish tongues mingled and eventually overwhelmed pueblo languages. Even food preparation changed, as the Spaniards taught Mexican Indians the concept of frying. Chickens, pigs, sheep, and goats arrived, along with new forms of architecture, new diseases, and new kinds of enslavement by the Spaniards. &amp;ldquo;There is constant traffic where the trail went up from Mexico,&amp;rdquo; Torok told me. &amp;ldquo;It&amp;rsquo;s still happening today: the migration, the immigration, the influence. It wasn&amp;rsquo;t a finite time period.&amp;rdquo; The Camino Real grew into a cultural system inscribed on the land itself. As we move forward in the present, it seems to say, we are bound to the past.&lt;/p&gt;
 &lt;p&gt;Its history can be loosely divided into six periods: 1598⁠–⁠1680, when Oñate and his successors connected the paths that led from village to village into what we recognize as the Camino Real today; 1680⁠–⁠93, when the Pueblo Indians revolted against the invasion of their culture and expelled the Spaniards from northern territories for thirteen years; 1693⁠–⁠1821, with the Spaniards back again and the Camino Real once more a thoroughfare for commerce, culture, and war; 1821⁠–⁠80, when Mexico gained its independence and Americans were allowed to trade; followed by the Mexican War of 1846⁠–⁠48, which made the northern stretch of the &lt;i xml:lang=&#34;es&#34;&gt;Camino Real&lt;/i&gt; American; and finally, the 1880s when the rails replaced the road. A few paved parts of the Camino Real are still used unchanged today in pueblos and small towns, but for a purist like Jackson, the trail&amp;rsquo;s great days are gone.&lt;/p&gt;
 &lt;p&gt;Jackson and I began our tour in early July, just about the worst time to do a lot of driving through the desert. Having retired as a professor from Humblodt State University, Jackson now spends his days on the trail. He serves as president of the Santa Fe Trail Association, and he wrote the revised version of Marc Simmons&amp;rsquo;s &lt;i&gt;Following the Santa Fe Trail: A Guide for Modern Travelers&lt;/i&gt;.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Last May, he helped form the Camino Real Trail Association, and he&amp;rsquo;s now writing a guidebook about that trail, to be published this June by the University of New Mexico Press. He has been a political geographer, and he wrote his dissertation on a squatters&amp;rsquo; village outside Mexico City, so his idea of place is inextricably linked to people and policy. He&amp;rsquo;s a diehard liberal, but his biggest complaint about archeologists, anthropologists, and sociologists⁠—all of whose subjects overlap with cultural geography⁠—is that they just don&amp;rsquo;t make good maps.&lt;/p&gt;
@@ -1403,16 +1448,16 @@ many lives.&lt;/p&gt;
 &lt;p&gt;Our route began north of Santa Fe in the San Juan Pueblo, which Oñate occupied in July of 1598. Large excavations have been done in this area, so the location of the original mission church and central square are denoted by a marker, in the midst of a field of chamise and juniper beside a graveyard. &amp;ldquo;In northern New Mexico, there&amp;rsquo;s still a lot of resentment today toward Oñate, whose soldiers were said to be savage,&amp;rdquo; Jackson said. He illustrated this with a story about the Acoma Pueblo just outside Albuquerque. The tale claims that the Indians were living peacefully when Oñate&amp;rsquo;s men descended on them, and chopped off the right foot of every man over sixteen. As the Spanish tell it, the Acomas attacked the Spaniards first, and the latter were merely retaliating. Several years ago, on the eve of the opening of a new Oñate museum, north of the San Juan Pueblo along the road to Taos, someone chopped off the right foot of Oñate&amp;rsquo;s statue.&lt;/p&gt;
 &lt;p&gt;With close to five hundred people following him, Oñate, whose soldiers often marched in full body armor through the desert heat, averaged fifteen miles a day. Jackson and I covered fifteen times that. Remarkably, Oñate managed to establish the first American thoroughfare, predating the colony of Jamestown, yet has never received much historical credit. The author Marc Simmons, who wrote of Oñate&amp;rsquo;s perilous journey in &lt;em&gt;The Last Conquistador&lt;/em&gt;, said that along with everything else the conquistador did to establish the shape and character of North America, he also &amp;ldquo;made a notable contribution, through his wide-ranging explorations, toward an understanding of the true geography of western America.&amp;rdquo;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Just ten miles outside Santa Fe, Jackson showed me my first swale, a carved-out bowl of earth, where deep cuts from wagon wheels could still be detected. &amp;ldquo;I get excited about swales,&amp;rdquo; he told me, &amp;ldquo;but not everyone does. Standing where something happened is very powerful to me.&amp;rdquo; In the distance La Majada Mesa loomed black and foreboding. In Oñate&amp;rsquo;s time, the mesa was a near-insurmountable challenge to cross. Wagons had to be emptied, and their goods carried steeply uphill on horseback while the carts were routed through the shallow river that cleaved the mesa.  Loaded with their cargoes, the carts would have been mired in the riverbed. In &lt;em&gt;Commerce of the Prairies&lt;/em&gt;, perhaps the best traveler&amp;rsquo;s account of the Camino Real, Josiah Gregg, a mid-nineteenth-century trader, wrote of the treacherous crossings: &amp;ldquo;In some places, if a wagon is permitted to stop in the river but for a moment, it sinks to the very body &lt;i xml:lang=&#34;la&#34;&gt;[sic]&lt;/i&gt;. Instances have occurred when it became necessary, not only to drag out the mules by the ears and to carry out the loading package by package, but to haul out the wagon piece by piece⁠—wheel by wheel.&amp;rdquo;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;We drove to the base of La Majada Mesa, parked in the dust, and got out to walk along the old trail. &amp;ldquo;Look at this.&amp;rdquo; Jackson shook his head, pointed to where the trail had created an obvious swale, then disappeared from view &amp;lsquo;round the bend of the mountain. Jackson believed few people even noticed the mountain. &amp;ldquo;Ten miles outside Santa Fe and not a single footprint,&amp;rdquo; he said.&lt;/p&gt;
-&lt;p&gt;As we drove, the terra-cotta countryside gave way to rich, red clay hills and low cliffs, and I began to learn how to read a landscape.  Jackson pointed out that curved roads in a grid city, for example, were very likely just old trails paved over. The entire city of Boston is the most famous example of this. Parts of the Camino Real that are paved prove the fact. &amp;ldquo;The caravans took the best route, not necessarily north, east, south, and west,&amp;rdquo; Jackson told me, as we drove trail areas near his home in Placitas, New Mexico, just outside Albuquerque. &amp;ldquo;A crooked street in a city laid out by &lt;i xml:lang=&#34;es&#34;&gt;gringos&lt;/i&gt;?  You can be sure it predates the grid.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;In a flat plain, carved-out swales often collected rainwater and runoff, so a long row of green bushes in a mostly barren landscape might mean the trail had run through there. Or a straight cut through a lush green area might signal the trail&amp;rsquo;s presence. Jackson was a landscape detective alert for clues. An oddly shaped mountain had been mined; a mound of dirt was a melted adobe house; a shallow gully, an ancient trail. In nature, context is everything. We scanned the land for the easiest route, the most level, and then we looked for angles. Where north-south paved roads ran, the Camino Real often bisected them today at 45-degree angles. We spent a lot of time in the Jeep slowing down, reversing, advancing, retracing our path. At one point, south of Socorro, Jackson remarked that the oxen from trail-day caravans ate beans off the mesquite tree, and the beans left behind in the cattle&amp;rsquo;s droppings eventually grew into trees, so there were areas where long, straight rows of mesquite trees amid otherwise random vegetation were obvious clues to the Camino Real.&lt;/p&gt;
+&lt;p&gt;We drove to the base of La Majada Mesa, parked in the dust, and got out to walk along the old trail. &amp;ldquo;Look at this.&amp;rdquo; Jackson shook his head, pointed to where the trail had created an obvious swale, then disappeared from view ’round the bend of the mountain. Jackson believed few people even noticed the mountain. &amp;ldquo;Ten miles outside Santa Fe and not a single footprint,&amp;rdquo; he said.&lt;/p&gt;
+&lt;p&gt;As we drove, the terracotta countryside gave way to rich, red clay hills and low cliffs, and I began to learn how to read a landscape.  Jackson pointed out that curved roads in a grid city, for example, were very likely just old trails paved over. The entire city of Boston is the most famous example of this. Parts of the Camino Real that are paved prove the fact. &amp;ldquo;The caravans took the best route, not necessarily north, east, south, and west,&amp;rdquo; Jackson told me, as we drove trail areas near his home in Placitas, New Mexico, just outside Albuquerque. &amp;ldquo;A crooked street in a city laid out by &lt;i xml:lang=&#34;es&#34;&gt;gringos&lt;/i&gt;?  You can be sure it predates the grid.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;In a flat plain, carved-out swales often collected rainwater and runoff, so a long row of green bushes in a mostly barren landscape might mean the trail had run through there. Or a straight cut through a lush green area might signal the trail&amp;rsquo;s presence. Jackson was a landscape detective alert for clues. An oddly shaped mountain had been mined; a mound of dirt was a melted adobe house; a shallow gully, an ancient trail. In nature, context is everything. We scanned the land for the easiest route, the most level, and then we looked for angles. Where north⁠–⁠south paved roads ran, the Camino Real often bisected them today at 45-degree angles. We spent a lot of time in the Jeep slowing down, reversing, advancing, retracing our path. At one point, south of Socorro, Jackson remarked that the oxen from trail-day caravans ate beans off the mesquite tree, and the beans left behind in the cattle&amp;rsquo;s droppings eventually grew into trees, so there were areas where long, straight rows of mesquite trees amid otherwise random vegetation were obvious clues to the Camino Real.&lt;/p&gt;
 &lt;p&gt;Later we drove to San Pedro, a ghost town in New Mexico and once a stop along the trail, where a field of long-abandoned adobe houses has slowly dissolved during years of rain, sun, and neglect. One small ravine, once surely an acequia, was now host to tangles of weeds, paddle cactus, and thornbushes that crackled under my hiking boots. In the far distance Jackson and I heard voices coming from several trailers, followed by two distinctive pops of a shotgun. &amp;ldquo;Guess we&amp;rsquo;d better not linger,&amp;rdquo; he said, making his way slowly back toward the car. I was reluctant to leave.  There are places on the trail today still populated, some large, some small, but none that I had seen like San Pedro, whose ravaged buildings so powerfully suggested the sad place between existing and forgotten.&lt;/p&gt;
-&lt;p&gt;From New Mexico, Jackson and I made our way south toward Mexico, via the infamous &lt;i xml:lang=&#34;es&#34;&gt;Jornada del Muerto&lt;/i&gt;⁠—in English, the Journey of the Dead Man.  Christened after Oñate&amp;rsquo;s day, it maintains the name still. A ninety-mile swatch of desolation between Socorro and Las Cruces, this was one of three long &lt;i xml:lang=&#34;es&#34;&gt;jornadas&lt;/i&gt; through enormous chunks of desert. The flat, sandy plain was punctuated by paddle cactus and what Jackson called, in geographer&amp;rsquo;s parlance, &amp;ldquo;desert pavement&amp;quot;⁠—rocks blown by the wind off nearby mountains. Caravans often left after 4:00 p.m. and traveled through the night to avoid the jornada&amp;rsquo;s relentless sun. Water was a constant worry, and travelers&amp;rsquo; journals again and again described the white bones of man and beast littering the landscape. Even I, a modern traveler with all the conveniences, did not escape the jornada, when I pulled out a blood-tipped mesquite thorn that had gone through the sole of my shoe and lodged in my foot. Gregg&amp;rsquo;s section of the Jornada del Muerto told of the luck his party had had in not losing a single person during the crossing. &amp;ldquo;One thing appears very certain,&amp;rdquo; he wrote, &amp;ldquo;that this dangerous pass has cost the life of many travelers in days of yore&amp;hellip; we felt truly grateful that the arid Jornada had not been productive of more serious consequences to our party.&amp;rdquo; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;From New Mexico, Jackson and I made our way south toward Mexico, via the infamous &lt;i xml:lang=&#34;es&#34;&gt;Jornada del Muerto&lt;/i&gt;⁠—in English, the Journey of the Dead Man.  Christened after Oñate&amp;rsquo;s day, it maintains the name still. A ninety-mile swatch of desolation between Socorro and Las Cruces, this was one of three long &lt;i xml:lang=&#34;es&#34;&gt;jornadas&lt;/i&gt; through enormous chunks of desert. The flat, sandy plain was punctuated by paddle cactus and what Jackson called, in geographer&amp;rsquo;s parlance, &amp;ldquo;desert pavement”⁠—rocks blown by the wind off nearby mountains. Caravans often left after 4:00 p.m. and traveled through the night to avoid the jornada&amp;rsquo;s relentless sun. Water was a constant worry, and travelers&amp;rsquo; journals again and again described the white bones of man and beast littering the landscape. Even I, a modern traveler with all the conveniences, did not escape the jornada, when I pulled out a blood-tipped mesquite thorn that had gone through the sole of my shoe and lodged in my foot. Gregg&amp;rsquo;s section of the Jornada del Muerto told of the luck his party had had in not losing a single person during the crossing. &amp;ldquo;One thing appears very certain,&amp;rdquo; he wrote, &amp;ldquo;that this dangerous pass has cost the life of many travelers in days of yore⁠&amp;hellip; we felt truly grateful that the arid Jornada had not been productive of more serious consequences to our party.&amp;rdquo; &lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;In El Paso we met up with CARTA&amp;rsquo;s president, George Torok, and Ben Brown, an archeologist employed by Mexico&amp;rsquo;s National Institute of Anthropology and History (&lt;i xml:lang=&#34;es&#34;&gt;Instituto Nacionale de Antropologia e Historia&lt;/i&gt;), whose work has led him to study various areas around or on the Camino Real. Brown and Torok showed us around several border areas where the Spaniards took up residence after their expulsion in 1680 during the Pueblo revolt.&lt;/p&gt;
 &lt;p&gt;We drove first through pecan groves and cornfields, to Ciudad Juárez, the Mexican urban extension of El Paso and, after the Pueblo revolt, the northernmost boundary of the Spanish territory. Two Camino Real routes led south from Juárez. One, through sand dunes, has horrific accounts of carcasses in the sand like those in the jornada; the second was less direct but easier. Next to Juárez&amp;rsquo;s enormous cathedral in the central square stands the original whitewashed mission church built in 1659 and the oldest mission along the trail still functioning. In the square this day, preachers shouted Protestant theology into crackling loudspeakers, and pigeons commanded the immediate airspace. Just south of the mission a three-story covered market sat where the central market had stood during trail days, when it marked an important resupply spot famous for El Paso&amp;rsquo;s wines, brandy, and fruit. Then it was the only place between the Mexican city of Chihuahua and Santa Fe, New Mexico, where lush green vegetation flourished, a fact no longer true in modern-day Juárez, with its increasingly short water supply. &amp;ldquo;The Camino Real is really a communication trail,&amp;rdquo; Ben Brown told me. &amp;ldquo;Its social impact was with knowledge and items going north and south. It&amp;rsquo;s not just a trail in the physical sense; it&amp;rsquo;s really a concept of communication.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;We drove through various settlements where the Spanish retreated after the 1680 revolt. Ysleta del Sur, Senecú, San Elizario, San Lorenzo, and Socorro del Sur all were small communities and are laid out today as they were in trail days, with a mission-style church, a central square, and a small but growing sense of their place in history. At these settlements, Torok told me, the names had changed, the Camino Real path had changed, the river had changed, and the people and the culture had continually changed. The Rio Grande, which is the established border between the United States and Mexico, constantly shifts its location.  The earth is not silent, not static, even if we wish our boundaries to be so. The river is far south of where it was in Oñate&amp;rsquo;s day and, as a result, makes for a rather odd choice for an international boundary line.&lt;/p&gt;
-&lt;p&gt;In a little town called Bracito, which was a resting stop along the trail in the eighteenth and nineteenth centuries, a small but significant battle took place during the Mexican War of 1846⁠–⁠48, right in front of today&amp;rsquo;s Bracito School. Brown and Jackson stood at the mouth of an acequia respectfully debating the trail&amp;rsquo;s location (Brown: underneath the acequia; Jackson: alongside it) and why the Americans who were outnumbered three-to-one by the Mexicans won the battle in twenty minutes (Brown: Mexicans were an ill-treated peasant army with low morale; Jackson: Americans were Missouri volunteers well used to their weaponry). As they talked, each with one leg resting atop the modern concrete wall of the old acequia, the sun began to set, lighting up the school. Lightning shot down from the clouds in the distance, and sheets of rain rolled in. Whether the Camino Real ran below or adjacent to the acequia, today a railroad track crosses where we all stood discussing what happened here once, watching as the storm and nightfall came on.&lt;/p&gt;
-&lt;p&gt;In Mexico, Jackson and I were alone again, searching for the first of many areas we hoped to find that had eluded modern-day explorers, including Ojo de Lucero, a spring that nearly every journal mentioned that had watered a rest stop from Oñate&amp;rsquo;s day. In the Mexican state of Chihuahua, Jackson scanned the placid golden landscape, and I felt the Jeep slow. He pulled the car off the highway onto a two-track dust road in the middle of the desert. I hadn&amp;rsquo;t even seen the two-track, let alone whatever infinitesimal clue between this swatch of desert and the last had made him turn off for closer inspection. To Jackson, each new vista of desert offered a slightly altered landscape, a tiny promise of discovery. The Lucero spring would have once held enough water for a thousand people or more to drink, wash, and cook from for a few days in a trailside camp, but today it would be only an enormous indentation in the earth. If we found Lucero, we would be among just a handful of people in the world who knew where it was now, and who knew that it once meant, for many thousands of people, survival.&lt;/p&gt;
+&lt;p&gt;In a little town called Bracito, which was a resting stop along the trail in the eighteenth and nineteenth centuries, a small but significant battle took place during the Mexican War of 1846⁠–⁠48, right in front of today&amp;rsquo;s Bracito School. Brown and Jackson stood at the mouth of an acequia, respectfully debating the trail&amp;rsquo;s location (Brown: underneath the acequia; Jackson: alongside it), and why the Americans who were outnumbered three-to-one by the Mexicans won the battle in twenty minutes (Brown: Mexicans were an ill-treated peasant army with low morale; Jackson: Americans were Missouri volunteers well used to their weaponry). As they talked, each with one leg resting atop the modern concrete wall of the old acequia, the sun began to set, lighting up the school. Lightning shot down from the clouds in the distance, and sheets of rain rolled in. Whether the Camino Real ran below or adjacent to the acequia, today a railroad track crosses where we all stood discussing what happened here once, watching as the storm and nightfall came on.&lt;/p&gt;
+&lt;p&gt;In Mexico, Jackson and I were alone again, searching for the first of many areas we hoped to find that had eluded modern day explorers, including Ojo de Lucero, a spring that nearly every journal mentioned that had watered a rest stop from Oñate&amp;rsquo;s day. In the Mexican state of Chihuahua, Jackson scanned the placid golden landscape, and I felt the Jeep slow. He pulled the car off the highway onto a two-track dust road in the middle of the desert. I hadn&amp;rsquo;t even seen the two-track, let alone whatever infinitesimal clue between this swatch of desert and the last had made him turn off for closer inspection. To Jackson, each new vista of desert offered a slightly altered landscape, a tiny promise of discovery. The Lucero spring would have once held enough water for a thousand people or more to drink, wash, and cook from for a few days in a trailside camp, but today it would be only an enormous indentation in the earth. If we found Lucero, we would be among just a handful of people in the world who knew where it was now, and who knew that it once meant, for many thousands of people, survival.&lt;/p&gt;
 &lt;p&gt;Jackson drove a mile off the highway on the two-track until we reached a private ranch in the midst of new construction. A man in a construction hat walked briskly to our car and peered in suspiciously. Jackson waved a greeting, rolling down his window. The man told us that what we wanted was across the highway. &amp;ldquo;&lt;i xml:lang=&#34;es&#34;&gt;No aqui&lt;/i&gt;,&amp;rdquo; he said several times in a voice meant to warn us away from our folly. Jackson gunned the engine, backed up, and retraced our route to the highway, at which point he grumbled, &amp;ldquo;He doesn&amp;rsquo;t know what the hell we&amp;rsquo;re looking for.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Moments later he spotted a flash of aqua blue up ahead. &amp;ldquo;Aha,&amp;rdquo; he said enigmatically. Jackson read the landscape as an artist reads a blank canvas, wrought with possibility and inherently full of layers and details that the rest of us nonartists could not imagine. The blue dot became clearer as we drove, and I saw that it was an &lt;i xml:lang=&#34;es&#34;&gt;alberca&lt;/i&gt;, a public swimming pool. Jackson conversed with the alberca&amp;rsquo;s maintenance man, and he pointed in the direction we had come from. Afterward Jackson turned to me rather as a superhero might to his faithful but somewhat ineffectual sidekick and said, &amp;ldquo;Let&amp;rsquo;s get the maps!&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Ten minutes later, Jeep parked askew amid mesquite trees and choya cactus with pipe-cleaner arms, we stood at Ojo de Lucero. We&amp;rsquo;d driven along a two-track past scattered ranches, then turned into the desert until the trees got too thick to drive, and then we walked, carrying bundles of papers, maps, and Jackson&amp;rsquo;s digital GPS. Several hundred yards away was a tiny village, so Jackson knew there was a water source from somewhere. We noted nearby power lines, which showed up on the topo maps, and after a brief tromp through the desert, we stood at a shallow dry indentation in the earth, a small pipe pumping water through the desert.&lt;/p&gt;
@@ -1428,16 +1473,16 @@ many lives.&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;Simmons, M., Jackson, H. (2001). &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/00064568&#34;&gt;Following the Santa Fe Trail: a Guide for Modern Travelers&lt;/a&gt;&lt;/i&gt;. Santa Fe, N.M.: Published by Ancient City Press.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marc Simmons, H. Jackson, &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/00064568&#34;&gt;Following the Santa Fe Trail: a Guide for Modern Travelers&lt;/a&gt;&lt;/i&gt; (Santa Fe: Ancient City Press, 2001).&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;Simmons, M. (1991). &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/90050697&#34;&gt;The Last Conquistador: Juan de Oñate and the settling of the far Southwest&lt;/a&gt;&lt;/i&gt;. Published by the University of Oklahoma Press.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marc Simmons, &lt;i&gt;&lt;a href=&#34;https://lccn.loc.gov/90050697&#34;&gt;The Last Conquistador: Juan de Oñate and the settling of the far Southwest&lt;/a&gt;&lt;/i&gt; (Univ. Oklahoma Press, 1991).&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:3&#34;&gt;
-&lt;p&gt;Gregg, J. (1926). &lt;i&gt;&lt;a href=&#34;https://hdl.handle.net/2027/mdp.39015008586714?urlappend=%3Bseq=286&#34;&gt;The Commerce of the Prairies&lt;/a&gt;&lt;/i&gt;. Chicago: Published by Lakeside Press. 286.&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Josiah Gregg, &lt;i&gt;&lt;a href=&#34;https://hdl.handle.net/2027/mdp.39015008586714?urlappend=%3Bseq=288&#34;&gt;The Commerce of the Prairies&lt;/a&gt;&lt;/i&gt; (Lakeside Press, 1926), 242&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id=&#34;fn:4&#34;&gt;
-&lt;p&gt;Gregg, 284.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gregg, &lt;a href=&#34;https://hdl.handle.net/2027/mdp.39015008586714?urlappend=%3Bseq=286&#34;&gt;240&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -1453,7 +1498,10 @@ many lives.&lt;/p&gt;
 		<description>&lt;h2 id=&#34;natural-divisions-of-the-chicago-region&#34;&gt;Natural Divisions of the Chicago Region&lt;/h2&gt;
 &lt;p&gt;The authors are indebted to Kenneth Mierzwa of TAMS Consultants, Inc., Chicago, Ill., for having made available for this book a synopsis of the Natural Divisions of the Chicago Region, a distillation of a forthcoming paper.&lt;/p&gt;
 &lt;p&gt;Homoya &lt;em&gt;et al.&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; describe a natural division as a &amp;ldquo;generalized unit of the landscape where a distinctive assemblage of natural features is present.&amp;rdquo; Natural divisions maps are a synthesis of geology, physiography, soils, hydrology, presettlement vegetation, and characteristic fauna. They soon will be available for all four of the states included within the Chicago region.&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; The current effort combines maps of the four states and adds additional detail that reflects the regional scale. For example, the Morainal Section in Illinois&lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and the Valparaiso Moraine Section in Indiana&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; are valid concepts when viewed within the context of each state, but when this section is extended along the Valparaiso and associated moraines from Wisconsin to Michigan, it must be split at some point. The beech-maple forests of our eastern section are too distinct from the oak savannas and prairies of our western section to be included in the same unit. Similarly, the lake plain is elevated to division status, and subdivided to reflect significant differences among the black-soil prairies once present on the site of modern-day Chicago, the sand savannas of much of the northwestern Indiana lake plain, and the more heavily wooded lake plain of Michigan and adjacent Indiana. These new boundaries address the east to west transition from forest to prairie.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;pics/cdiv.webp&#34; alt=&#34;Figure 1. Natural divisions of the Chicago Region&#34;&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://ettedh.github.io/pics/cdiv.webp&#34; alt=&#34;Map of counties 75 miles around Chicago. The map outlines the natural divisions in bold lines, with subdivisions in smaller lines.&#34;&gt;
+    &lt;figcaption&gt;Natural divisions of the Chicago Region&lt;/figcaption&gt;
+&lt;/figure&gt;
 &lt;h3 id=&#34;morainal-natural-division&#34;&gt;Morainal Natural Division&lt;/h3&gt;
 &lt;p&gt;Young and rolling morainal topography close to Lake Michigan. The boundary follows the outer edge of the Valparaiso Moraine except in the northwest, where the line is based on geological features and presettlement vegetation.&lt;sup id=&#34;fnref2:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h4 id=&#34;1a-western-morainal-section&#34;&gt;1A. Western Morainal Section&lt;/h4&gt;
