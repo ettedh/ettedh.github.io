@@ -1,0 +1,124 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>ettezo</title>
+	<link>https://ettedh.github.io/eo/tags/human-geography/</link>
+	<description>Recent content in Homa geografio on ettezo</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>eo</language>
+    
+        <atom:link href="https://ettedh.github.io/eo/tags/human-geography/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Dulingva, paralela CSS</title>
+		<link>https://ettedh.github.io/eo/articles/diglossic-text/</link>
+		<pubDate>Sat, 22 Mar 2025 11:09:23 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/eo/articles/diglossic-text/</guid>
+		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;https://ettedh.github.io/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) estas stilfolio por helpi krei dulingvan tekstojn per dece sekvanta, progresa, &lt;em&gt;ĝusta&lt;/em&gt;, HTML. Sia trajtaro enhavas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;alliniigi samajn elementojn al kolumnoj,&lt;/li&gt;
+&lt;li&gt;elekeblaj, unu-fontaj tekstoj,&lt;/li&gt;
+&lt;li&gt;sen malhelpemaj HTML-ismoj kiel &lt;code&gt;div&lt;/code&gt; aŭ &lt;code&gt;table&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;esti legebla, eĉ sen CSS (por estonteca planado).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jen la aspekto&amp;hellip; (Vidu ankaŭ &lt;a href=&#34;https://ettedh.github.io/mul/texts/famo/&#34;&gt;mian demonstrantan paĝon&lt;/a&gt;.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class=&#34;diglossic-text&#34;&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-l&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;first-text&#34;&gt;First text&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet&amp;hellip;&lt;/p&gt;
+&lt;!-- --&gt;&lt;span class=&#34;diglossic-r&#34;&gt;&lt;/span&gt;
+&lt;h3 id=&#34;second-text&#34;&gt;Second text&lt;/h3&gt;
+&lt;p&gt;Doloro mem amas doloron..&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;Ĝi subteniĝas per ĉiuj modernaj retumiloj (Chrome, Firefox&lt;code&gt;++&lt;/code&gt;), Por uzi la dosieron, aldonu la jena linio al via dokumenta kapo:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/diglossic-text.css&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;stylesheet&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tiam, aranĝu vian tekston (supozante &lt;a href=&#34;https://daringfireball.net/projects/markdown/&#34;&gt;Markdown-a&lt;/a&gt; aranĝo) jene:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ĉi tiu alineo ne bildiĝos en du kolumnojn.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-text&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-l&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Unua teksto
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Lorem ipsum dolor sit amet...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!-- --&amp;gt;&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;diglossic-r&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;span&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;### Dua teksto
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Doloro mem amas doloron...
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;div&lt;/span&gt;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Ĉi tiu teksto estas ekstere de la dulingva teksto.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Notu ke nur la blok-nivelaj elementoj de &lt;code&gt;h1--h6&lt;/code&gt;, &lt;code&gt;p&lt;/code&gt;, &lt;code&gt;blockquote&lt;/code&gt;, kaj &lt;code&gt;pre&lt;/code&gt; bildiĝas paralele. Ĉiuj paralelaj tekstoj bezonas havi la sama nombrado de blokoj por viciĝi ĝuste.&lt;/p&gt;
+&lt;h2 id=&#34;kial-krei-ĉi-tiun&#34;&gt;Kial krei ĉi tiun?&lt;/h2&gt;
+&lt;p&gt;La &lt;a href=&#34;https://www.hup.harvard.edu/series/loeb-classical-library&#34;&gt;Loeb-a Klasika Libraro&lt;/a&gt; estas bela serio de latinaj kaj grekaj tekstoj, kun anglaj tradukaĵoj, eldonita de Harvarda Universitata Preso. Iliaj libroj enhavas la fontan tekston sur la maldekstra paĝo, kaj la tradukaĵo sur la dekstra paĝo. Ŝajnas ke ĉiuj aliaj realigoj mankas almenaŭ unu de miaj celmaldekstra, ankaŭ &lt;a href=&#34;https://motherfuckingwebsite.com&#34;&gt;verki per la reto&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;La horizontalaj linioj ne estas parto de la aranĝigo, nur iu klarigi, kio estas kio.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>La Domo Fama</title>
+		<link>https://ettedh.github.io/eo/texts/famo/</link>
+		<pubDate>Tue, 16 Apr 2024 11:40:14 -0500</pubDate>
+		
+		<guid>https://ettedh.github.io/eo/texts/famo/</guid>
+		<description>&lt;p&gt;Estas loko inter lando kaj maro&lt;br&gt;
+kaj ĉielo, triobla limo monda,&lt;br&gt;
+de kie io ajn, de ie ajn, vidiĝas,&lt;br&gt;
+kaj ĉiu voĉo eniras orelojn.&lt;/p&gt;
+&lt;p&gt;Famo posedas ĉi tie domon ĉe la supro de turo,&lt;br&gt;
+mil aperturoj aldonitaj al la konstruaĵo kaj neniuj pordoj fermeblaj;&lt;br&gt;
+ĝi apertas tra nokto kaj tago. Ĉiu sono devas resoni,&lt;br&gt;
+kaj voĉoj denove diritaj kiuj estas aŭditaj.&lt;br&gt;
+Neniu kvietaĵo troviĝas kaj neniu parto silentas,&lt;br&gt;
+nek tamen klamo aŭdiĝas, krom la murmuradeto de voĉo,&lt;br&gt;
+kiel ondoj, kiuj aŭdiĝus de malproksima maro,&lt;br&gt;
+aŭ kiel sono, kiam Jupitero krakis&lt;br&gt;
+nigrajn nubojn, laste revenas tondrinte.&lt;br&gt;
+La brua halo havas amasojn venantajn kaj irantajn,&lt;br&gt;
+kaj mensogoj vagas miksitaj kun veraĵoj,&lt;br&gt;
+mil onidiroj  kaj konfuzitaj vortoj vadas kune;&lt;br&gt;
+el kiuj, kelkaj plenigas malplenajn orelojn per diraĵoj;&lt;br&gt;
+kelkaj rakontitaj portiĝas al alia, kiujn ili aŭdis, kaj la mezuro de fikcio&lt;br&gt;
+kreskas, kaj ĉiu nova verkisto aldiras ion al aŭditoj.&lt;/p&gt;
+&lt;p&gt;Tie restas Kredeco, temerara Eraro,&lt;br&gt;
+kaj vana Ĝojo, kaj alarmata Timo,&lt;br&gt;
+kaj freŝa Ribelo, kaj Susuro el necerta verkisto.&lt;br&gt;
+Famo mem, kiu elrigardis la aferojn en la ĉielo kaj maro&lt;br&gt;
+kaj grundo, vidas, kaj petas ĉiun en la mondo.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Ameriko</title>
+		<link>https://ettedh.github.io/eo/texts/ameriko/</link>
+		<pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+		
+		<guid>https://ettedh.github.io/eo/texts/ameriko/</guid>
+		<description>&lt;p&gt;Ho bela pro vastaj ĉieloj&lt;br&gt;
+Pro sukcenaj ondoj de grano&lt;br&gt;
+Pro majestaĵoj de purpura monto&lt;br&gt;
+Sur la fruktodona ebenaĵo&lt;/p&gt;
+&lt;p&gt;Ameriko! Ameriko!&lt;br&gt;
+Dio donacu Lian gracon al ci&lt;br&gt;
+Kaj kronu cian bonon per frateco&lt;br&gt;
+El maro al brilanta maro!&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

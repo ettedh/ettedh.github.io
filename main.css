@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text:      antiquewhite;
+		--text:      beige;
 		--page:      #1b1b1b;
 		--bg-color:  #222;
 		--gray:      #a89984;

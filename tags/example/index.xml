@@ -1,21 +1,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>ettedh</title>
-	<link>https://ettedh.github.io/tags/natural-history/</link>
-	<description>Recent content in Natural History on ettedh</description>
+	<link>http://localhost:1313/tags/example/</link>
+	<description>Recent content in Example on ettedh</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Sat, 22 Mar 2025 19:54:22 -0500</lastBuildDate>
     
-        <atom:link href="https://ettedh.github.io/tags/natural-history/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
+		<title>T</title>
+		<link>http://localhost:1313/t/</link>
+		<pubDate>Sat, 24 Feb 2024 20:41:09 -0600</pubDate>
+		
+		<guid>http://localhost:1313/t/</guid>
+		<description>&lt;p&gt;test test&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;  &lt;span&gt;dfadfdd&lt;/span&gt; dd dd dd&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;asdfsd e se skdfklesefsees ljcvesvs jef ksdjfklecd kleklsdkv
+se jdkfeskdfdfe ksdjkejs kljeklm sklej jk sjek jek seksse
+se skldflkejsklj xckljeskljvkcjse kjsd kjesk sckl jee kds k
+sel kes kles kjes kljsdkje kskl kles skek nksek keskl k
+selksej&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;whatever whatever whatever&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+	</item>
+	
+	<item>
 		<title>River Towns</title>
-		<link>https://ettedh.github.io/texts/river-towns/</link>
+		<link>http://localhost:1313/texts/river-towns/</link>
 		<pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
 		
-		<guid>https://ettedh.github.io/texts/river-towns/</guid>
+		<guid>http://localhost:1313/texts/river-towns/</guid>
 		<description>&lt;p&gt;&lt;em&gt;This text is a transcription of a sketch by Marie E. Meyer.&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;Much has been said and written about frontier life in Iowa. The grim
 battles waged by the pioneer against droughts, locusts, prairie fires,
@@ -220,13 +243,13 @@ and gaiety reigned in the ports on the Father of Waters.&lt;/p&gt;
 	
 	<item>
 		<title>Chicago Amtrak Directions</title>
-		<link>https://ettedh.github.io/articles/amtrak-ns/</link>
+		<link>http://localhost:1313/articles/amtrak-ns/</link>
 		<pubDate>Thu, 09 Oct 2025 17:43:47 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/articles/amtrak-ns/</guid>
+		<guid>http://localhost:1313/articles/amtrak-ns/</guid>
 		<description>&lt;p&gt;Chicago&amp;rsquo;s Union Station is the most connected rail station in the United States. It is a double stub-end terminal, meaining that trains can come from either the north or the south.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; As it turns out, all Amtrak lines, except for the &lt;em&gt;Empire Builder&lt;/em&gt; and its subsets, come to the south end.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/amtrak-ns.svg&#34; alt=&#34;A map of the United States, showing places accessible to the north in red, and to the south in blue&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/amtrak-ns.svg&#34; alt=&#34;A map of the United States, showing places accessible to the north in red, and to the south in blue&#34;&gt;
     &lt;figcaption&gt;States accessible to the north (red) and south (blue) from Chicago Union Station. Illinois has stations to both directions.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Most of this is due to Lake Michigan. Any direction to the east has to go around the south shore, including Michigan to the northeast. Thus, the north side has only &lt;em&gt;two&lt;/em&gt; cardinal directions (north and northwest), whereas the south has the other six: everywhere from California to Massachusetts.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -247,10 +270,10 @@ and gaiety reigned in the ports on the Father of Waters.&lt;/p&gt;
 	
 	<item>
 		<title>Early Alaska Transportation</title>
-		<link>https://ettedh.github.io/texts/alaska/</link>
+		<link>http://localhost:1313/texts/alaska/</link>
 		<pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
 		
-		<guid>https://ettedh.github.io/texts/alaska/</guid>
+		<guid>http://localhost:1313/texts/alaska/</guid>
 		<description>&lt;p&gt;The period of evolution from man-carried burdens to
 railroad transport, from raft and dugout to steamboat,
 is coextensive with the advance of man from savagery to
@@ -276,7 +299,7 @@ that within a few years it would be possible to reach the
 Yukon by rail in not-as-many days as they took months
 for the journey.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dog-rails.webp&#34; alt=&#34;A team of three dogs carrying two men on a handcar&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/dog-rails.webp&#34; alt=&#34;A team of three dogs carrying two men on a handcar&#34;/&gt;
     &lt;figcaption&gt; Dog team pulling a
 wheeled vehicle over the railroads tracks on the Seward Penisula, photo by J. B. Mertie.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -433,7 +456,7 @@ the steamers running to Kodiak and Saint Michael became
 public carriers, and the same was true of the river steamers
 on the Yukon.&lt;/p&gt;
 &lt;figure&gt;
-  &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dora.webp&#34; alt=&#34;A two-mast ship sailing in front of an Alaskan fjord&#34;/&gt;
+  &lt;img src=&#34;http://localhost:1313/pics/alaska/dora.webp&#34; alt=&#34;A two-mast ship sailing in front of an Alaskan fjord&#34;/&gt;
   &lt;figcaption&gt;The “Dora,” photo by D. F. Higgins&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;The &lt;i&gt;Dora&lt;/i&gt; is perhaps the most famous of Alaska’s vessels,
@@ -556,7 +579,7 @@ proof against the mosquito, ever present in the summer, but
 these insects sometimes torture them by stings about the
 eyes and nose.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/backpacker.webp&#34; alt=&#34;Man with a backpack flanked by four pack dogs on a rutted trail&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/backpacker.webp&#34; alt=&#34;Man with a backpack flanked by four pack dogs on a rutted trail&#34;/&gt;
     &lt;figcaption&gt;Backpacking man and dogs (photographer unknown)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;There is no standard size for an Alaskan dog team. A
@@ -605,7 +628,7 @@ exceed this, runs of over 40 miles a day having been recorded.
 The mail carriers haul from 50 to 75 pounds of
 weight per dog.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/dog-team.webp&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/dog-team.webp&#34; /&gt;
     &lt;figcaption&gt;&lt;b&gt;The Alaskan dog team.&lt;/b&gt; Dogs are used for hauling sleds over the snow on cross country trips, photo by J.&amp;nbsp;B. Mertie.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Many long journeys have been made over well-beaten
@@ -636,7 +659,7 @@ thoroughly broken, these dogs are difficult to control, and
 one of their favorite tricks is to lie down in water, pack
 and all.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/portage.webp&#34; alt=&#34;Four men carrying a canoe through a wetland&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/portage.webp&#34; alt=&#34;Four men carrying a canoe through a wetland&#34; /&gt;
     &lt;figcaption&gt;Men on portage from one stream to another. Photo by J. B. Mertie&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Backpacking is the most primitive and laborious mode
@@ -734,7 +757,7 @@ considerably extend the season, but as a horse will eat up
 his own load in ten or fifteen days, such use is impractical for
 long journeys.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/horses-swimming.webp&#34; alt=&#34;Two horses up to their heads in water. Next to them are three men paddling a canoe.&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/horses-swimming.webp&#34; alt=&#34;Two horses up to their heads in water. Next to them are three men paddling a canoe.&#34;/&gt;
     &lt;figcaption&gt;Pack train of horses swimming a stream. Photo by A. H. Brooks&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Horse sleds, like pack animals, only came into general
@@ -941,7 +964,7 @@ arteries of commerce that have served chiefly in the past
 to open up the interior to settlement.&lt;/p&gt;
 &lt;h3 id=&#34;hand-powered-craft&#34;&gt;Hand-powered craft&lt;/h3&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/raft.webp&#34; alt=&#34;Two men guiding a small raft packed with goods. The man at the back is poling the raft.&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/raft.webp&#34; alt=&#34;Two men guiding a small raft packed with goods. The man at the back is poling the raft.&#34;/&gt;
     &lt;figcaption&gt;Two men crossing a stream on raft. Photo by A. H. Brooks&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Long before any steamers had navigated these rivers,
@@ -1000,7 +1023,7 @@ the difficult portage around White Horse Rapids and Miles
 Canyon, and also the easy navigation of Laberge and other
 lakes of the upper Lewes River.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/eskimo-tracking.webp&#34; alt=&#34;Man toeing a boat on a riverbank. To his side is a dog. Behind the man, the bank has a ridge.&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/eskimo-tracking.webp&#34; alt=&#34;Man toeing a boat on a riverbank. To his side is a dog. Behind the man, the bank has a ridge.&#34;/&gt;
     &lt;figcaption&gt;An Eskimo &#34;tracking,&#34; photo by A. H. Brooks&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;In these upstream journeys propulsion by poling was
@@ -1019,7 +1042,7 @@ River, is slow and tedious; and a whole day may be consumed
 to advance a few miles. It is not uncommon to use
 dogs as draft animals in taking boats up streams.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/peterborough.webp&#34; alt=&#34;A Peterborough canoe with two men on it on a stream&#34; /&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/peterborough.webp&#34; alt=&#34;A Peterborough canoe with two men on it on a stream&#34; /&gt;
     &lt;figcaption&gt;The well-built Peterborough canoe made portages good highways (photo by J. B. Mertie)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;It was the Canadian explorers like William Ogilvie who
@@ -1094,7 +1117,7 @@ river up as far as Fort Selkirk,&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34
 Sea. These boats were chiefly used in the fur trade, but
 they also supplied the few prospectors then in the region.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/ss-scotia.webp&#34; alt=&#34;A steamboat docked next to massive piles of logs&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/ss-scotia.webp&#34; alt=&#34;A steamboat docked next to massive piles of logs&#34;/&gt;
     &lt;figcaption&gt;&#34;S.S. Scotia&#34; taking on wood on Taku Arm, photo by Sidney Page&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;With the influx of miners after the discovery of gold
@@ -1189,7 +1212,7 @@ whether any other one country in the world has shown such a notable industial ad
 outlay of public funds for transportation facilities.&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;private-construction&#34;&gt;Private construction&lt;/h3&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/early-roads-i.webp&#34; alt=&#34;Two photos side by side. The left shows a man standing on a rut trail in the woods. The right shows a man standing on a trail with wagon ruts carved into deep snow.&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/early-roads-i.webp&#34; alt=&#34;Two photos side by side. The left shows a man standing on a rut trail in the woods. The right shows a man standing on a trail with wagon ruts carved into deep snow.&#34;/&gt;
     &lt;figcaption&gt;&lt;b&gt;Early roads, I.&lt;/b&gt; These roads were frequently crude affairs as is shown by the wagon road (left) up Gold Creek and that to the Jualin Mine in the Berners Bay district (right).&lt;br /&gt; Photos by C. W. Wright.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;A little construction and some improvements of roads at
@@ -1323,7 +1346,7 @@ roads was sound is proved by the fact that most of those
 it included have, during the twenty years that have since
 elapsed, been completed or are under construction.&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/alaska/bridge.webp&#34; alt=&#34;A simple wooden truss bridge crossing a stream of about twenty feet&#34;/&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/alaska/bridge.webp&#34; alt=&#34;A simple wooden truss bridge crossing a stream of about twenty feet&#34;/&gt;
     &lt;figcaption&gt;The backpackers will probably cross an old-fashioned bridge (photo by F. H. Moffit)&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Though the trails established by these early exploring
@@ -1528,10 +1551,10 @@ many lives.&lt;/p&gt;
 	
 	<item>
 		<title>Letters of Vesuvius</title>
-		<link>https://ettedh.github.io/texts/vesuvius/</link>
+		<link>http://localhost:1313/texts/vesuvius/</link>
 		<pubDate>Sat, 22 Mar 2025 19:54:22 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/texts/vesuvius/</guid>
+		<guid>http://localhost:1313/texts/vesuvius/</guid>
 		<description>&lt;p&gt;These texts are modified from the Loeb 1915 version of Pliny&amp;rsquo;s &lt;i xml:lang=&#34;la&#34;&gt;Epistulae&lt;/i&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, letters 16 and 20 from Book 6.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h2 id=&#34;first-letter-to-tacitus&#34;&gt;First letter to Tacitus&lt;/h2&gt;
 &lt;p&gt;Your request that I would send you an account of my uncle&amp;rsquo;s end, so that you may transmit a more exact relation of it to posterity, deserves my acknowledgements; for if his death shall be celebrated by your pen, the glory of it, I am aware, will be rendered for ever deathless. For notwithstanding he perished, as did whole peoples and cities, in the destruction of a most beautiful region, and by a misfortune memorable enough to promise him a kind of immortality: notwithstanding he has, himself, composed many and lasting work⁠—I am persuaded that the mentioning of him in your immortal writings will greatly contribute to eternize his name. Happy I esteem those, whom Providence has gifted with the ability, either to do things worthy of being written, or to write in a manner worthy of being read; but most happy they, who are blessed with both talents, in which latter class, my uncle will be placed both by his own writings and by yours. The more willingly do I undertake⁠—nay, solicit⁠—the task you set me.&lt;/p&gt;
@@ -1575,18 +1598,18 @@ many lives.&lt;/p&gt;
 	
 	<item>
 		<title>Diglossic, parallel CSS</title>
-		<link>https://ettedh.github.io/articles/diglossic-text/</link>
+		<link>http://localhost:1313/articles/diglossic-text/</link>
 		<pubDate>Sat, 22 Mar 2025 08:28:28 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/articles/diglossic-text/</guid>
-		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;https://ettedh.github.io/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) is a stylesheet to help create diglossic texts with properly-flowing, progressive, &lt;em&gt;correct&lt;/em&gt;, HTML. Its features include:&lt;/p&gt;
+		<guid>http://localhost:1313/articles/diglossic-text/</guid>
+		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;http://localhost:1313/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) is a stylesheet to help create diglossic texts with properly-flowing, progressive, &lt;em&gt;correct&lt;/em&gt;, HTML. Its features include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;aligning like elements in columns,&lt;/li&gt;
 &lt;li&gt;selectable, single-source texts,&lt;/li&gt;
 &lt;li&gt;unobstructed by HTML-isms like &lt;code&gt;div&lt;/code&gt; or &lt;code&gt;table&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;being readable, even without CSS (for future-proofing).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I have a &lt;a href=&#34;https://ettedh.github.io/mul/texts/famo/&#34;&gt;demo set up&lt;/a&gt; on my website. Here is what it looks like:&lt;/p&gt;
+&lt;p&gt;I have a &lt;a href=&#34;http://localhost:1313/mul/texts/famo/&#34;&gt;demo set up&lt;/a&gt; on my website. Here is what it looks like:&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;diglossic-text&#34;&gt;
 &lt;!-- --&gt;&lt;span class=&#34;diglossic-l&#34;&gt;&lt;/span&gt;
@@ -1636,10 +1659,10 @@ many lives.&lt;/p&gt;
 	
 	<item>
 		<title>Camino Real</title>
-		<link>https://ettedh.github.io/texts/camino-real/</link>
+		<link>http://localhost:1313/texts/camino-real/</link>
 		<pubDate>Fri, 14 Mar 2025 17:30:33 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/texts/camino-real/</guid>
+		<guid>http://localhost:1313/texts/camino-real/</guid>
 		<description>&lt;p&gt;I scramble gleefully up a concrete incline six feet above the cobblestone road, but Hal Jackson saunters. We stand in the ruins of what was once a large house, twenty minutes outside Zacatecas, Mexico. The air is cool. Scrubby mountains pocked with old silver mines sweep across the landscape. Jackson is uneasy. I collect several pebbles, fallen pieces of wall. Jackson shakes his head, wanders the brush. &amp;ldquo;This is disappointing,&amp;rdquo; he says, eyes scanning, GPS in one hand, notepad in the other, camera slung round his neck. &lt;i&gt;Why?&lt;/i&gt; &amp;ldquo;It just seems&amp;hellip;&amp;rdquo; he trails off, gingerly steps over a sharp rock embedded in the earth. He was once a marathoner, and though it&amp;rsquo;s been thirteen years since his last, he maintains a runner&amp;rsquo;s lean grace. At seventy he looks perhaps fifty-five. &amp;ldquo;I thought it&amp;rsquo;d be bigger,&amp;rdquo; he mutters. &amp;ldquo;This doesn&amp;rsquo;t seem right.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;We are in Pánuco, the birthplace of Juan de Oñate, the last of the Spanish conquistadors, whose hand likely had more influence on the American Southwest and northern Mexico than that of any other single explorer. In 1598, Oñate blazed the &lt;i xml:lang=&#34;es&#34;&gt;Camino Real de Tierra Adentro&lt;/i&gt;, a trail that became the most used and most significant route of commerce and culture for three hundred years. At its peak the Camino Real ran 1,800 miles from Mexico City north to Santa Fe. Spaniards used the trail to settle towns and villages all along the way, Franciscans used it to spread their gospel, troops from the United States and Mexico used it for waging battles and building forts, Indians used it to fight the swelling tide of foreigners, and traders used it for commerce. All morning, Jackson and I have searched for the remains of the Oñate family hacienda, and now, with the Jeep Cherokee parked conspicuously on the narrow road, clouds in full bloom beyond the mountains, and my pocket full of pebbles, Jackson&amp;rsquo;s doubt continues to deepen.&lt;/p&gt;
 &lt;p&gt;A man in stained white jeans and a thinning white undershirt wanders down the road below us in sandals. He greets the two gringos standing atop a ruined wall in a pool of packed dirt bursting with purple wildflowers. Jackson tells him we want Oñate&amp;rsquo;s villa; the man looks bemused, then beckons us down from our perch.&lt;/p&gt;
@@ -1699,15 +1722,15 @@ many lives.&lt;/p&gt;
 	
 	<item>
 		<title>Chicago’s Natural Divisions and Plant Communities</title>
-		<link>https://ettedh.github.io/texts/plants-chicago-region/</link>
+		<link>http://localhost:1313/texts/plants-chicago-region/</link>
 		<pubDate>Wed, 27 Nov 2024 10:14:31 -0600</pubDate>
 		
-		<guid>https://ettedh.github.io/texts/plants-chicago-region/</guid>
+		<guid>http://localhost:1313/texts/plants-chicago-region/</guid>
 		<description>&lt;h2 id=&#34;natural-divisions-of-the-chicago-region&#34;&gt;Natural Divisions of the Chicago Region&lt;/h2&gt;
 &lt;p&gt;The authors are indebted to Kenneth Mierzwa of TAMS Consultants, Inc., Chicago, Ill., for having made available for this book a synopsis of the Natural Divisions of the Chicago Region, a distillation of a forthcoming paper.&lt;/p&gt;
 &lt;p&gt;Homoya &lt;em&gt;et al.&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; describe a natural division as a &amp;ldquo;generalized unit of the landscape where a distinctive assemblage of natural features is present.&amp;rdquo; Natural divisions maps are a synthesis of geology, physiography, soils, hydrology, presettlement vegetation, and characteristic fauna. They soon will be available for all four of the states included within the Chicago region.&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; The current effort combines maps of the four states and adds additional detail that reflects the regional scale. For example, the Morainal Section in Illinois&lt;sup id=&#34;fnref1:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and the Valparaiso Moraine Section in Indiana&lt;sup id=&#34;fnref2:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; are valid concepts when viewed within the context of each state, but when this section is extended along the Valparaiso and associated moraines from Wisconsin to Michigan, it must be split at some point. The beech-maple forests of our eastern section are too distinct from the oak savannas and prairies of our western section to be included in the same unit. Similarly, the lake plain is elevated to division status, and subdivided to reflect significant differences among the black-soil prairies once present on the site of modern-day Chicago, the sand savannas of much of the northwestern Indiana lake plain, and the more heavily wooded lake plain of Michigan and adjacent Indiana. These new boundaries address the east to west transition from forest to prairie.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;https://ettedh.github.io/pics/cdiv.webp&#34; alt=&#34;Map of counties 75 miles around Chicago. The map outlines the natural divisions in bold lines, with subdivisions in smaller lines.&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/pics/cdiv.webp&#34; alt=&#34;Map of counties 75 miles around Chicago. The map outlines the natural divisions in bold lines, with subdivisions in smaller lines.&#34;&gt;
     &lt;figcaption&gt;Natural divisions of the Chicago Region&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;h3 id=&#34;morainal-natural-division&#34;&gt;Morainal Natural Division&lt;/h3&gt;
@@ -1715,7 +1738,7 @@ many lives.&lt;/p&gt;
 &lt;h4 id=&#34;1a-western-morainal-section&#34;&gt;1A. Western Morainal Section&lt;/h4&gt;
 &lt;p&gt;Mostly end moraines. Soils with a high clay content and often a perched water table. Primarily prairie and savanna, with isolated areas of mesic woodland and forest.&lt;/p&gt;
 &lt;h4 id=&#34;1b-eastern-morainal-section&#34;&gt;1B. Eastern Morainal Section&lt;/h4&gt;
-&lt;p&gt;Eastern portion of the Valparaiso Morainal system. Geologically similar to &lt;a href=&#34;https://ettedh.github.io/texts/plants-chicago-region/#1a-western-morainal-section&#34;&gt;1A&lt;/a&gt;, but a break is made based on the predominant plant communities. Mostly timbered with savannas and forests.&lt;/p&gt;
+&lt;p&gt;Eastern portion of the Valparaiso Morainal system. Geologically similar to &lt;a href=&#34;http://localhost:1313/texts/plants-chicago-region/#1a-western-morainal-section&#34;&gt;1A&lt;/a&gt;, but a break is made based on the predominant plant communities. Mostly timbered with savannas and forests.&lt;/p&gt;
 &lt;h4 id=&#34;1c-kettle-moraine-section&#34;&gt;1C. Kettle Moraine Section&lt;/h4&gt;
 &lt;p&gt;Characterized by truncated end moraines, outwash features, kame and kettle topography, an unconsolidated aquifer, and glacial lakes. Savannas were once the principal plant community, interspersed with prairies, sedge meadows, fens, small spring-fed streams, and marshes.&lt;/p&gt;
 &lt;h4 id=&#34;1d-racine-till-plain-section&#34;&gt;1D. Racine Till Plain Section&lt;/h4&gt;
@@ -1723,7 +1746,7 @@ many lives.&lt;/p&gt;
 &lt;h4 id=&#34;1e-winnebago-drift-section&#34;&gt;1E. Winnebago Drift Section&lt;/h4&gt;
 &lt;p&gt;Altonian substage of the Wisconsinan glaciation, earlier than other sections of the Morainal Natural Division. Topography somewhat more level and wetlands less common; streams more entrenched and drainage patterns better developed. Savannas and dry prairies predominated.&lt;/p&gt;
 &lt;h4 id=&#34;1f-fox-river-bluff-section&#34;&gt;1F. Fox River Bluff Section&lt;/h4&gt;
-&lt;p&gt;Characterized by moderately high bluffs along the lower Fox River Valley, and associated outwash features and dolomite outcrops. Seepage areas and fens occur along the bluffs. Included within the Morainal Division because of the fens similar to those in &lt;a href=&#34;https://ettedh.github.io/texts/plants-chicago-region/#1c-kettle-moraine-section&#34;&gt;1C&lt;/a&gt;, and extensive woodlands associated with the bluffs.&lt;/p&gt;
+&lt;p&gt;Characterized by moderately high bluffs along the lower Fox River Valley, and associated outwash features and dolomite outcrops. Seepage areas and fens occur along the bluffs. Included within the Morainal Division because of the fens similar to those in &lt;a href=&#34;http://localhost:1313/texts/plants-chicago-region/#1c-kettle-moraine-section&#34;&gt;1C&lt;/a&gt;, and extensive woodlands associated with the bluffs.&lt;/p&gt;
 &lt;h3 id=&#34;lake-plain-natural-division&#34;&gt;Lake Plain Natural Division&lt;/h3&gt;
 &lt;p&gt;Characterized by lacustrine deposits and aeolian dunes. Included within the Morainal Division by previous authors.&lt;/p&gt;
 &lt;h4 id=&#34;2a-chicago-lake-plain-section&#34;&gt;2A. Chicago Lake Plain Section&lt;/h4&gt;
@@ -1731,7 +1754,7 @@ many lives.&lt;/p&gt;
 &lt;h4 id=&#34;2b-gary-lake-plain-section&#34;&gt;2B. Gary Lake Plain Section&lt;/h4&gt;
 &lt;p&gt;Includes the Tolleston, Calumet, and Glenwood beach ridges and intervening often slightly acidic sand flats. Characterized by sand savannas with intervening wet sand prairies and marshes.&lt;/p&gt;
 &lt;h4 id=&#34;2c-benton-harbor-lake-plain-section&#34;&gt;2C. Benton Harbor Lake Plain Section&lt;/h4&gt;
-&lt;p&gt;Topographically similar to &lt;a href=&#34;https://ettedh.github.io/texts/plants-chicago-region/#2b-gary-lake-plain-section&#34;&gt;2B&lt;/a&gt;, but originally mostly wooded with rich swamps and mesic forests.&lt;/p&gt;
+&lt;p&gt;Topographically similar to &lt;a href=&#34;http://localhost:1313/texts/plants-chicago-region/#2b-gary-lake-plain-section&#34;&gt;2B&lt;/a&gt;, but originally mostly wooded with rich swamps and mesic forests.&lt;/p&gt;
 &lt;h4 id=&#34;2d-illinois-dunes-section&#34;&gt;2D. Illinois Dunes Section&lt;/h4&gt;
 &lt;p&gt;Low beach ridges and swales at Illinois Beach State Park and Chiwaukee Prairie support an open community of sand prairie, sand savanna, and marsh. Two additional sand areas of irregular shape which once existed on the lake plain were probably similar; these are within the present limits of Evanston and Chicago.&lt;/p&gt;
 &lt;h4 id=&#34;2e-ridge-and-swale-section&#34;&gt;2E. Ridge and Swale Section&lt;/h4&gt;
@@ -1751,7 +1774,7 @@ many lives.&lt;/p&gt;
 &lt;h3 id=&#34;glacial-lakes-natural-division&#34;&gt;Glacial Lakes Natural Division&lt;/h3&gt;
 &lt;p&gt;Only one section of the Northern Lakes Division enters the eastern part of our region.&lt;/p&gt;
 &lt;h4 id=&#34;4a-glacial-lakes-section&#34;&gt;4A. Glacial Lakes Section&lt;/h4&gt;
-&lt;p&gt;Exhibits complex and uneven ice-contact terrain deposited by a stagnating glacier.&lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Moraines, kames, and outwash plains are present, and kettle ponds, lakes, and swamps are numerous. Extensive forests, with savannas on steep slopes. Lakes, swamps, bogs, fens, and marshes are interspersed.  This section is expanded to include a gravel outwash fan, formerly mapped as part of &lt;a href=&#34;https://ettedh.github.io/texts/plants-chicago-region/#3b-kankakee-sand-section&#34;&gt;3B&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Exhibits complex and uneven ice-contact terrain deposited by a stagnating glacier.&lt;sup id=&#34;fnref1:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Moraines, kames, and outwash plains are present, and kettle ponds, lakes, and swamps are numerous. Extensive forests, with savannas on steep slopes. Lakes, swamps, bogs, fens, and marshes are interspersed.  This section is expanded to include a gravel outwash fan, formerly mapped as part of &lt;a href=&#34;http://localhost:1313/texts/plants-chicago-region/#3b-kankakee-sand-section&#34;&gt;3B&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;natural-plant-communitites&#34;&gt;Natural Plant Communitites&lt;/h2&gt;
 &lt;p&gt;The Chicago region, situated at the southern end of Lake Michigan, lies along the northeastern edge of the Tall Grass Prairie biome of the Midwest. The prevailing landscape at the time of settlement was open prairie. In some areas the prairie was flat, in others rolling.&lt;/p&gt;
 &lt;blockquote&gt;
