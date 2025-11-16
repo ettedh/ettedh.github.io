@@ -1,29 +1,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>ettezo</title>
-	<link>https://ettedh.github.io/eo/tags/rome/</link>
+	<link>http://localhost:1313/eo/tags/rome/</link>
 	<description>Recent content in Rome on ettezo</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>eo</language>
-	<lastBuildDate>Tue, 16 Apr 2024 11:40:14 -0500</lastBuildDate>
     
-        <atom:link href="https://ettedh.github.io/eo/tags/rome/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/eo/tags/rome/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Dulingva, paralela CSS</title>
-		<link>https://ettedh.github.io/eo/articles/diglossic-text/</link>
+		<link>http://localhost:1313/eo/articles/diglossic-text/</link>
 		<pubDate>Sat, 22 Mar 2025 11:09:23 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/eo/articles/diglossic-text/</guid>
-		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;https://ettedh.github.io/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) estas stilfolio por helpi krei dulingvan tekstojn per dece sekvanta, progresa, &lt;em&gt;ĝusta&lt;/em&gt;, HTML. Sia trajtaro enhavas:&lt;/p&gt;
+		<guid>http://localhost:1313/eo/articles/diglossic-text/</guid>
+		<description>&lt;p&gt;&lt;code&gt;diglossic-text.css&lt;/code&gt; (&lt;a href=&#34;http://localhost:1313/diglossic-text.css&#34;&gt;link to the stylesheet&lt;/a&gt;) estas stilfolio por helpi krei dulingvan tekstojn per dece sekvanta, progresa, &lt;em&gt;ĝusta&lt;/em&gt;, HTML. Sia trajtaro enhavas:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;alliniigi samajn elementojn al kolumnoj,&lt;/li&gt;
 &lt;li&gt;elekeblaj, unu-fontaj tekstoj,&lt;/li&gt;
 &lt;li&gt;sen malhelpemaj HTML-ismoj kiel &lt;code&gt;div&lt;/code&gt; aŭ &lt;code&gt;table&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;esti legebla, eĉ sen CSS (por estonteca planado).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Jen la aspekto&amp;hellip; (Vidu ankaŭ &lt;a href=&#34;https://ettedh.github.io/mul/texts/famo/&#34;&gt;mian demonstrantan paĝon&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;Jen la aspekto&amp;hellip; (Vidu ankaŭ &lt;a href=&#34;http://localhost:1313/mul/texts/famo/&#34;&gt;mian demonstrantan paĝon&lt;/a&gt;.)&lt;/p&gt;
 &lt;hr&gt;
 &lt;div class=&#34;diglossic-text&#34;&gt;
 &lt;!-- --&gt;&lt;span class=&#34;diglossic-l&#34;&gt;&lt;/span&gt;
@@ -73,10 +72,10 @@
 	
 	<item>
 		<title>La Domo Fama</title>
-		<link>https://ettedh.github.io/eo/texts/famo/</link>
+		<link>http://localhost:1313/eo/texts/famo/</link>
 		<pubDate>Tue, 16 Apr 2024 11:40:14 -0500</pubDate>
 		
-		<guid>https://ettedh.github.io/eo/texts/famo/</guid>
+		<guid>http://localhost:1313/eo/texts/famo/</guid>
 		<description>&lt;p&gt;Estas loko inter lando kaj maro&lt;br&gt;
 kaj ĉielo, triobla limo monda,&lt;br&gt;
 de kie io ajn, de ie ajn, vidiĝas,&lt;br&gt;
@@ -106,10 +105,10 @@ kaj grundo, vidas, kaj petas ĉiun en la mondo.&lt;/p&gt;
 	
 	<item>
 		<title>Ameriko</title>
-		<link>https://ettedh.github.io/eo/texts/ameriko/</link>
+		<link>http://localhost:1313/eo/texts/ameriko/</link>
 		<pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
 		
-		<guid>https://ettedh.github.io/eo/texts/ameriko/</guid>
+		<guid>http://localhost:1313/eo/texts/ameriko/</guid>
 		<description>&lt;p&gt;Ho bela pro vastaj ĉieloj&lt;br&gt;
 Pro sukcenaj ondoj de grano&lt;br&gt;
 Pro majestaĵoj de purpura monto&lt;br&gt;
