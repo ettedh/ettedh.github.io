@@ -74,7 +74,7 @@ h4::after, h5::after, h6::after { content: "."; }
 a {text-decoration: none; }
 a:link    { color: var(--highlight); }
 a:visited { color: var(--lowlight); }
-a:hover   { text-decoration: underline; }
+a:hover   { color: var(--highlight); text-decoration: underline; }
 
 a.external::after {
 	vertical-align: top;
