@@ -131,6 +131,7 @@ p[rel="author"] { font-weight: bold; }
 		margin-inline-start: 1em;
 		margin-inline-end: 1em;
 	}
+	footer { margin: 0.5em auto; }
 }
 
 @media print {
@@ -138,6 +139,7 @@ p[rel="author"] { font-weight: bold; }
 		font-size: 10.5pt;
 	}
 	body { background: none; }
+	header, footer, .taglist, .footnote-backref { display: none; }
 	main {
 		padding: 0 1em;
 		max-width: 100%;
@@ -146,13 +148,16 @@ p[rel="author"] { font-weight: bold; }
 		box-shadow: unset;
 	}
 	/*a {color: black; }*/
-	p, li, h4, h5, h6 { line-height: 1.3em;}
+	p, li, h1, h2, h3, h4, h5, h6 { line-height: 1.3em;}
 	img { page-break-inside: avoid; }
 	blockquote { margin: 0 0 0 20pt; }
-	/*sup {
+	sup {
 		::before { content: "["}
 		::after { content: "]"}
-	}*/
+	}
+	a:link, a:visited {
+		color: inherit;
+    }
 }
 
 ul#tagcloud {
