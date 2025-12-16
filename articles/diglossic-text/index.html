@@ -23,14 +23,14 @@
 
 			<hr id="top">
 			
-			<p><code>diglossic-text.css</code> (<a href="/diglossic-text.css">link to the stylesheet</a>) is a stylesheet to help create diglossic texts with properly-flowing, progressive, <em>correct</em>, HTML. Its features include:</p>
+			<p><code>diglossic-text.css</code> (<a href="/diglossic-text.css">link to the stylesheet</a>) is a stylesheet to help create diglossic texts with proper text flow, and progressive, <em>correct</em>, HTML. Its features include:</p>
 <ul>
-<li>aligning like elements in columns,</li>
+<li>aligning like elements in rows,</li>
 <li>selectable, single-source texts,</li>
-<li>unobstructed by HTML-isms like <code>div</code> or <code>table</code>,</li>
-<li>being readable, even without CSS (for future-proofing).</li>
+<li>unobstructed by excessive HTML-isms like <code>div</code> or <code>table</code>,</li>
+<li>being completely readable without CSS rendering.</li>
 </ul>
-<p>I have a <a href="/mul/texts/famo/">demo set up</a> on my website. Here is what it looks like:</p>
+<p>I have a <a href="/mul/texts/famo/">demo set up</a> on this website. Here is what it looks like:</p>
 <hr>
 <div class="diglossic-text">
 <!-- --><span class="diglossic-l"></span>
@@ -41,9 +41,11 @@
 <p>Pain itself desires pain&hellip;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 </div>
 <hr>
-<p>It is supported by all modern desktop web browsers (Chrome, Firefox<code>++</code>). To use the file, add the following line to your document head:</p>
+<p><em>Why make this,</em> you may ask? The <a href="https://www.hup.harvard.edu/series/loeb-classical-library">Loeb Classical Library</a> is a beautiful series of Latin and Greek texts, published with English translations by Harvard University Press. The series features source texts on the left page, with the English on the right page. All other implementations of parallel web text fall short on at least one of the goals above.</p>
+<h2 id="add-it-to-your-stupid-webpage">Add it to <em>your</em> stupid webpage</h2>
+<p>It is supported by all modern desktop web browsers (Chrome, Firefox, … ). To use the stylesheet, add the following line to your document head:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/diglossic-text.css&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span>&gt;
-</span></span></code></pre></div><p>Then, format your text (assuming a <a href="https://daringfireball.net/projects/markdown/">Markdown</a> format) like this:</p>
+</span></span></code></pre></div><p>Then, format your text (assuming a <a href="https://daringfireball.net/projects/markdown/">Markdown</a> syntax) like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>This paragraph will not be rendered in two columns.
 </span></span><span style="display:flex;"><span>
@@ -64,14 +66,12 @@
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>This text is outside of the diglossic text.
-</span></span></code></pre></div><p>Keep in mind that only the block-level elements of <code>h1--h6</code>, <code>p</code>, <code>blockquote</code>, and <code>pre</code> are rendered in parallel. All parallel texts must have the same number of blocks to line up properly.</p>
-<h2 id="why-make-this">Why make this?</h2>
-<p>The <a href="https://www.hup.harvard.edu/series/loeb-classical-library">Loeb Classical Library</a> is a beautiful series of Latin and Greek texts, with English translations, published by Harvard University Press.  Their books feature the source text on the left page, with the translation on the right page.  It seems like all other implementations fall short on at least one of my goals, as well as <a href="https://motherfuckingwebsite.com">working on the web</a>.</p>
+</span></span></code></pre></div><p>Keep in mind that only the block-level elements of <code>h1--h6</code>, <code>p</code>, <code>blockquote</code>, and <code>pre</code> are rendered in parallel. Everything else is ignored. Also, parallel texts must have the same number of elements to line up properly.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p>The horizontal lines are not part of the formatting, just something to make it clear what is what.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>The horizontal lines are not part of the formatting, just for illustration.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>

@@ -1,4 +1,4 @@
-/* diglossic-text.css v1.0.1
+/* diglossic-text.css v1.0.2
  * CC0: <ettedh.github.io/articles/diglossic-text/> */
 
 main { max-width: 100ch;} /* accomodate two texts */
@@ -17,3 +17,5 @@ main { max-width: 100ch;} /* accomodate two texts */
 .diglossic-r ~ :is(h1,h2,h3,h4,h5,h6,p,blockquote,pre) {
 	grid-column: diglossic-right;
 }
+
+.diglossic-l, .diglossic-r { display: none; }
